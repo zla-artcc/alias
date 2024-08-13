@@ -1,0 +1,498 @@
+~~~~~~~~~~~~~~~~~U P D A T E  H I S T O R Y~~~~~~~~~~~~~~~~~
+
+Version: 1.0 -- Authors: AT, ML
+Changes: - Added .cdx & .cdtx for "<DP> & <DP/TRANS> <FURTHER AMENDMENTS>" cases
+         - Added .tld and .trd for 'turn left/right direct'
+         - Changed 'monitor UNICOM' in .closedu to 'frequency change approved'
+         - Added .ra2 and .ra3 aliases, for cases of pointing out more than one airport
+         - Added .comply for 'comply with restrictions' instruction
+         - Fixed LAXM33 altitude
+         - Corrected .samol alias to .salom and corrected spelling of same fix in the alias text
+         - Added .lvpsptrsa for flights leaving PSP TRSA
+
+Version: 1.1 -- Authors: AT, ZS, ES, SX, GH
+Changes: - Updated CATH8 to CATH9 in TEC and preferred routes
+         - Deleted any references to transitions on CATH DP
+         - Added .saf alias -> "say altitude or flight level"
+         - Updated everything relating to TEC, to N-Routes
+         - Updated .clowd to say 11,000 in light of SOP updates
+         - Added .gramm19, for instructing planes to cross GRAMM at FL190
+         - Updated RIIVR1 in .dvriivr to RIIVR2
+         - Added .dvseavu, .dvoldee, .wyvil and .laady in light of STAR updates
+         - Added .dvriivrap, .dvseavuap and .dvoldeeap in light of new STARs and phraseology
+         - Updated charts per ES's request
+         - Added .preftec alias to allow the use of new aliases, until N-route .pref aliases are completed
+
+Version: 1.2 -- Authors: AT
+Changes: - Updated aliases related to radar service termination
+         - Added .rst(radar service terminated) alias
+         - Updated small error with "CATH9" showing as "CATH8" in some routes updated in the last version
+
+Version: 1.3 -- Authors: AT, ES, GH
+Changes: - Added .fca(frequency change approved)
+         - Fixed errorous TEC routes
+         - Added .thanks alias
+         - Other few minor spelling changes
+
+Version: 1.4 -- Authors: AT, ZS
+Changes: - Added .xvvisr(expect vectors for visual approach runway x)
+         - Re-added .runways command
+         - Added .re command
+         - Added .ho@ command
+         - Updated airways aliases due to the addition of some new airways to the sector file
+         - Removed descent to 12,000ft in .saltn instruction. Now only has crossing SALTN at FL240
+         - Removed .dvmitts and .dvpdz
+         - Removed crossing speed instructions STARs which have the speed restriciton published on the chart
+         - Added .roll(on rollout $arr will be at $oclock($arr) and $dist($arr) miles, report in sight) alias
+         - Added .loopc, a version of .loop which has 'comply with restrictions'. .loop now remains without them
+         - Updated .aic to proper phraseology per .65-2-9-2 and added .ai@(Information $1 is now current at $2)
+         - Added aliases for GRANDS, FLOUT, HABUT, KWANG, CAMARILLO and SKIFF DP diagrams
+         - Corrected spelling on .prfum2 alias
+         - Added .hosct alias(Contact SoCal Approach) for use when handing off to LAX_DEP's approach duties
+         - Amended .cont alias to read $1 instead of 'left', to allow for use in both ops
+         - Added rolling boundary alias .bound
+
+Version: 1.5 -- Authors: AT
+Changes: - Fixed error with .tld/.trd, where they were missing the variable
+         - Amended .xloc to comply with .65 phraseology
+
+Version: 1.6 -- Authors: AT, ES, ZS, IE
+Changes: - Fixed .notfc to say '<destination> airport' instead of 'field'
+         - Added .doyle6 .fim1 .rzs6 aliases for added DP diagrams on the sector file
+         - Fixed errors in TEC routes where SXC was at times shown as SX3
+         - Removed 'when able' parts from .norm and .stby in order for those instructions to have an immediate effect when issued
+         - Amended .exo to comply with .65 phraseology
+         - Added .exo#(welcome to $arr, if able, turn $1), to allow for broader use of the instruction
+         - Added .exable(welcome to $arr, exit runway $1 when able,)
+         - Updated .prdo alias to the latest version
+         - Updated .runways alias to .centerlines, which activates all the centerlines
+         - After some members expressed interest, .apps alias was added which only activates the most used approaches at the 'major' airfields. Members can still activate others themselves as needed, using the .fc command in VRC.
+         - Updated .v197 alias
+         - Added aliases for various ATC sectors
+         - Added aliases for ease of turning MOA's on and off
+         - Added .mb alias(maintain block $1 through $2)
+         - Added .duuke1 diagram alias
+         - Updated .maier alias to the latest version
+         - Added .t245, .t247 and .t249 aliases
+
+Version: 1.7 -- Authors: AT
+Changes: - Updated the feeder callsign in .fe alias to the new format released with zla18, as this was left out in alias V1.6
+         - Added .tl(turn left heading $1) and .tr(turn right heading $1) aliases to reduce the ammount of typing required. The .tn alias remains for those wishing to continue using it
+
+Version: 1.8 -- Authors: ES
+Changes: - Added new SNA SIDs, updated SIDs for LAX, NTD, SBA, and PSP, updated SAN LYNDI STAR
+
+Version: 1.81 -- Authors: ES
+Changes: - Updated VNY SID
+
+Version: 1.82 -- Author: ES
+Changes: - Updated LAX, ONT, SAN SIDs/STARs.  Low airway aliases updated.
+
+Version: 1.83 -- Author: ES
+Changes: Updated taxi aliases, updated SIDs to reflect changes in latest sector file
+
+Version: 1.84 -- Author: ES
+Changes: BUR VNY8 updated, NID SIDs added, MOAs updated, Low Airway Aliases updated, obsolete STAR aliases deleted
+
+Version: 1.85 -- Author: ES
+Changes: Changed "position and hold" aliases to "line up and wait", MVA aliases updated, SID/STAR aliases updated
+
+Version 1.9 -- Author: RT, ES, TG, BI, AT
+Changes: Adds helicopter route aliases; adds new LAX STAR alias; added .appvis and .ctrvis aliases to assist in setting vis centers; also added .airnavarr, .airnavdep, .headings, and .airnav; added aliases to access authorized departure/missed approach headings
+
+Version 1.91 -- Author: ES
+Changes: High airway aliases updated due to sector file changes, class D alias added, SID/STAR aliases updated to reflect latest info
+
+Version 1.92 -- Author: ES
+Changes: SID/STAR aliases updated
+
+Version 1.93 -- Author: ES
+Changes: STAR aliases updated
+
+Version 1.94 -- Author: ES
+Changes: STAR and victor airway aliases updated
+
+Version 1.95 -- Author: ES
+Changes: SID/STAR aliases updated
+
+Version 1.96 -- Author: ES
+Changes: BURN3, BURN30A, BURN30B, CSTN13, CSTN19, CSTN29B, CSTN33, CSTN41, LAXN19, LAXN26, LAXN63, SCTN12, VTUN23, VTUN26, VTUN29, VTUN32, SBAN3, SBAN38, SBAN45, PSPN10B  route errors fixed
+
+Version 1.97 -- Author: ES
+Changes: SID/STAR aliases updated, airway aliases updated
+
+Version 1.98 -- Author: ES
+Changes: SID/STAR aliases updated, airway aliases updated
+
+Version 1.99 -- Author: ES
+Changes: SID/STAR updates, V370 airway alias error correctedVersion 2.09 -- Author: SY and ES
+Changes:
+-Numerous TEC aliases corrected by ES
+-Added .pdcv and .pdcvx to comply with climb via phraseology, corrected .pdcl and .pdcr
+-CASTA, LAXX, KIMMO, OFFSH, SKYES all up-numbered, and FOSS deleted
+
+Version 2.00 -- Author: ES
+Changes: SID/STAR updates, airway aliases updated for MEA changes
+
+Version 2.01 -- Author: ES
+Changes: SID updates, airways aliases updated for MEA changes
+
+Version 2.02 -- Author: ES
+Changes: airway and SID aliases updated
+
+Version 2.03 -- Author: ES
+Changes: HAYEZ SID at VNY and SILOW at PHX updated
+
+Version 2.04 -- Author: ES
+Changes: SID/STAR updates at LAX, RIV, and SFO
+
+Version 2.05 -- Author: SY
+Changes: 
+-Added $uc() function to automatically capitalize taxiways, runways, VOR's, fixes, SID/STAR names, approaches, etc.
+-Added PDC aliases (see Clearance section)
+-Added aliases for fast switching of configs at LAX (see Charts/Diagrams section)
+-Added various misc. aliases (clearance, ground, tower)
+-Added aliases to look up VOR/NDB info (.nav) as well as quick access to charts.
+-Corrected .headings alias to new SOP URL, also added ability to specify an airport to jump to. (type .headings xxx)
+-Corrected errors in individual airports' DVA heading aliases. (.xxxhdg)
+-Changed release from uncontrolled field to use offset. 
+-Corrected KONZL at 17,000 to give KONT altimeter
+-Corrected aliases for V458 and J169
+-SID/STAR updates at OAK, BUR, NID, NJK, and SMO
+
+Version 2.06 -- Author: SY
+Changes:
+-Added $uc() function to more aliases as applicable
+-Corrected previous error with .pdcl alias
+-Added alternates to .x@ and related aliases as an alternate to not require @ sign.
+-Added .ed and .eb aliases for pattern entry
+-Changed .dvriivr, .dvseavu, and .dvoldee to say "then cleared ILS runway $1", only need to type runway now.
+-Left .dvriivrap, .dvseavuap, and .dvoldeeap to allow for other approaches such as RNAV
+-Cleaned up wording in mini route aliases for brevity
+-Replaced "intersection" with "at" in .tx@ and .tx@v
+-added .xils and .exloc for expected approaches
+-added .rx (recieve voice?) and .dis (disregard)
+-SID/STAR updates at BUR, LAS, LAX, ONT, SAN, SNA, LGB
+-added .frets (FRETS replaces DEJAY on KAYOH arrival) left .dejay for now for pilots with DEJAY on the arrival.
+
+Version 2.07 -- Author: SY
+Changes:
+-KEFFR STAR (SNA) and GABRE SID (LAX) up-numbered
+
+Version 2.08 -- Author: SY
+Changes:
+-BEACH, BLDG, JANNY, PEEER and HAYEZ SIDS up-numbered, CORRI SID added in diagrams.
+-Updated .dvtyssn to correct number
+-Added .ccv and .ccvxm under clearance for new "climb via" phraseology
+-Added .cv, .cvxm, .cvxa, .cvxb, .cdctv, .cdctxcv for Departure controllers
+-Updated several TEC routes.
+
+Version 2.10
+Changes:
+-ANAHEIM, CHANNEL, EL TORO, IRVINE, MUSEL, STREL, HAYEZ SIDS at SNA up-numbered. DUUKE SID at SNA deleted. 
+-HAYEZ SID at VNY up-numbered.
+-V210 and V394 aliases updated for new MEAs
+-RDEYE alias corrected to 6R
+
+Version 2.11
+-Corrected .rx alias as stated in previous release notes
+-KEFFR, ANAHM, DOYLE, RZS up-numbered
+-MUNN SID added at NFG
+-updated .dvriivr, .dvseavu, and related aliases
+
+Version 2.12
+-Added IYK1 SID, all SIDs at NKX up-numbered, ELB SID at SNA up-numbered, new ADAMM SID at VNY, SAN BARET STAR up-numbered
+-Corrected .pdcv and .pdcvx aliases
+-Added "climb via" and PDC aliases for use by DEL when departure is offline
+-Added readback correct aliases with ATIS info (.rbca .sqrbca .rbchoa)
+
+Version 2.13
+-Corrected SNA runway numbers for DVA alias.
+-Aliases for LAX LEENA STAR, SFO OFFSH SID up-numbered. RIV AROWW SID new, OAK COAST SID new.
+
+Version 2.14
+-SID aliases updated for SAN and LAS.
+ 
+Version 2.15
+-LAX_CTR aliases updated.
+
+Version 2.16
+-SID's up-numbered at KBUR, KHND, KVGT, and KLSV. STAR's up-numbered at KONT.
+
+Version 2.17
+-Several SID's and STAR'S upnumbered at KLGB, KSNA, KSAN, KONT
+-KEACH, SYMON, AND REEDR STAR'S at KLAX have been deleted.
+
+Version 2.18
+Fixed NKX dva heading alias
+Every SID at LAX up-numbered
+BUFIE3 now 4
+JEDDD2 and San Diego 6 deleted this cycle, IMPER1 deleted previously so aliases removed.
+
+Version 2.18a
+Fixed SID number in TEC and other aliases.
+
+Version 2.19
+PRADO SID at ONT replaced by NIKKL
+A few un-numbered procedures
+
+Version 2.20
+Several up-numbered procedures
+
+Version 2.21
+Removed numbers from all procedures so it doesn't have to be updated everytime a procedure is upnumbered
+Added the letter "P" at the end of all procedure aliases to avoid conflicts. Type .procedurenamep to pull it up.
+Fixed some phraseology 
+Updates to Airway Alias
+
+Version 2.22 -- DE, SX
+Added SITEE STAR to KLAS
+Added AHLEX crossing restrictions for KAYOH/SETER STAR's
+Added CARUL crossing restriction for the BARET STAR.
+
+Version 2.23 -- SX
+Added alias for new SCT metroplex procedures
+
+Version 2.24 -- DE
+TEC route aliases upnumbered
+Added new alias to display ZLA sector 33
+
+Version 2.25 -- SX
+Alias added for new Metroplex procedures
+
+Version 2.26 -- DE
+Added alias to display ZLA 26
+
+Version 2.27 -- DE
+Fixed sector display issues caused by SCT resectorization
+Added new TEC aliases for SANN#R routes (the .sanaptj/m/p aliases will still direct to the non-rnav route)
+Added .dvdsnee and .dvrooby
+Upnumbered TEC route aliases
+
+Version 2.28 -- DE
+Apparently the TEC routes to SMO changed.  The aliases have been updated.
+Various other changes I can't remember
+
+Version 2.29 -- DE
+Sector 54 alias added
+Procedure aliases fixed
+New PDC aliases - see STM for details
+ZLA 33 alias removed
+
+Version 2.30 -- DE
+Added pilot-deviation related aliases
+Upnumbered procedures in TEC routes
+Added additional PDC aliases for when departure is offline
+
+Version 2.31 -- CC
+SID/STAR and airway aliases revised
+Added .zlaairports alias to toggle display of only major ZLA airports
+Added .tacans alias to toggle display of... tacans
+
+Version 2.32 -- CC
+TEC routes have been updated from N to P, so the aliases are revised
+Procedure aliases updated
+
+Version 2.33 -- DE
+More pilot deviation aliases
+New commands to bring up boundaries for new SCT splits
+
+Version 2.34 -- CC, DE
+Alias file significantly reorganized
+Added pushback PDC aliases - can be used the same way as normal PDCs, except add "push" at the start, i.e. .pushpdcvx
+
+Version 2.35 -- CC
+Center sectors updated
+
+Version 2.36 -- CC
+Diverse Vector Area (DVA) headings updated
+
+Version 2.37 -- CC
+Made changes to the general aliases
+
+Version 2.38 -- CC
+AIRAC 2008 update
+
+Version 2.39 -- CC
+AIRAC 2010 update
+
+Version 2.40 -- CC
+AIRAC 2102 update
+
+Version 2.41 -- CC
+Added center aliases for descent into L30 post-metroplex
+Added togglers for L30 sid/star summary diagrams and fixes
+
+Version 2.50 -- DO
+Removed deprecated MVA toggle aliases.
+
+Version 2.51 -- DO
+AIRAC 2110 update
+
+Version 2.60 -- KN
+Beginning implementation of ZLA_ISR, current as of AIRAC 2113.
+ADDED:
+*ERAM AUTOTRACKING
+*STARS AUTOTRACKING
+*DIVERSE VECTOR AREAS
+*AIRWAY FIXES
+*CHART RECALL
+*AIRPORTS
+*NAVAIDS
+*SID/STAR FIXES
+*AIRLINE TELEPHONY
+*EQUIPMENT SUFFIXES
+CHANGES:
+- moved ZLA_DVA to ZLA_ISR and renamed to ZLA_ISR
+TO DO:
+- SOP ISR stuff
+- LOA ISR
+- scratchpad ISR (will be implemented with SOP ISR stuff)
+
+Version 2.62 -- KN
+Updated ISR for 2203.
+Fixed /W equipment suffix to include Mode C transponder.
+
+Version 2.63 -- KN
+ISR 2204
+
+Version 2.64 -- KN
+ISR 2206
+
+Version 2.65 -- DO, KN
+AIRAC 2207
+ISR 2207
+Added LAX Arrival Briefing Card to .dctmerce and .dcthunda aliases.
+
+Version 2.66 -- DO
+AIRAC 2208
+ISR 2208
+
+Version 2.67 -- DO 
+AIRAC 2209
+ISR 2209
+
+Version 2.68 -- DO
+AIRAC 2210
+ISR 2210
+
+Version 2.69 -- DO
+AIRAC 2211
+ISR 2211
+
+Version 2.70 -- DO
+AIRAC 2212
+ISR 2212
+
+Version 2.80 -- MK
+AIRAC 2303
+ISR 2303
+
+Version 2.90 -- MO
+AIRAC 2304
+ISR 2304
+
+Version 2.91 -- MK
+AIRAC 2305
+ISR 2305
+
+Version 2.92 -- MK
+Removed LSV DVA
+
+Version 2.93 -- MO
+AIRAC 2306
+ISR 2306
+
+Version 2.94 -- MO
+AIRAC 2307
+ISR 2307
+TEC routes to be updated in 2.95
+
+Version 2.95 -- MO
+TEC Routes updated from NFDC data
+
+Version 2.96 -- MO
+Fixed accidental DVA alias removal
+Small updates to commands
+AIRAC 2308
+ISR 2308
+
+Version 2.97 -- MO
+AIRAC 2309
+ISR 2309
+
+Version 2.97.1 -- MO
+Added missing TEC aliases
+
+Version 2.98 -- MO
+AIRAC 2310
+ISR 2310
+Last anticipated update to legacy clients. Well done, everyone - MO.
+
+Version 2.98.1 -- MO
+CRC only update
+New .pr command for TEC routes.
+
+Version 2.99 -- MO
+AIRAC 2311
+ISR 2311
+SBA DVA updated.
+
+Version 3.00 -- MO
+AIRAC 2312
+ISR 2312
+
+Version 3.01 -- MO
+AIRAC 2313
+ISR 2313
+Happy New Year!
+
+Version 3.01.2 -- MO
+Added NCT SUPER FNO alias
+
+Version 3.02 -- MO
+Happy new year.
+AIRAC 2401
+ISR 2401
+Removed NCT SUPER FNO alias
+
+Version 3.03 -- MO
+AIRAC 2402
+ISR 2402
+
+Version 3.04 -- MO
+AIRAC 2403
+ISR 2403
+
+Version 3.05 -- MO
+AIRAC 2404
+ISR 2404
+
+Version 3.06 -- MO
+AIRAC 2405
+ISR 2405
+
+Version 3.07 -- MO
+AIRAC 2406
+ISR 2406
+
+Version 3.08 -- MK
+AIRAC 2406
+ISR 2406
+
+Version 3.09 -- MK
+AIRAC 2406
+ISR 2406
+-- Added .h .who .ltx for future CRC AFV last transmitted shortcuts. Grammar fixes and URL updates. Adjusted language on .newpilot and .newpilotbusy
+
+Version 3.10 -- MO
+AIRAC 2407
+ISR 2407
+TEC Routes 7/11/2024
+You can check out any time you like, but you can never leave.
+Your control, MO. 
+
+Version 3.11 -- MK
+AIRAC 2408
+ISR 2408
+-- Added wallop shortcuts
