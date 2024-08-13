@@ -1,0 +1,6 @@
+# Default output directory
+/output
+# Default isr directory
+/isr
+# Executable for dlrey
+dlrey.exe
