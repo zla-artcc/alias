@@ -496,3 +496,6 @@ Version 3.11 -- MK
 AIRAC 2408
 ISR 2408
 -- Added wallop shortcuts
+
+Version 3.12 - NC
+Added .laxappbrief
