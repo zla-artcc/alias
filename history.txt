@@ -498,4 +498,6 @@ ISR 2408
 -- Added wallop shortcuts
 
 Version 3.12 - NC
-Added .laxappbrief
+AIRAC 2408
+ISR 2408
+-- Added .laxappbrief
