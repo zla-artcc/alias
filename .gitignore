@@ -2,5 +2,9 @@
 /output
 # Default isr directory
 /isr
+isr.zip
 # Executable for dlrey
 dlrey.exe
+
+# Other OS cruft
+.DS_Store
