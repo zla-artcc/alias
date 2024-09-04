@@ -506,3 +506,8 @@ Version 3.13 -- BK
 AIRAC 2409
 ISR 2409
 -- Updated DSNEE5 to DSNEE6
+
+Version 3.131 -- MK
+AIRAC 2409
+ISR 2409
+-- Removed legacy .fc commands and associated sections. Updated table of contents. Added ASCII art header back to TEC routes.
