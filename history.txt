@@ -508,5 +508,8 @@ ISR 2409
 -- Updated DSNEE5 to DSNEE6
 -- Removed legacy .fc commands and associated sections. Updated table of contents. Added ASCII art header back to TEC routes.
 
-Version 3.14 - NC
--- Added .laxdepbrief
+Version 3.14.1 - NC, MK & BK
+AIRAC 2409
+ISR 2409
+-- Added .laxdepbrief (3.14)
+-- Adjusted L30 arrival aliases to include altimeter (3.14.1)
