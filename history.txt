@@ -522,3 +522,4 @@ ISR 2410
 Version 3.15 --  BK & MK
 AIRAC 2411
 ISR 2411
+-- Added .super for A380 mitigation
