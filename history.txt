@@ -519,7 +519,10 @@ AIRAC 2410
 ISR 2410
 -- Fix LAS runway number in old L30
 
-Version 3.15 --  BK & MK
+Version 3.15 -- BK & MK
 AIRAC 2411
 ISR 2411
--- Added .super for A380 mitigation
+-- Add .super for A380 mitigation
+
+Version 3.15.1 -- BK
+-- Add .toobig for A380 gate mitigation
