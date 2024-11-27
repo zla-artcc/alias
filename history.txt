@@ -526,3 +526,8 @@ ISR 2411
 
 Version 3.15.1 -- BK
 -- Add .toobig for A380 gate mitigation
+
+Version 3.16 -- BK & DH
+AIRAC 2412
+ISR 2412
+-- Add .badgate for A380 gate connections
