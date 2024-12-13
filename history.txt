@@ -534,3 +534,4 @@ ISR 2412
 
 Verion 3.16.1 - NC
 -- Add .laxaltbust for initial altitude busts
+-- Added event alerts section and alerts for Sierras FNO (13DEC2024)
