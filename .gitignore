@@ -5,6 +5,7 @@
 isr.zip
 # Executable for dlrey
 dlrey
+dlrey.exe
 
 # Other OS cruft
 .DS_Store
