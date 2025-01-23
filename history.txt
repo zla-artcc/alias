@@ -540,6 +540,7 @@ AIRAC 2413
 ISR 2413
 -- Add .fno ,.event, or .eventalert
 
-Version 3.18 - BK
+Version 3.18 - BK, DH & MK
 AIRAC 2501
 ISR 2501
+-- Added Aircraft Types to the ISR under TYPES
