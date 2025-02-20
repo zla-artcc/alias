@@ -544,3 +544,12 @@ Version 3.18 - BK, DH & MK
 AIRAC 2501
 ISR 2501
 -- Added Aircraft Types to the ISR under TYPES
+
+Version 3.19 - DH, BK
+--AIRAC 2502
+--ISR 2502
+-- New VNY departure upnumbers, new fixes off the ground
+--BUR and VNY STAR changes
+--ROKRR/IVINS updates to adjust fix for spacing
+--THRNE new transition for southeast originating aircraft, removed SMO from STAR
+--SMO updates to BONJO, removed from THRNE
