@@ -12,6 +12,7 @@ ZLA alias file versions and generation templates.
 ├── output              # [Optional] default directory for newly-created alias files
 ├── alias.hbs           # ZLA alias template file
 ├── history.txt         # ZLA alias file changelog
+├── plane_alias.txt     # Airplane information alias codes
 ```
 
 ## How to generate a new alias file
