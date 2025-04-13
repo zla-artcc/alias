@@ -1903,7 +1903,6 @@
 .PUMA .MSG ZLA_ISR *** MFR: AEROSPATIALE | MDL: CH-33 Puma | FAA Wake: Small+ | CWT: I | SRS: I | ADG:  | TEC: M | ENG NUM: 2 | Class: Helicopter
 .PUP .MSG ZLA_ISR *** MFR: BEAGLE | MDL: B-121 Pup | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: PQ | ENG NUM: 1 | Class: LandPlane
 .PURS .MSG ZLA_ISR *** MFR: RANS | MDL: S-11 Pursuit | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: PQ | ENG NUM: 1 | Class: LandPlane
-.PUSH .MSG ZLA_ISR *** MFR: PRESCOTT | MDL: Pusher | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: PQ | ENG NUM: 1 | Class: LandPlane
 .PZ01 .MSG ZLA_ISR *** MFR: LIPNUR | MDL: PZL-101 Gawron | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: PQ | ENG NUM: 1 | Class: LandPlane
 .PZ02 .MSG ZLA_ISR *** MFR: PZL-OKECIE | MDL: PZL-102 Kos | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: PQ | ENG NUM: 1 | Class: LandPlane
 .PZ04 .MSG ZLA_ISR *** MFR: LIPNUR | MDL: Gelatik | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: PQ | ENG NUM: 1 | Class: LandPlane
