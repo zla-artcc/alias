@@ -562,3 +562,7 @@ Version 3.21 - BK
 AIRAC 2504
 ISR 2504
 -- Removed .push from alias due to conflict
+
+Version 3.22 - BK
+AIRAC 2505
+ISR 2505
