@@ -566,3 +566,8 @@ ISR 2504
 Version 3.22 - BK
 AIRAC 2505
 ISR 2505
+
+Version 3.23 - BK
+AIRAC 2506
+ISR 2506
+-- Added route of flight aliases for FlightAware and SkyVector (h/t Adam)
