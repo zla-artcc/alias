@@ -574,3 +574,10 @@ ISR 2506
 
 Version 3.23.1 - BK and PW
 -- Add CWT aliases
+
+Version 3.24 - BK and MK
+AIRAC 2507
+ISR 2507
+-- Separated CWT and TEC routes into separate files
+-- TEC routes updated
+-- Add .b as faster rolling/boundary alias
