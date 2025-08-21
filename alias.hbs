@@ -26,6 +26,7 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 	*AFV INFORMATION
 	*PILOT DEVIATIONS
 	*WALLOP SHORTCUTS
+	*FLIGHT PLAN RELEASE
 2. DELIVERY
 	*CLEARANCES
 	*READBACK
@@ -187,6 +188,11 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 .event *** ATTENTION *** Tonight's event may create delays for aircraft flying into Oakland and Seattle ARTCCs, particularly to SFO, SJC, SEA, and PDX.
 .eventalert *** ATTENTION *** .event *** ATTENTION *** Tonight's event may create delays for aircraft flying into Oakland and Seattle ARTCCs, particularly to SFO, SJC, SEA, and PDX.
 .fno *** ATTENTION *** .event *** ATTENTION *** Tonight's event may create delays for aircraft flying into Oakland and Seattle ARTCCs, particularly to SFO, SJC, SEA, and PDX.
+
+*****FLIGHT PLAN RELEASE*****
+.fpr .msg fp $aircraft release
+.fprelease .msg fp $aircraft release
+.fprls .msg fp $aircraft release
 
 *************************
 *      2. DELIVERY      *
@@ -880,4 +886,5 @@ ZAB:
 {{ CWT }}
 
 {{ CHANGELOG }}
+
 
