@@ -586,3 +586,9 @@ Version 3.25 - BK, MK, WX
 AIRAC 2508
 ISR 2508
 -- Updated TEC routes based on WX's new script 
+
+Version 3.25.1 - BK, MK
+AIRAC 2508
+ISR 2508
+-- Added flight plan unfreeze commands to general alias
+-- TEC Routes now updated with 56-day cycle using `techno` (WX)
