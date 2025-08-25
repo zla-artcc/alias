@@ -24,7 +24,7 @@ ZLA alias file versions and generation templates.
 If you need to run [dlrey](https://github.com/zla-artcc/dlrey) locally, you'll need to use Git to clone this repo and its submodules.
 
 If you're familiar with Git, just clone recursively.
-```git clone --recurse-submodules https://github.com/zla-artcc/alias-tec-routes.git```
+```git clone --recurse-submodules https://github.com/zla-artcc/alias.git```
 
 If you're unfamiliar with Git, you may consider downloading [GitHub Desktop](https://desktop.github.com/download/). Then follow these steps.
 
