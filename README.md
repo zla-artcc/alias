@@ -8,16 +8,33 @@ ZLA alias file versions and generation templates.
 
 ```
 .
-├── isr                 # [Optional] default directory for ISR files from FE-Buddy
+├── alias-airplane-data # [Submodule] Airplane information alias codes
+├── alias-isr           # [Submodule] ISR files from FE-Buddy
+├── alias-tec-routes    # [Submodule] TEC route information
 ├── output              # [Optional] default directory for newly-created alias files
 ├── alias.hbs           # ZLA alias template file
 ├── cwt.txt             # Consolidated wake turbulence information
 ├── history.txt         # ZLA alias file changelog
-├── plane_alias.txt     # Airplane information alias codes
-├── tec_routes.txt      # ZLA TEC route information
 ```
 
 ## How to generate a new alias file
+
+### Locally
+
+If you need to run [dlrey](https://github.com/zla-artcc/dlrey) locally, you'll need to use Git to clone this repo and its submodules.
+
+If you're familiar with Git, just clone recursively.
+```git clone --recurse-submodules https://github.com/zla-artcc/alias-tec-routes.git```
+
+If you're unfamiliar with Git, you may consider downloading [GitHub Desktop](https://desktop.github.com/download/). Then follow these steps.
+
+1. Click the green `Code` button at the top-right of this page.<br /><img src="images/clone.png" height="200" />
+1. Under the `Local` tab, click `Open with GitHub Desktop`.<br /><img src="images/desktop.png" height="200" />
+1. Follow the in-app prompts. If you're having trouble, please don't hesitate to DM @brianknight10 or @wsabransky for help.
+
+### Automation
+
+TODO(wx): explain GHA workflow(s) when they're created, and show how to run them manually if required.
 
 ### Creating a release
 
