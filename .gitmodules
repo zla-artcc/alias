@@ -7,3 +7,4 @@
 [submodule "alias-tec-routes"]
 	path = alias-tec-routes
 	url = ../alias-tec-routes
+	branch = main
