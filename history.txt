@@ -592,3 +592,9 @@ AIRAC 2508
 ISR 2508
 -- Added flight plan unfreeze commands to general alias
 -- TEC Routes now updated with 56-day cycle using `techno` (WX)
+
+Version 3.26 - BK, MK, WX
+AIRAC 2512
+ISR 2512
+-- TEC Routes now updated with 56-day cycle using `techno` (WX) (MK)
+-- Added East LAX Departure Brief advisory message (BK)
