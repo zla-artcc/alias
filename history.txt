@@ -598,3 +598,8 @@ AIRAC 2512
 ISR 2512
 -- TEC Routes now updated with 56-day cycle using `techno` (WX) (MK)
 -- Added East LAX Departure Brief advisory message (BK)
+
+Version 3.26.1 - MK
+AIRAC 2512
+ISR 2512
+-- added an alias for right-turn TRTON pilot errors
