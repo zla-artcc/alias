@@ -603,3 +603,7 @@ Version 3.26.1 - MK
 AIRAC 2512
 ISR 2512
 -- added an alias for right-turn TRTON pilot errors
+
+Version 3.27 - BK
+AIRAC 2513
+ISR 2513
