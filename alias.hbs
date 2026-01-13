@@ -45,9 +45,9 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 6. APPROACH/ENROUTE
 7. UTILITY
     *ERAM AUTOTRACKING
-	*STARS AUTOTRACKING
-	*VISIBILITY CENTERS/SECONDARY WINDOWS	
+	*STARS AUTOTRACKING	
 	*INFORMATION LOOKUP
+	*PHRASEOLOGY HELPER
 	*NAVDATA TOGGLING
 8. TEC ROUTES
 	*TEC ROUTES BY DESIGNATOR
@@ -764,19 +764,6 @@ ZAB:
 .atsctno5 .autotrack -ksan
 .atsctno6 .autotrack -klax -ksmo -khhr -ktoa
 
-*****VISIBILITY CENTERS/SECONDARY WINDOWS*****
-
-.appvis .vis laxasr9s burasr9 pspasr8 sanasr9
-.ctrvis .vis LAX LAS EDSEL GCN
-.2 .center /2 $1
-.3 .center /3 $1
-.4 .center /4 $1
-.5 .center /5 $1
-.6 .center /6 $1
-.7 .center /7 $1
-.8 .center /8 $1
-.9 .center /9 $1
-
 *****INFORMATION LOOKUP*****
 
 .airnavarr .openurl www.airnav.com/airport/$arr
@@ -789,6 +776,13 @@ ZAB:
 .c .openurl http://laartcc.org/airport/view/$1#$2
 .rof .openurl https://skyvector.com/?fpl=$dep%20$route%20$arr
 .roffa .openurl https://flightaware.com/analysis/route.rvt?origin=$dep&destination=$arr
+
+*****PHRASEOLOGY HELPER*****
+.refuel .msg ZLA_ISR *** | "Cleared to conduct refueling along [track] maintain block FL XXX through FL YYY" || Provide radar assistance and vertical separation between flights until TANKER declares MARSA with RECEIVER. Ensure RECEIVER squawks standby. RECEIVER should move to lowest altitude in block before requesting to resume their flight. |
+.marsa .msg ZLA_ISR *** | Military Assumes Resonsibility for Separation of Aircraft || Ensure IFR separation is provided until MARSA is declared by flight || Continue to separate MARSA flight from non-participating aircraft |
+.overhead .msg ZLA_ISR *** | Overhead/Carrier Break | "Report initial" (May specify distance but usually 3-5nm from runway) IFR is automatically cancelled at the initial || "Break at [specified point], report the break" |
+.moa .msg ZLA_ISR *** | Example: "Cleared Isabella MOA, maintain block 7000 through FL190." || OR ||Cleared to delay in [MOA] until XXXXz. Maintain ALTITUDE through ALTITUDE within [MOA], [LOCAL] altimeter [29.96]. || Aircraft should contact prior to airspace exit |
+.mtr .msg ZLA_ISR *** | Example: "Cleared into IR-211, maintain IR-211 altitudes." || When aircraft is ready to leave IR: Issue IFR clearance to destination. |
 
 *****NAVDATA TOGGLING*****
 
