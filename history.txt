@@ -612,3 +612,7 @@ Version 3.28 - MK, BK
 AIRAC 2513
 ISR 2513
 -- added tower operating hours to ISR
+
+Version 3.29 - BK, MK
+AIRAC 2601
+ISR 2601
