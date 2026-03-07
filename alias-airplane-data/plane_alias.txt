@@ -874,7 +874,6 @@
 .EC55 .MSG ZLA_ISR *** MFR: AIRBUS HELICOPTERS | MDL: EC-155 | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: M | ENG NUM: 2 | Class: Helicopter
 .EC6 .MSG ZLA_ISR *** MFR: CROSES | MDL: EC-6 Criquet | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: PQ | ENG NUM: 1 | Class: LandPlane
 .EC75 .MSG ZLA_ISR *** MFR: AIRBUS HELICOPTERS-HARBIN | MDL: EC-175 | FAA Wake: Small+ | CWT: I | SRS: I | ADG:  | TEC: M | ENG NUM: 2 | Class: Helicopter
-.ECHO .MSG ZLA_ISR *** MFR: TECNAM | MDL: P-92 Eaglet | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: PQ | ENG NUM: 1 | Class: LandPlane
 .EDGE .MSG ZLA_ISR *** MFR: ZIVKO | MDL: Edge 540 | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: PQ | ENG NUM: 1 | Class: LandPlane
 .EDGT .MSG ZLA_ISR *** MFR: ZIVKO | MDL: Edge 540 T | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: PQ | ENG NUM: 1 | Class: LandPlane
 .EF2 .MSG ZLA_ISR *** MFR: BYE AEROSPACE | MDL: eFlyer 2 | FAA Wake: Small | CWT: I | SRS: I | ADG:  | TEC: n/a | ENG NUM: 1 | Class: LandPlane
