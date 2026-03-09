@@ -115,16 +115,16 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 .hodu departure is offline. Frequency change approved, so long.
 .rem remain this frequency.
 
-.lma leaving my airspace. Radar service terminated, frequency change approved, so long.
+.lma leaving my airspace. No further ATC available, frequency change approved, so long.
 .lmatwr leaving my airspace to the $1. Squawk VFR, frequency change approved, so long.
 .lmadelta leaving my airspace to the $1. Frequency change approved, so long.
-.lmavfr leaving my airspace. Radar service terminated, squawk VFR, frequency change approved, so long.
+.lmavfr leaving my airspace. b, squawk VFR, frequency change approved, so long.
 
-.lmalax leaving my airspace. Los Angeles Center is offline. Radar service terminated, frequency change approved, so long.
-.lmaoak leaving my airspace. Oakland Center is offline. Radar service terminated, frequency change approved, so long.
-.lmaden leaving my airspace. Denver Center is offline. Radar service terminated, frequency change approved, so long.
-.lmaslc leaving my airspace. Salt Lake City Center is offline. Radar service terminated, frequency change approved, so long.
-.lmaabq leaving my airspace. Albuquerque Center is offline. Radar service terminated, frequency change approved, so long.
+.lmalax leaving my airspace. Los Angeles Center is offline. No further ATC available, frequency change approved, so long.
+.lmaoak leaving my airspace. Oakland Center is offline. No further ATC available, frequency change approved, so long.
+.lmaden leaving my airspace. Denver Center is offline. No further ATC available, frequency change approved, so long.
+.lmaslc leaving my airspace. Salt Lake City Center is offline. No further ATC available, frequency change approved, so long.
+.lmaabq leaving my airspace. Albuquerque Center is offline. No further ATC available, frequency change approved, so long.
 .lmazak entering Oceanic airspace. San Francisco Radio is offline. Squawk 2000, radar service terminated, frequency change approved, so long.
 .lmamzt leaving my airspace. Metro Mazatlan Center is offline. Radar service terminated, frequency change approved, so long.
 
@@ -635,6 +635,7 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 .symon cross SYMON at and maintain 12,000, $arr altimeter $altim($arr)
 .vtu cross VTU at and maintain 11,000, $arr altimeter $altim($arr)
 .wyvil cross WYVIL at and maintain 16,000, $arr altimeter $altim($arr)
+
 BUR:
 .dvthrne Descend via the THRNE arrival, $arr altimeter $altim($arr)
 .dvjanny Descend via the JANNY arrival, $arr altimeter $altim($arr)
@@ -645,9 +646,11 @@ BUR:
 .janny cross JANNY at and maintain 8,000, $arr altimeter $altim($arr)
 .lhs cross LHS at and maintain 14,000, $arr altimeter $altim($arr)
 .pirue cross PIRUE at and maintain 11,000, $arr altimeter $altim($arr)
+
 LGB:
 .dvpcifc Descend via the PCIFC arrival, $arr altimeter $altim($arr)
 .dvbaubb Descend via the BAUBB arrival, $arr altimeter $altim($arr)
+
 ONT:
 .dveaglz Descend via the EAGLZ arrival, $arr altimeter $altim($arr)
 .dvglrno Descend via the GLRNO arrival, $arr altimeter $altim($arr)
@@ -659,6 +662,7 @@ ONT:
 .majek cross MAJEK at and maintain 14,000, at 250 knots, $arr altimeter $altim($arr)
 .rothy cross ROTHY at and maintain 12,000, at 250 kts, $arr altimeter $altim($arr)
 .flavr cross FLAVR at and maintain 14,000, at 250 knots, $arr altimeter $altim($arr)
+
 SNA:
 .dvdsnee Descend via the DSNEE arrival, $arr altimeter $altim($arr)
 .dvrooby Descend via the ROOBY arrival, $arr altimeter $altim($arr)
@@ -672,6 +676,7 @@ SNA:
 .dejay cross DEJAY at and maintain 8,000, at 210 kts or less
 .frets cross FRETS at and maintain 8,000, at 210 kts or less
 .merma cross MERMA at and maintain 14,000, $arr altimeter $altim($arr)
+
 SAN:
 .cardi cross CARDI at and maintain 15,000, at 250 kts, $arr altimeter $altim($arr)
 .jackk cross JACKK at and maintain 11,000. at 250 kts, $arr altimeter $altim($arr)
@@ -688,6 +693,7 @@ SAN:
 .dvlyndiap descend via the LYNDI arrival, after LYNDI cleared RNAV Y runway 27 approach
 .dvluckiap descend via the LUCKI arrival, after LYNDI cleared RNAV Y runway 27 approach
 .dvbayvuap descend via the BAYVU arrival, expect $1 $2 $3 approach
+
 L30 new:
 .dvcoktl descend via the COKTL arrival, runway $uc($1) transition, $arr altimeter $altim($arr)
 .dvrndrz descend via the RNDRZ arrival, runway $uc($1) transition, $arr altimeter $altim($arr)
@@ -701,6 +707,7 @@ L30 new:
 .boegy cross BOEGY at and maintain 15,000 and 250 kts, $arr altimeter $altim($arr)
 .konng cross KONNG at or above 10,000, speed 250 kts or less, $arr altimeter $altim($arr)
 .keeke cross KEEKE at or above 10,500, speed 250 kts or less, $arr altimeter $altim($arr)
+
 L30 old:
 .clarr cross CLARR at and maintain 13,000, $arr altimeter $altim($arr)
 .dvkepec descend via the KEPEC arrival
@@ -720,9 +727,12 @@ L30 old:
 .vstrat vector for Stratosphere visual approach runway $uc($1)
 .rstrat the field is at your $oclock(klas) and $dist(klas) miles, the Stratosphere Tower is at your $oclock(STRATOSPHERE) and $dist(STRATOSPHERE) miles, report both of them in sight
 .cstrat proceed direct to the Stratosphere Tower, make right base north of the tower at or above 4,200 and within 8 miles of the field, cleared Stratosphere visual approach runway $uc($1)
+
 PSP:
 .clowd cross CLOWD at and maintain 11,000, at 250 kts; $arr altimeter $altim($arr)
 .dvsizlr descend via the SIZLR arrival, $arr altimeter $altim($arr)
+.dvrdbul descend via the RDBUL arrival, $1 transition, $arr altimeter $altim($arr)
+
 ZAB:
 .judth cross JUDTH at and maintain FL250
 .hoggz cross HOGGZ at and maintain FL250
