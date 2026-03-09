@@ -787,12 +787,8 @@ ZAB:
 .roffa .openurl https://flightaware.com/analysis/route.rvt?origin=$dep&destination=$arr
 
 *****PHRASEOLOGY HELPER*****
-.refuel .echo \n"Cleared to conduct refueling along [track] maintain block FL XXX through FL YYY"\nProvide radar assistance and vertical separation between flights until TANKER declares MARSA with RECEIVER. Ensure RECEIVER squawks standby. RECEIVER should move to lowest altitude in block before requesting to resume their flight.
-.marsa .echo \nMilitary Assumes Resonsibility for Separation of Aircraft\nEnsure IFR separation is provided until MARSA is declared by flight\nContinue to separate MARSA flight from non-participating aircraft
-.overhead .echo \nOverhead/Carrier Break | "Report initial" (May specify distance but usually 3-5nm from runway) IFR is automatically cancelled at the initial\n"Break at [specified point], report the break"
-.moa .echo \nExample: "Cleared Isabella MOA, maintain block 7000 through FL190."\nOR ||Cleared to delay in [MOA] until XXXXz. Maintain ALTITUDE through ALTITUDE within [MOA], [LOCAL] altimeter [29.96].\nAircraft should contact prior to airspace exit.
-.mtr .echo \nExample: "Cleared into IR-211, maintain IR-211 altitudes."\nWhen aircraft is ready to leave IR: Issue IFR clearance to destination.
 
+{{ HELPER }}
 *****NAVDATA TOGGLING*****
 
 .zlaairports .fa KLAS KLAX KLSV KNKX KSAN KBUR KONT KPSP KRIV KSBA KSNA 9L2 KBFL KCMA KCNO KCRQ KEDW KEMT KFUL KGCN KHHR KHND KIFP KINS KLGB KMHV KMYF KNFG KNID KNJK KNRS KNSI KNTD KNUC KNXP KNYL KNZY KOXR KPMD KPOC KRAL KRNM KSBD KSBP KSDM KSEE KSLI KSMO KSMX KTOA KVBG KVCV KVGT KVNY KWHP KWJF KBLH KDXZ KEED KIPL KLPC KSGU KTRM 40G 67L F70 KAJO KAPV KAVX KAZC KBVU KBWC KCCB KCLR KCPM KDAG KDLO KHII KHMT KIGM KIYK KIZA KKNB KLGF KMIT KOKB KPTV KREI KRIR KTNP KTSP KUDD L00 L08 L18 L35 L45 L65 L76 L71 P20
@@ -830,104 +826,10 @@ ZAB:
 {{ OVERRIDES }}
 *****DIVERSE VECTOR AREAS*****
 
-.avxhdg .echo \n{AVX DVA} \n4: 221CW152 WITHIN 10NM\n22: 194CW040 WITHIN 10NM
-.bflhdg .echo \n{BFL DVA} \n12L/R: 230CW300\n30L/R: 220CW310
-.burhdg .echo \n{BUR DVA} \n8: 130CW230 WITHIN 14NM\n15: 180CW270 WITHIN 13NM\n26: 240CW300 WITHIN 14NM\n33: 250CW300 WITHIN 12NM
-.ccbhdg .echo \n{CCB DVA} \n6: NONE\n24: 074CW251 WITHIN 14NM
-.cnohdg .echo \n{CNO DVA} \n3: LEFT TURN 260 WITHIN 13NM\n8L/R: RIGHT TURN 255 WITHIN 13NM\n21: HDG 260 WITHIN 13NM\n26L/R: 260CW290 WITHIN 13NM
-.crqhdg .echo \n{CRQ DVA} \n6: NONE\n24: 114CW009 WITHIN 11NM
-.edwhdg .echo \n{EDW DVA} \n04L/R: 340CW110\n22L/R: 190CW240, OR LEFT TURN 050CW110\nLAKEBED RWYS: 360CW090, OR 200CW230
-.emthdg .echo \n{EMT DVA} \n1: NONE\n19: 191CW264 WITHIN 14NM
-.fulhdg .echo \n{FUL DVA} \n6: NONE\n24: 063CW242 WITHIN 10NM
-.hhrhdg .echo \n{HHR DVA} \n7: 070CW180 WITHIN 14NM\n25: 180CW250 WITHIN 14NM
-.hndhdg .echo \n{HND DVA} \n17L/R: RIGHT TURN 350CW020\n35L/R: RIGHT TURN 010CW050
-.lashdg .echo \n{LAS DVA} \n1L/R: 010CW070, OR 315 WITH T/O MIN OF 1100'/3SM\n8L/R: 010CW130\n19L/R: 160CW220\n26L/R: 160CW190, OR RIGHT TURN HDG 315, OR RIGHT TURN 050CW070
-.laxhdg .echo \n{LAX DVA} \n6L/R: 035CW210 WITHIN 13NM\n7L/R: 325CW210 WITHIN 13NM\n24/25: 120CW265 WITHIN 13NM, OR 265CW280 WITHIN 8NM
-.lgbhdg .echo \n{LGB DVA} \n8L/R: ALL HDGS WITHIN 14NM\n12: 301CW158 WITHIN 14NM\n26L/R: ALL HDGS WITHIN 13NM\n30: ALL HDGS WITHIN 14NM
-.myfhdg .echo \n{MYF DVA} \n5: NONE\n10L/R: 143CW280 WITHIN 10NM\n23: 099CW050 WITHIN 10NM\n28L/R: 131CW056 WITHIN 10NM
-.nkxhdg .echo \n{NKX DVA} \n6L/R: NONE\n10: NONE\n24L/R: 150CW330\n28: 150CW330
-.ntdhdg .echo \n{NTD DVA} \n3: LEFT TURN 210CW270\n9: NONE\n21: 120CW280\n27: 120CW280
-.nylhdg .echo \n{NYL DVA} \nALL RWYS: ANY HDG, REMAIN CLEAR OF 17,000' MVA NORTH OF AIRPORT UNTIL ABOVE 17,000'
-.onthdg .echo \n{ONT DVA} \n8L/R: 065CW257 WITHIN 11NM\n26L/R: 110CW270 WITHIN 9NM
-.oxrhdg .echo \n{OXR DVA} \n7: RIGHT TURN 160CW250\n25: 140CW270
-.pmdhdg .echo \n{PMD DVA} \nALL RWYS: 360CW080
-.pochdg .echo \n{POC DVA} \n8L/R: 100CW259 WITHIN 11NM\n26L/R: NONE
-.psphdg .echo \n{PSP DVA} \n13L/R: 080CW110 WITHIN 15NM\n31L/R: 350CW090 WITHIN 15NM
-.ralhdg .echo \n{RAL DVA} \n9: NONE\n16: NONE\n27: 285 WITHIN 12NM\n34: NONE
-.rivhdg .echo \n{RIV DVA} \n12: NONE\n14: 150CW160\n30: NONE\n32: LEFT TURN 135CW150
-.sanhdg .echo \n{SAN DVA} \n9: NONE\n27: 113CW063 WITHIN 12NM
-.sbahdg .echo \n{SBA DVA} \n7: 090CW250\n15L/R: 090CW250\n25: 090 CLOCKWISE TO RWY HDG\n33L/R: NONE
-.sbphdg .echo \n{SBP DVA} \n7: 130CW220\n11: 120CW220\n25: NONE\n29: NONE
-.sdmhdg .echo \n{SDM DVA} \n8L/R: NONE\n26L: NONE\n26R: 280CW329 WITHIN 11NM
-.seehdg .echo \n{SEE DVA} \n9L/R: NONE\n17: NONE\n27L/R: HDG 320 WITHIN 15NM\n35: HDG 320 WITHIN 15NM
-.slihdg .echo \n{SLI DVA} \n4L/R: ALL HDGS WITHIN 15NM\n22L/R: ALL HDGS WITHIN 15NM
-.smohdg .echo \n{SMO DVA} \n3: 060CW210 WITHIN 13NM\n21: 046CW270 WITHIN 14NM
-.smxhdg .echo \n{SMX DVA} \n2: 280CW330\n12: LEFT TURN 300CW330\n20: 290CW350\n30: 280CW340
-.snahdg .echo \n{SNA DVA} \n2L/R: 196CW005 WITHIN 11NM\n20L/R: 168CW011 WITHIN 11NM
-.toahdg .echo \n{TOA DVA} \n11L/R: NONE\n29L: 279CW114 WITHIN 11NM\n29R: 280CW114 WITHIN 11NM
-.vcvhdg .echo \n{VCV DVA} \n17: RIGHT TURN 250CW350\n3/21/35: 250CW350
-.vgthdg .echo \n{VGT DVA} \n7: 040CW070, 110CW160\n12L/R: 040CW050, 090CW180 WITH T/O MIN OF 1000'/3SM\n25: 050CW220\n30L/R: 070CW170
-.vnyhdg .echo \n{VNY DVA} \n16L/R: 110CW210 WITHIN 13NM\n34L/R: NONE
-.sbdhdg .echo \n{SBD DVA} \n24: 250 WITHIN 14NM
-
+{{ DVA }}
 *****TOWER HOURS OF OPERATION*****
 
-.bflhrs .echo \n{BFL HOURS} \n1400Z - 0700Z (0600 - 2300PT) {-1DT}
-.burhrs .echo \n{BUR HOURS} \n24 HRS
-.cmahrs .echo \n{CMA HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
-.cnohrs .echo \n{CNO HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
-.crqhrs .echo \n{CRQ HOURS} \n1500Z - 0600Z (0700 - 2200PT) {-1DT}
-.edwhrs .echo \n{EDW HOURS} \nMON - FRI 1400Z - 0600Z (0600 - 2200PT)\nSAT 1400 - 2000Z (0600 - 1200PT)  {-1DT}, CLSD SUN, HOL
-.emthrs .echo \n{EMT HOURS} \n1600Z - 0400Z (0800 - 2000PT) {-1DT}
-.fulhrs .echo \n{FUL HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
-.gcnhrs .echo \n{GCN HOURS} \n1JUN - 30SEP: 1300 - 0300Z (0600 - 2000MT)\n1OCT - 31MAY 1400 - 0200Z (0700 - 1900MT) {PT DRG DST}
-.hhrhrs .echo \n{HHR HOURS} \n1400Z - 0600Z (0600 - 2200PT) {-1DT}
-.hndhrs .echo \n{HND HOURS} \n1400Z - 0400Z (0600 - 2000PT) {-1DT}
-.ifphrs .echo \n{IFP HOURS} \n1500Z - 0100Z (0800 - 1800MT) {PT DRG DST}
-.lashrs .echo \n{LAS HOURS} \n24 HRS
-.laxhrs .echo \n{LAX HOURS} \n24 HRS
-.lgbhrs .echo \n{LGB HOURS} \n1415Z - 0745Z (0615 - 2345PT) {-1DT}
-.lsvhrs .echo \n{LSV HOURS} \n24 HRS
-.mhvhrs .echo \n{MHV HOURS} \nMON - FRI 1500Z - 0100Z (0700 - 1700PT) {-1DT}
-.myfhrs .echo \n{MYF HOURS} \n1400Z - 0500Z (0600 - 2100PT) {-1DT}
-.nfghrs .echo \n{NFG HOURS} \nMON - THU 1600 - 0800Z (0800 - 0000PT)\nFRI 1600 - 0100Z (0800 - 1700PT) \nCLSD SAT, SUN, HOL {-1DT}
-.nidhrs .echo \n{NID HOURS} \n1530–0630Z Mon–Fri; clsd altn Fri. \n2300-0100z Sun. \nOpn 1530–2030Z, clsd 2030Z, opn 2300–0000Z 1st working/non–hol Fri of the month. Sat–Sun opr by PPR/lcl use only) (Rstd afld hrs subject to change) {-1DT}
-.njkhrs .echo \n{NJK HOURS} \n1500–0700Z‡ Mon–Thu; \n1500–0200Z‡ Fri; \n1500–2300Z‡ Sat; clsd Sun and hol {-1DT}
-.nkxhrs .echo \n{NKX HOURS} \nMON - THU 1530–0800Z (0730 - 0000PT)\nFRI 1630–0200Z (0830 - 1800PT)\nSAT CLSD\nSUN 2200 - 0200Z (1400 - 1800PT) {-1DT}
-.nrshrz .echo \n{NRS HOURS} \nMON - THU 1600 - 0630Z (0800 - 2230PT)\nFRI 1600 - 0200Z (0800 - 1800PT) \nCLSD SAT, SUN, HOL {-1DT}
-.nsihrs .echo \n{NSI HOURS} \n1500Z - 0000Z (0700 - 1600PT) CLSD ALTERNATE FRI\nCLSD SAT, SUN, HOL {-1DT}
-.ntdhrs .echo \n{NTD HOURS} \n1500Z - 0700Z (0700 - 2300PT) CLSD HOL {-1DT}
-.nuchrs .echo \n{NUC HOURS} \nMON - THU 1600Z - 0200Z (0800 - 1800PT)\nFRI 1600Z - 0000Z (0800 - 1600PT) \nCLSD SAT, SUN, HOL {-1DT}
-.nxphrs .echo \n{NXP HOURS} \nCLASS D AIRSPACE BY NOTAM ONLY
-.nylhrs .echo \n{NYL HOURS} \n1430 - 0600Z (0730 - 2300MT) {PT DRG DST}
-.nzyhrs .echo \n{NZY HOURS} \n1430Z MON - 0600Z SAT (0630PT MON - 2200PT FRI); 1600Z SAT- 0600Z (0800 SAT - 2200PT); 1600Z SUN - 0600Z (0800 SUN - 2200PT) {-1DT}
-.onthrs .echo \n{ONT HOURS} \n24 HRS
-.oxrhrs .echo \n{OXR HOURS} \n1500 - 0500Z (0700 - 2100PT) {-1DT}
-.pmdhrs .echo \n{PMD HOURS} \n1330 - 0600Z (0530 - 2200PT) {-1DT}
-.pochrs .echo \n{POC HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
-.psphrs .echo \n{PSP HOURS} \n1400Z - 0700Z (0600 - 2300PT) {-1DT}
-.ralhrs .echo \n{RAL HOURS} \n1500Z - 0400Z (0700 - 2000PT) {-1DT}
-.rivhrs .echo \n{RIV HOURS} \n[TOWER]: 24HRS; \n[CLASS C + APP]: MON–FRI 1500 – 0700Z (0700 - 2300PT)\nSAT-SUN 1500 – 0200Z. (0700 - 1800PT ) {-1DT}\nCLSD HOL. OTHER TIMES CLASS D.
-.rnmhrs .echo \n{RNM HOURS} \n1600 - 0400Z (0800 - 2000PT) {-1DT}
-.sanhrs .echo \n{SAN HOURS} \n24 HRS
-.sbahrs .echo \n{SBA HOURS} \n1400Z - 0700Z (0600 - 2300PT) {-1DT}
-.sbdhrs .echo \n{SBD HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
-.sbphrs .echo \n{SBP HOURS} \n1400Z - 0400Z (0600 - 2000PT) {-1DT}
-.sdmhrs .echo \n{SDM HOURS} \n1600Z - 0400Z (0800 - 2000PT) {-1DT}
-.seehrs .echo \n{SEE HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
-.slihrs .echo \n{SBD HOURS} \nMON - THU 1500Z - 0600Z (0700 - 2200PT)\nFRI - SUN 1500Z - 0000Z (0700 - 1600PT) \nCLSD HOL {-1DT}
-.smohrs .echo \n{SMO HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
-.smxhrs .echo \n{SMX HOURS} \n1400Z - 0400Z (0600 - 2000PT) {-1DT}
-.snahrs .echo \n{SNA HOURS} \n1415Z - 0700Z (0615 - 2300PT) {-1DT}
-.tnxhrs .echo \n{TNX HOURS} \nMON 1300Z - SAT 0305Z (MON 0500 -  FRI 1900PT) \nCLSD SAT, SUN, HOL {-1DT}
-.toahrs .echo \n{TOA HOURS} \n1500Z - 0400Z (0700 - 2000PT) {-1DT}
-.vbghrs .echo \n{VBG HOURS} \n1600Z - 0100Z (0800 - 1700PT) \nCLSD SAT - SUN, HOL {-1DT}
-.vcvhrs .echo \n{VCV HOURS} \n1400Z - 0400Z (0600 - 2000PT) {-1DT}
-.vgthrs .echo \n{VGT HOURS} \nOCT - MAR 1400Z - 0400Z (0600 - 2000PT) \nAPR - SEP 1400Z - 0500Z (0600 - 2100PT) {-1DT}
-.vnyhrs .echo \n{VNY HOURS} \n1400Z - 0645Z (0600 - 2245PT) {-1DT}
-.whphrs .echo \n{WHP HOURS} \n1600Z - 0400Z (0800 - 2000PT) {-1DT}
-.wjfhrs .echo \n{WJF HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}     
-
+{{ HOURS }}   
 *****AIRWAY FIXES*****
 
 {{ AIRWAY_FIXES }}
