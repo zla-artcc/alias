@@ -629,5 +629,8 @@ ISR 2602
 Version 3.30.1 - BK, MK
 AIRAC 2602
 ISR 2602
-
 -- Replaced ISR with new echo and note commands
+
+Version 3.31 - BK, MK
+AIRAC 2603
+ISR 2603
