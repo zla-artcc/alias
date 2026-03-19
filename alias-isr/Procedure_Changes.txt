@@ -4,11 +4,112 @@
 In some cases, the link will return a 404 Error. This is because the FAA does not have a comparative document. This is common with DOD facilities.
 
 
+[IFP]
+	(C) RNAV RWY 16 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/06967R16_cmp.pdf
+	(C) RNAV RWY 34 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/06967R34_cmp.pdf
+	(C) VOR RWY 34 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/06967V34_cmp.pdf
+	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/06967AD_cmp.pdf
+[40G]
+	(C) RNAV RWY 01 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/09240R1_cmp.pdf
+	(C) RNAV RWY 19 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/09240R19_cmp.pdf
 [NYL]
-	(C) ILS OR LOC RWY 21R | https://aeronav.faa.gov/d-tpp/2602/compare_pdf/00511IL21R_cmp.pdf
-	(C) TACAN Y RWY 21R | https://aeronav.faa.gov/d-tpp/2602/compare_pdf/00511TY21R_cmp.pdf
-[NJK]
-	(C) RNAV RWY 26 | https://aeronav.faa.gov/d-tpp/2602/compare_pdf/00472R26_cmp.pdf
-	(C) RNAV RWY 30 | https://aeronav.faa.gov/d-tpp/2602/compare_pdf/00472R30_cmp.pdf
-[NRS]
-	(C) TAKEOFF MINIMUMS | https://aeronav.faa.gov/d-tpp/2602/compare_pdf/SW3TO_cmp.pdf
+	(C) BARD ONE (OBSTACLE) | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00511BARD_cmp.pdf
+	(C) YUMA ONE | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00511YUMA_cmp.pdf
+[APV]
+	(C) RNAV RWY 18 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05822R18_cmp.pdf
+[L35]
+	(C) RNAV RWY 26 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/09469R26_cmp.pdf
+[BLH]
+	(C) ALTERNATE MINIMUMS | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/SW3ALT_cmp.pdf
+[CRQ]
+	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05310AD_cmp.pdf
+[CNO]
+	(C) SETER FIVE | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965SETER_cmp.pdf
+	(C) ZIGGY EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965ZIGGY_cmp.pdf
+	(C) ILS OR LOC RWY 26R | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05599IL26R_cmp.pdf
+	(C) RNAV RWY 26R | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05599R26R_cmp.pdf
+	(C) VOR RWY 26R | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05599V26R_cmp.pdf
+	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05599AD_cmp.pdf
+[AJO]
+	(C) SETER FIVE | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965SETER_cmp.pdf
+	(C) ZIGGY EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965ZIGGY_cmp.pdf
+[EMT]
+	(C) DIVERSE VECTOR AREA | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/SW3TO_cmp.pdf
+	(C) SETER FIVE | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965SETER_cmp.pdf
+	(C) ZIGGY EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965ZIGGY_cmp.pdf
+	(C) RNAV-B | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05639RB_cmp.pdf
+	(C) VOR-A | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05639VA_cmp.pdf
+	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05639AD_cmp.pdf
+[FUL]
+	(C) KAYOH EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00236KAYOH_cmp.pdf
+[POC]
+	(C) SETER FIVE | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965SETER_cmp.pdf
+	(C) ZIGGY EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965ZIGGY_cmp.pdf
+	(C) ILS RWY 26L | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05218I26L_cmp.pdf
+	(C) RNAV RWY 26L | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05218R26L_cmp.pdf
+	(C) LOC RWY 26L | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05218L26L_cmp.pdf
+	(C) VOR OR GPS-A | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05218VGA_cmp.pdf
+	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05218AD_cmp.pdf
+[LGB]
+	(C) KAYOH EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00236KAYOH_cmp.pdf
+	(C) TANDY SIX | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00236TANDY_cmp.pdf
+	(A) TANDY SIX, CONT.1 | This procedure is new and has no previous version to compare.
+	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00236AD_cmp.pdf
+[SLI]
+	(C) KAYOH EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00236KAYOH_cmp.pdf
+	(A) TANDY SIX | This procedure is new and has no previous version to compare.
+	(A) TANDY SIX, CONT.1 | This procedure is new and has no previous version to compare.
+[WHP]
+	(C) RNAV RWY 12 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/09132R12_cmp.pdf
+	(C) VOR-A | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/09132VA_cmp.pdf
+[OKB]
+	(C) RNAV RWY 07 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05666R7_cmp.pdf
+	(C) RNAV RWY 25 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05666R25_cmp.pdf
+	(C) VOR-A | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05666VA_cmp.pdf
+[ONT]
+	(C) SETER FIVE | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965SETER_cmp.pdf
+	(C) ZIGGY EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965ZIGGY_cmp.pdf
+[RAL]
+	(C) SETER FIVE | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965SETER_cmp.pdf
+	(C) ZIGGY EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965ZIGGY_cmp.pdf
+[SBD]
+	(C) SETER FIVE | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965SETER_cmp.pdf
+	(C) ZIGGY EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00965ZIGGY_cmp.pdf
+	(C) JADKO TWO (RNAV) | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00547JADKO_cmp.pdf
+[NUC]
+	(C) RNAV RWY 24 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05126R24_cmp.pdf
+	(C) TACAN Y RWY 24 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05126TY24_cmp.pdf
+	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05126AD_cmp.pdf
+[SAN]
+	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00373AD_cmp.pdf
+[NSI]
+	(C) RNAV RWY 30 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05162R30_cmp.pdf
+	(C) TACAN RWY 30 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05162T30_cmp.pdf
+	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05162AD_cmp.pdf
+[SNA]
+	(C) KAYOH EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00236KAYOH_cmp.pdf
+	(C) TANDY SIX | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00236TANDY_cmp.pdf
+	(A) TANDY SIX, CONT.1 | This procedure is new and has no previous version to compare.
+[SBA]
+	(C) ALTERNATE MINIMUMS | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/SW3ALT_cmp.pdf
+	(C) RNAV RWY 07 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00378R7_cmp.pdf
+	(C) VOR RWY 25 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00378V25_cmp.pdf
+[SMO]
+	(C) RNAV RWY 21 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05023R21_cmp.pdf
+	(C) RNAV Y RWY 03 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05023RY3_cmp.pdf
+	(C) RNAV Z RWY 03 | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05023RZ3_cmp.pdf
+	(C) VOR-A | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05023VA_cmp.pdf
+	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/05023AD_cmp.pdf
+[TOA]
+	(C) KAYOH EIGHT | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/00236KAYOH_cmp.pdf
+	(A) TANDY SIX | This procedure is new and has no previous version to compare.
+	(A) TANDY SIX, CONT.1 | This procedure is new and has no previous version to compare.
+[VCV]
+	(C) ALTERNATE MINIMUMS | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/SW3ALT_cmp.pdf
+[HND]
+	(C) RNAV-B | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/06514RB_cmp.pdf
+	(C) VOR-C | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/06514VC_cmp.pdf
+[VGT]
+	(C) ILS OR LOC RWY 12L | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/06970IL12L_cmp.pdf
+	(C) RNAV RWY 12R | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/06970R12R_cmp.pdf
+	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2603/compare_pdf/06970AD_cmp.pdf
