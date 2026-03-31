@@ -53,7 +53,6 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 	*TEC ROUTES BY DESIGNATOR
 	*TEC ROUTES BY AIRPORT PAIR AND AIRCRAFT TYPE
 9. ZLA_ISR
-	*OVERRIDES
 	*DIVERSE VECTOR AREAS
 	*TOWER HOURS OF OPERATION
 	*AIRWAY FIXES
@@ -64,6 +63,7 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 	*AIRLINE TELEPHONY
 	*AIRCRAFT TYPE IDENTIFICATION
 	*CWT - Consolidated Wake Turbulence
+    *OVERRIDES
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~A L I A S E S~~~~~~~~~~~~~~~~~~~~~~~~
@@ -402,6 +402,7 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 
 .bound .msg $atccallsign($1) $aircraft $2 $3
 .b .msg $atccallsign($1) $aircraft $dep $route
+.dep .MSG $atccallsign($1) *** $aircraft :: $type($aircraft) :: $dep :: $2 $3 :: $4 $5 $6 $7 $8 $9
 
 *************************
 *       5. RADAR        *
@@ -821,9 +822,6 @@ ZAB:
 *      10. ZLA_ISR      *
 *************************
 
-*****OVERRIDES*****
-
-{{ OVERRIDES }}
 *****DIVERSE VECTOR AREAS*****
 
 {{ DVA }}
@@ -854,6 +852,9 @@ ZAB:
 *****CWT - Consolidated Wake Turbulence*****
 
 {{ CWT }}
+*****OVERRIDES*****
+
+{{ OVERRIDES }}
 
 {{ CHANGELOG }}
 
