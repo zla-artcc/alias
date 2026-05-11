@@ -638,3 +638,9 @@ ISR 2603
 Version 3.32 - BK, MK
 AIRAC 2604
 ISR 2604
+
+Version 3.33 - BK, MK
+AIRAC 2605
+ISR 2605
+-- new dot mil for all military phraseology help
+-- Multiple TEC route updates to Area 3, SBA, JCF. Multiple TEC route updates expected for the next 4 56-day cycles.
