@@ -310,24 +310,12 @@ Diverse Vector Area (DVA) headings updated
 Version 2.37 -- CC
 Made changes to the general aliases
 
-Version 2.38 -- CC
-AIRAC 2008 update
-
-Version 2.39 -- CC
-AIRAC 2010 update
-
-Version 2.40 -- CC
-AIRAC 2102 update
-
 Version 2.41 -- CC
 Added center aliases for descent into L30 post-metroplex
 Added togglers for L30 sid/star summary diagrams and fixes
 
 Version 2.50 -- DO
 Removed deprecated MVA toggle aliases.
-
-Version 2.51 -- DO
-AIRAC 2110 update
 
 Version 2.60 -- KN
 Beginning implementation of ZLA_ISR, current as of AIRAC 2113.
@@ -353,55 +341,13 @@ Version 2.62 -- KN
 Updated ISR for 2203.
 Fixed /W equipment suffix to include Mode C transponder.
 
-Version 2.63 -- KN
-ISR 2204
-
-Version 2.64 -- KN
-ISR 2206
-
 Version 2.65 -- DO, KN
 AIRAC 2207
 ISR 2207
 Added LAX Arrival Briefing Card to .dctmerce and .dcthunda aliases.
 
-Version 2.66 -- DO
-AIRAC 2208
-ISR 2208
-
-Version 2.67 -- DO 
-AIRAC 2209
-ISR 2209
-
-Version 2.68 -- DO
-AIRAC 2210
-ISR 2210
-
-Version 2.69 -- DO
-AIRAC 2211
-ISR 2211
-
-Version 2.70 -- DO
-AIRAC 2212
-ISR 2212
-
-Version 2.80 -- MK
-AIRAC 2303
-ISR 2303
-
-Version 2.90 -- MO
-AIRAC 2304
-ISR 2304
-
-Version 2.91 -- MK
-AIRAC 2305
-ISR 2305
-
 Version 2.92 -- MK
 Removed LSV DVA
-
-Version 2.93 -- MO
-AIRAC 2306
-ISR 2306
 
 Version 2.94 -- MO
 AIRAC 2307
@@ -416,10 +362,6 @@ Fixed accidental DVA alias removal
 Small updates to commands
 AIRAC 2308
 ISR 2308
-
-Version 2.97 -- MO
-AIRAC 2309
-ISR 2309
 
 Version 2.97.1 -- MO
 Added missing TEC aliases
@@ -436,11 +378,7 @@ New .pr command for TEC routes.
 Version 2.99 -- MO
 AIRAC 2311
 ISR 2311
-SBA DVA updated.
-
-Version 3.00 -- MO
-AIRAC 2312
-ISR 2312
+-- SBA DVA updated.
 
 Version 3.01 -- MO
 AIRAC 2313
@@ -455,30 +393,6 @@ Happy new year.
 AIRAC 2401
 ISR 2401
 Removed NCT SUPER FNO alias
-
-Version 3.03 -- MO
-AIRAC 2402
-ISR 2402
-
-Version 3.04 -- MO
-AIRAC 2403
-ISR 2403
-
-Version 3.05 -- MO
-AIRAC 2404
-ISR 2404
-
-Version 3.06 -- MO
-AIRAC 2405
-ISR 2405
-
-Version 3.07 -- MO
-AIRAC 2406
-ISR 2406
-
-Version 3.08 -- MK
-AIRAC 2406
-ISR 2406
 
 Version 3.09 -- MK
 AIRAC 2406
@@ -545,27 +459,15 @@ AIRAC 2501
 ISR 2501
 -- Added Aircraft Types to the ISR under TYPES
 
-Version 3.19 - DH, BK
-AIRAC 2502
-ISR 2502
-
 Version 3.19.1 - MK
 AIRAC 2502
 ISR 2502
 -- Updated TEC Routes
 
-Version 3.20 - BK
-AIRAC 2503
-ISR 2503
-
 Version 3.21 - BK
 AIRAC 2504
 ISR 2504
 -- Removed .push from alias due to conflict
-
-Version 3.22 - BK
-AIRAC 2505
-ISR 2505
 
 Version 3.23 - BK
 AIRAC 2506
@@ -604,43 +506,29 @@ AIRAC 2512
 ISR 2512
 -- added an alias for right-turn TRTON pilot errors
 
-Version 3.27 - BK
-AIRAC 2513
-ISR 2513
-
 Version 3.28 - MK, BK
 AIRAC 2513
 ISR 2513
 -- added tower operating hours to ISR
-
-Version 3.29 - BK, MK
-AIRAC 2601
-ISR 2601
 
 Version 3.29.1 - BK, MK, WX
 AIRAC 2601
 ISR 2601
 -- fixed missing TEC routes and updates line breaks
 
-Version 3.30 - BK, MK
-AIRAC 2602
-ISR 2602
-
 Version 3.30.1 - BK, MK
 AIRAC 2602
 ISR 2602
 -- Replaced ISR with new echo and note commands
-
-Version 3.31 - BK, MK
-AIRAC 2603
-ISR 2603
-
-Version 3.32 - BK, MK
-AIRAC 2604
-ISR 2604
 
 Version 3.33 - BK, MK
 AIRAC 2605
 ISR 2605
 -- new dot mil for all military phraseology help
 -- Multiple TEC route updates to Area 3, SBA, JCF. Multiple TEC route updates expected for the next 4 56-day cycles.
+
+Version 3.34 - BK, MK
+AIRAC 2606
+ISR 2606
+-- Updated KSLI hours IAW new AFD
+-- Removed some AIRAC-only updates from history.txt

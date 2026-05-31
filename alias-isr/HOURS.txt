@@ -41,7 +41,7 @@
 .sbphrs .echo \n{SBP HOURS} \n1400Z - 0400Z (0600 - 2000PT) {-1DT}
 .sdmhrs .echo \n{SDM HOURS} \n1600Z - 0400Z (0800 - 2000PT) {-1DT}
 .seehrs .echo \n{SEE HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
-.slihrs .echo \n{SBD HOURS} \nMON - THU 1500Z - 0600Z (0700 - 2200PT)\nFRI - SUN 1500Z - 0000Z (0700 - 1600PT) \nCLSD HOL {-1DT}
+.slihrs .echo \n{SBD HOURS} \nTUE - THU 1500Z - 0600Z (0700 - 2200PT)\nFRI - MON 1500Z - 0000Z (0700 - 1600PT) \nCLSD HOL {-1DT}
 .smohrs .echo \n{SMO HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
 .smxhrs .echo \n{SMX HOURS} \n1400Z - 0400Z (0600 - 2000PT) {-1DT}
 .snahrs .echo \n{SNA HOURS} \n1415Z - 0700Z (0615 - 2300PT) {-1DT}
