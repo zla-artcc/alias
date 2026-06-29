@@ -532,3 +532,9 @@ AIRAC 2606
 ISR 2606
 -- Updated KSLI hours IAW new AFD
 -- Removed some AIRAC-only updates from history.txt
+
+Version 3.35 - BK, MK, WX
+AIRAC 2607
+ISR 2607
+-- Small housekeeping updates to the main alias file.
+-- Updated TEC Routes for multiple SCT areas.
