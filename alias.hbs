@@ -111,7 +111,7 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 .ho@ at $uc($1), contact $radioname($2) on $freq($2), so long.
 .hoo entering Oceanic airspace. Radar service terminated, squawk 2000. Report position to $radioname($1) on $freq($1), so long.
 .req contact $radioname($1) on $freq($1) with your request.
-.hou frequency change approved, so long.
+.hou leaving my airspace, frequency change approved, so long.
 .hodu departure is offline. Frequency change approved, so long.
 .rem remain this frequency.
 
@@ -127,6 +127,11 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 .lmaabq leaving my airspace. Albuquerque Center is offline. No further ATC available, frequency change approved, so long.
 .lmazak entering Oceanic airspace. San Francisco Radio is offline. Squawk 2000, radar service terminated, frequency change approved, so long.
 .lmamzt leaving my airspace. Metro Mazatlan Center is offline. Radar service terminated, frequency change approved, so long.
+.lmazla leaving my airspace. Los Angeles Center is offline. No further ATC available, frequency change approved, so long.
+.lmazoa leaving my airspace. Oakland Center is offline. No further ATC available, frequency change approved, so long.
+.lmazdv leaving my airspace. Denver Center is offline. No further ATC available, frequency change approved, so long.
+.lmazlc leaving my airspace. Salt Lake City Center is offline. No further ATC available, frequency change approved, so long.
+.lmazab leaving my airspace. Albuquerque Center is offline. No further ATC available, frequency change approved, so long.
 
 *****AFV INFORMATION*****
 
@@ -188,9 +193,9 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 .badwinds .wallop $aircraft is not using the correct real-world winds and is creating a disruption.
 
 *****EVENT ALERTS*****
-.event *** ATTENTION *** Tonight's event may create delays for aircraft flying into Oakland and Seattle ARTCCs, particularly to SFO, SJC, SEA, and PDX.
-.eventalert *** ATTENTION *** .event *** ATTENTION *** Tonight's event may create delays for aircraft flying into Oakland and Seattle ARTCCs, particularly to SFO, SJC, SEA, and PDX.
-.fno *** ATTENTION *** .event *** ATTENTION *** Tonight's event may create delays for aircraft flying into Oakland and Seattle ARTCCs, particularly to SFO, SJC, SEA, and PDX.
+.event *** ATTENTION *** Tonight's event may create delays for aircraft. Thank you for your patience. 
+.eventalert *** ATTENTION *** Tonight's event may create delays for aircraft. Thank you for your patience.
+.fno *** ATTENTION *** Tonight's event may create delays for aircraft. Thank you for your patience.
 
 *****FLIGHT PLAN RELEASE*****
 .fpr .msg fp $aircraft release
@@ -400,8 +405,8 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 .miniun cleared through Los Angeles Bravo airspace, proceed direct to overfly the midpoint of runway 25L, then the numbers runway 24R, then direct Santa Monica Airport. Maintain VFR at 2,500 feet. Los Angeles Altimeter $altim(KLAX)
 .minius cleared through Los Angeles Bravo airspace, proceed direct to overfly the numbers runway 24R, then the midpoint of runway 25L, then heading 130. Maintain VFR at 2,500 feet. Los Angeles Altimeter $altim(KLAX)
 
-.bound .msg $atccallsign($1) $aircraft $2 $3
-.b .msg $atccallsign($1) $aircraft $dep $route
+.bound .msg $atccallsign($1) *** $aircraft :: $type($aircraft) :: $dep :: $route :: $2 $3 :: $4 $5 $6 $7 $8 $9
+.b .msg $atccallsign($1) *** $aircraft :: $type($aircraft) :: $dep :: $route :: $2 $3 :: $4 $5 $6 $7 $8 $9
 .dep .MSG $atccallsign($1) *** $aircraft :: $type($aircraft) :: $dep :: $2 $3 :: $4 $5 $6 $7 $8 $9
 
 *************************
@@ -687,13 +692,9 @@ SAN:
 .carul cross CARUL at and maintaon 12,000. $arr altimeter $altim($arr)
 .trixi cross TRIXI at and maintain 12,000, at 270 kts, $arr altimeter $altim($arr)
 .greed cross GREED at and maintain 12,000, at 270 kts, $arr altimeter $altim($arr)
-.bayvu cross BAYVU at and maintain 15,000, $arr altimeter $altim($arr)
-.dvlyndi descend via the LYNDI arrival
-.dvbayvu descend via the BAYVU arrival
+.dvcomix descend via the COMIX arrival except maintain 15,000
 .dvlucki descend via the LUCKI arrival
-.dvlyndiap descend via the LYNDI arrival, after LYNDI cleared RNAV Y runway 27 approach
-.dvluckiap descend via the LUCKI arrival, after LYNDI cleared RNAV Y runway 27 approach
-.dvbayvuap descend via the BAYVU arrival, expect $1 $2 $3 approach
+.dvluckiap descend via the LUCKI arrival, after LYNDI cleared RNAV Y or LOC runway 27 approach
 
 L30 new:
 .dvcoktl descend via the COKTL arrival, runway $uc($1) transition, $arr altimeter $altim($arr)
@@ -742,6 +743,7 @@ ZAB:
 .pantd cross PANTD at and maintain FL290
 .salom cross SALOM at and maintain 17,000, $arr altimeter $altim($arr)
 .scole cross SCOLE at and maintain FL250
+.tents cross TENTS at and maintain FL290
 .wotro cross WOTRO at and maintain FL290
 
 *************************
