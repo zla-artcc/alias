@@ -4,44 +4,9 @@
 In some cases, the link will return a 404 Error. This is because the FAA does not have a comparative document. This is common with DOD facilities.
 
 
-[BFL]
-	(C) WRING FIVE | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00036WRING_cmp.pdf
-[BWC]
-	(C) RNAV RWY 26 | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/06932R26_cmp.pdf
-[BUR]
-	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00067AD_cmp.pdf
-	(C) VAN NUYS FOUR | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00067VANNUYS_cmp.pdf
-	(C) VAN NUYS FOUR, CONT.1 | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00067VANNUYS_C_cmp.pdf
-[CLR]
-	(C) RNAV RWY 08 | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/09486R8_cmp.pdf
-[CMA]
-	(C) RNAV Y RWY 26 | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00680RY26_cmp.pdf
-	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00680AD_cmp.pdf
-[CNO]
-	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/05599AD_cmp.pdf
-[DAG]
-	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00104AD_cmp.pdf
-[HMT]
-	(C) RNAV RWY 05 | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/06678R5_cmp.pdf
-	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/06678AD_cmp.pdf
-[WJF]
-	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/05065AD_cmp.pdf
-[LAX]
-	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00237AD_cmp.pdf
-[REI]
-	(C) RNAV-A | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/09083RA_cmp.pdf
-[RAL]
-	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00769AD_cmp.pdf
-[NKX]
-	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00903AD_cmp.pdf
-[VCV]
-	(C) RNAV RWY 03 | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00794R3_cmp.pdf
-	(C) RNAV RWY 17 | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00794R17_cmp.pdf
-	(C) RNAV RWY 21 | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00794R21_cmp.pdf
-	(C) RNAV RWY 35 | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00794R35_cmp.pdf
-[TPH]
-	(C) RNAV RWY 15 | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00423R15_cmp.pdf
-	(C) VOR-A | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00423VA_cmp.pdf
-	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/00423AD_cmp.pdf
-[SGU]
-	(C) AIRPORT DIAGRAM | https://aeronav.faa.gov/d-tpp/2607/compare_pdf/10546AD_cmp.pdf
+[NJK]
+	(C) TAKEOFF MINIMUMS | https://aeronav.faa.gov/d-tpp/2608/compare_pdf/SW3TO_cmp.pdf
+	(C) RNAV RWY 08 | https://aeronav.faa.gov/d-tpp/2608/compare_pdf/00472R8_cmp.pdf
+	(C) RNAV RWY 26 | https://aeronav.faa.gov/d-tpp/2608/compare_pdf/00472R26_cmp.pdf
+	(C) RNAV RWY 30 | https://aeronav.faa.gov/d-tpp/2608/compare_pdf/00472R30_cmp.pdf
+	(C) VOR/DME RWY 30 | https://aeronav.faa.gov/d-tpp/2608/compare_pdf/00472VD30_cmp.pdf
