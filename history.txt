@@ -538,3 +538,10 @@ AIRAC 2607
 ISR 2607
 -- Small housekeeping updates to the main alias file.
 -- Updated TEC Routes for multiple SCT areas.
+
+Version 3.39 - BK, MK
+AIRAC 2611
+ISR 2611
+-- Roundup patch notes: TEC Routes for Areas 1 and 4 updated with new letters and routes.
+-- Standard ISR updates
+-- EDW now properly overrides the airport ID command
