@@ -1,0 +1,16 @@
+FE-Buddy duplicate alias commands - AIRAC 2610
+Generated 2026-10-10 17:22Z
+
+Each command below is used by more than one line of the alias files this run wrote, so CRC can only
+run one of them. Commands are compared ignoring case, the way CRC matches them.
+Solutions are required at ARTCC level. Consult the FE-Buddy developers if unable to resolve at a local level.
+
+Files checked: Airways.txt, Airports.txt, Departures.txt, Arrivals.txt, Navaids.txt, Faa_Chart_Recall.txt, Telephony.txt
+
+Summary: 1 duplicate command(s) on 3 line(s) - ZLA 1
+
+ZLA
+	.edwAPDc  (3 lines)
+		Faa_Chart_Recall.txt  .edwAPDc .OPENURL https://aeronav.faa.gov/d-tpp/2610/00500AD.PDF  ; EDWARDS AFB-AIRPORT DIAGRAM
+		Faa_Chart_Recall.txt  .edwAPDc .OPENURL https://aeronav.faa.gov/d-tpp/2610/00500ADROGERSLAKEBED.PDF  ; EDWARDS AFB-AIRPORT DIAGRAM (ROGERS LAKEBED)
+		Faa_Chart_Recall.txt  .edwAPDc .OPENURL https://aeronav.faa.gov/d-tpp/2610/00500ADROSAMONDLAKEBED.PDF  ; EDWARDS AFB-AIRPORT DIAGRAM (ROSAMOND LAKEBED)

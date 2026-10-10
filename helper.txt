@@ -1,3 +1,5 @@
+*****PHRASEOLOGY HELPER*****
+
 .refuel .echo \n"Cleared to conduct refueling along [track] maintain block FL XXX through FL YYY"\nProvide radar assistance and vertical separation between flights until TANKER declares MARSA with RECEIVER. Ensure RECEIVER squawks standby. RECEIVER should move to lowest altitude in block before requesting to resume their flight.
 .marsa .echo \nMilitary Assumes Resonsibility for Separation of Aircraft\nEnsure IFR separation is provided until MARSA is declared by flight\nContinue to separate MARSA flight from non-participating aircraft
 .overhead .echo \nOverhead/Carrier Break | "Report initial" (May specify distance but usually 3-5nm from runway) IFR is automatically cancelled at the initial\n"Break at [specified point], report the break"

@@ -1,7 +1,7 @@
 Los Angeles ARTCC Alias File for CRC
 
-[Version]: {{ VERSION }}
-[Last Updated]: {{ LAST_UPDATED }}
+[Version]: 4.0.0-beta.1
+[Last Updated]: 2026-10-06
 Changelog has been moved to the end of the file.
 
 ~~~~~~~~~~~C O N T R I B U T I O N  C R E D I T S~~~~~~~~~~~
@@ -21,6 +21,14 @@ CRC Transition Team - Matthew Kramer, Max Gorodetzki, Nicholas Christopher, Andr
 
 Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 
+0. ZLA_ISR
+FE-Buddy Provided ISR Commands listed above. Refer to the ISR Guide for details on command syntax.
+	-AIRWAY FIXES
+	-CHART RECALL
+	-AIRPORTS
+	-NAVAIDS
+	-SID/STAR FIXES
+	-AIRLINE TELEPHONY
 1. GENERAL
 	*HANDOFFS
 	*AFV INFORMATION
@@ -52,15 +60,10 @@ Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
 8. TEC ROUTES
 	*TEC ROUTES BY DESIGNATOR
 	*TEC ROUTES BY AIRPORT PAIR AND AIRCRAFT TYPE
-9. ZLA_ISR
+9. ZLA CUSTOM ISR
+        *PHRASEOLOGY HELPER
 	*DIVERSE VECTOR AREAS
 	*TOWER HOURS OF OPERATION
-	*AIRWAY FIXES
-	*CHART RECALL
-	*AIRPORTS
-	*NAVAIDS
-	*SID/STAR FIXES
-	*AIRLINE TELEPHONY
 	*AIRCRAFT TYPE IDENTIFICATION
 	*CWT - Consolidated Wake Turbulence
 	*OVERRIDES
@@ -789,9 +792,6 @@ ZAB:
 .rof .openurl https://skyvector.com/?fpl=$urlescape($fullroute)
 .roffa .openurl https://flightaware.com/analysis/route.rvt?origin=$dep&destination=$arr
 
-*****PHRASEOLOGY HELPER*****
-
-{{ HELPER }}
 *****NAVDATA TOGGLING*****
 
 .zlaairports .fa KLAS KLAX KLSV KNKX KSAN KBUR KONT KPSP KRIV KSBA KSNA 9L2 KBFL KCMA KCNO KCRQ KEDW KEMT KFUL KGCN KHHR KHND KIFP KINS KLGB KMHV KMYF KNFG KNID KNJK KNRS KNSI KNTD KNUC KNXP KNYL KNZY KOXR KPMD KPOC KRAL KRNM KSBD KSBP KSDM KSEE KSLI KSMO KSMX KTOA KVBG KVCV KVGT KVNY KWHP KWJF KBLH KDXZ KEED KIPL KLPC KSGU KTRM 40G 67L F70 KAJO KAPV KAVX KAZC KBVU KBWC KCCB KCLR KCPM KDAG KDLO KHII KHMT KIGM KIYK KIZA KKNB KLGF KMIT KOKB KPTV KREI KRIR KTNP KTSP KUDD L00 L08 L18 L35 L45 L65 L76 L71 P20
@@ -813,56 +813,6 @@ ZAB:
 
 .fourstacks .ff V-MO V-SF V-SG40 V-SG30 V-FS
 .freeway .ff V-MS V-DL V-AS V-IL
-
-*************************
-*  8. TEC ROUTES  *
-*************************
-
-{{ TEC_ROUTES }}
-
-*************************
-*      10. ZLA_ISR      *
-*************************
-
-*****DIVERSE VECTOR AREAS*****
-
-{{ DVA }}
-*****TOWER HOURS OF OPERATION*****
-
-{{ HOURS }}   
-*****AIRWAY FIXES*****
-
-{{ AIRWAY_FIXES }}
-*****CHART RECALL*****
-
-{{ CHART_RECALL }}
-*****AIRPORTS*****
-
-{{ AIRPORTS }}
-*****NAVAIDS*****
-
-{{ NAVAIDS }}
-*****STAR FIXES*****
-
-{{ ARRIVALS }}
-*****SID FIXES*****
-
-{{ DEPARTURES }}
-*****TELEPHONY*****
-
-{{ TELEPHONY }}
-*****AIRCRAFT TYPE IDENTIFICATION*****
-
-{{ TYPES }}
-*****CWT - Consolidated Wake Turbulence*****
-
-{{ CWT }}
-*****OVERRIDES*****
-
-{{ OVERRIDES }}
-
-{{ CHANGELOG }}
-
 
 
 

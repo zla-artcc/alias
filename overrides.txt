@@ -1,0 +1,3 @@
+*****OVERRIDES*****
+
+.EDWAPDC .OPENURL https://aeronav.faa.gov/d-tpp/2610/00500AD.PDF  ; EDWARDS AFB-AIRPORT DIAGRAM

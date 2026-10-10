@@ -1,3 +1,5 @@
+*****CWT - Consolidated Wake Turbulence*****
+
 .CWTAA .echo \nA behind A: \n3 NM On Approach\n3 NM Directly Behind
 .CWTBA .echo \nB behind A: \n5 NM On Approach\n5 NM Directly Behind
 .CWTCA .echo \nC behind A: \n6 NM On Approach\n6 NM Directly Behind
