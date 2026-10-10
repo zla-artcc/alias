@@ -15,6 +15,7 @@ The `main` branch should be left alone as the source of truth for the alias file
 ├── alias-airplane-data  # Airplane information alias codes
 ├── alias-isr            # ISR files from FE-Buddy
 ├── alias-tec-routes     # TEC route information
+├── FE-Buddy_Output		 # FE-Buddy ISR and combined alias outputs, procedure changes
 ├── output               # [Optional] default directory for newly-created alias files
 ├── alias.txt            # ZLA alias template file
 ├── approach+enroute.txt # Approach and enroute alias commands for text pilots
@@ -36,18 +37,15 @@ The `main` branch should be left alone as the source of truth for the alias file
 ## How to generate a new alias file
 
 ### Making changes
-
 Adjust your FE Buddy v3 settings, or import the settings included in the directory ensuring you adjust for your local file system. The FE Buddy settings link directly to the `next` branch.
 Create a new branch from `next` and made your adjustments as required. 
 Open a pull request to merge your working branch into `next` when ready, merging after FE review.
 
 ### Updating for the next AIRAC cycle
-
 Use FE-Buddy v3, with its settings pointing at `next` or a local copy of the latest branch, to generate the combined alias file.
 Merge `next` into `main`.
 
 ### Creating a release
-
 Merge `next` into `main`, then use the latest "Combined_Alias.txt" file from FE-Buddy as the release asset.
 
 ### Automation
@@ -55,11 +53,9 @@ Merge `next` into `main`, then use the latest "Combined_Alias.txt" file from FE-
 TODO: Automate release cutting using workflows
 
 ## Prior releases
-
 All prior releases of the alias file created using this repository can be found on the [Releases page](https://github.com/ZLA-ARTCC/alias/releases).
 
 ## Legacy dlrey Instructions
-
 If you need to run [dlrey](https://github.com/zla-artcc/dlrey) locally, you'll need to use Git to clone this repo.
 
 If you're unfamiliar with Git, you may consider downloading [GitHub Desktop](https://desktop.github.com/download/). Then follow these steps.
