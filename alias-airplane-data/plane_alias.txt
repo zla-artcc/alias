@@ -1902,7 +1902,7 @@
 .PUMA .echo \nMFR: AEROSPATIALE\nMDL: CH-33 Puma\nFAA Wake: Small+\nCWT: I\nSRS: I\nADG: \nTEC: M\nENG NUM: 2\nClass: Helicopter
 .PUP .echo \nMFR: BEAGLE\nMDL: B-121 Pup\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
 .PURS .echo \nMFR: RANS\nMDL: S-11 Pursuit\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
-.PUSH .echo \nMFR: PRESCOTT\nMDL: Pusher\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
+[dot]PUSH .echo \nMFR: PRESCOTT\nMDL: Pusher\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
 .PZ01 .echo \nMFR: LIPNUR\nMDL: PZL-101 Gawron\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
 .PZ02 .echo \nMFR: PZL-OKECIE\nMDL: PZL-102 Kos\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
 .PZ04 .echo \nMFR: LIPNUR\nMDL: Gelatik\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
