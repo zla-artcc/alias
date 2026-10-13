@@ -1,0 +1,133 @@
+*************************
+*      1. GENERAL       *
+*************************
+
+.rx are you able to recieve voice?
+.resend resend your flight plan, I don't have it on file.
+.sidchart do you have the $uc($1) departure chart on board?
+.starchart do you have the $uc($1) arrival chart on board?
+.type say aircraft type.
+.equip say equipment onboard (VOR, DME, GPS, FMS, etc.)?
+.typeequip say aircraft type and equipment onboard (VOR, DME, GPS, FMS, etc.)?
+.depwx $dep wind $wind($dep), altimeter $altim($dep).
+.arrwx $arr wind $wind($arr), altimeter $altim($arr).
+.wx@ $uc($1) wind $wind($1), altimeter($1).
+.info information $uc($1) is current at $uc($2).
+.newatis Attention all aircraft, $uc($2) information $uc($1) is now current. Altimeter $altim($1).
+.vinfo verify you have information $uc($1) at $uc($2).
+.thanks thanks for flying in ZLA, we hope to see you again soon!
+.ty thanks for flying, see ya!
+.dis disregard.
+
+---DEPRECATED---
+.ai Information $uc($1) is now current
+.ai@ Information $uc($1) is now current at $uc($2)
+.aic Verify you have information $uc($1)
+---DEPRECATED---
+
+.brb Attention all aircraft, $radioname() will return shortly.
+.brbin Attention all aircraft, $radioname() will return in $1 minutes.
+.back Attention all aircraft, $radioname() is back.
+.closing Attention all aircraft, $radioname() is closing in 15 minute(s).
+.closingin Attention all aircraft, $radioname() is closing in $1 minute(s).
+.closed Attention all aircraft, $radioname() is closed. Thanks for flying!
+.closedho Attention all aircraft, $radioname() is closed. Make further requests with $radioname($1) on $freq($1).
+.closedu Attention all aircraft, $radioname() is closed. Frequency change approved, thanks for flying!
+
+*****HANDOFFS*****
+
+.ho contact $radioname($1) on $freq($1), so long.
+.hod contact departure on $freq($1), so long.
+.ho@ at $uc($1), contact $radioname($2) on $freq($2), so long.
+.hoo entering Oceanic airspace. Radar service terminated, squawk 2000. Report position to $radioname($1) on $freq($1), so long.
+.req contact $radioname($1) on $freq($1) with your request.
+.hou leaving my airspace, frequency change approved, so long.
+.hodu departure is offline. Frequency change approved, so long.
+.rem remain this frequency.
+
+.lma leaving my airspace. No further ATC available, frequency change approved, so long.
+.lmatwr leaving my airspace to the $1. Squawk VFR, frequency change approved, so long.
+.lmadelta leaving my airspace to the $1. Frequency change approved, so long.
+.lmavfr leaving my airspace. b, squawk VFR, frequency change approved, so long.
+
+.lmalax leaving my airspace. Los Angeles Center is offline. No further ATC available, frequency change approved, so long.
+.lmaoak leaving my airspace. Oakland Center is offline. No further ATC available, frequency change approved, so long.
+.lmaden leaving my airspace. Denver Center is offline. No further ATC available, frequency change approved, so long.
+.lmaslc leaving my airspace. Salt Lake City Center is offline. No further ATC available, frequency change approved, so long.
+.lmaabq leaving my airspace. Albuquerque Center is offline. No further ATC available, frequency change approved, so long.
+.lmazak entering Oceanic airspace. San Francisco Radio is offline. Squawk 2000, radar service terminated, frequency change approved, so long.
+.lmamzt leaving my airspace. Metro Mazatlan Center is offline. Radar service terminated, frequency change approved, so long.
+.lmazla leaving my airspace. Los Angeles Center is offline. No further ATC available, frequency change approved, so long.
+.lmazoa leaving my airspace. Oakland Center is offline. No further ATC available, frequency change approved, so long.
+.lmazdv leaving my airspace. Denver Center is offline. No further ATC available, frequency change approved, so long.
+.lmazlc leaving my airspace. Salt Lake City Center is offline. No further ATC available, frequency change approved, so long.
+.lmazab leaving my airspace. Albuquerque Center is offline. No further ATC available, frequency change approved, so long.
+
+*****AFV INFORMATION*****
+
+.ltx .lasttx
+.who .lasttx
+.h .lasttx
+
+*****PILOT DEVIATIONS*****
+
+.newpilot .msg $aircraft Hello, welcome to VATSIM! We're glad to have you flying with us. It seems you may be having an issue flying on the network. When you get a moment, we recommend you head to the VATSIM Pilot Resource Center (https://my.vatsim.net/learn) to learn more about flying on the network and to our website (https://laartcc.org) to find charts, or learn about local information such as our TEC routes.
+.newpilotbusy .msg $aircraft Hello, welcome to VATSIM! We're glad to have you flying with us. It seems you may be having an issue flying on the network. I'm too busy at the moment to help, so I recommend you head to the VATSIM Pilot Resource Center (https://my.vatsim.net/learn) to learn more about flying on the network and to our website (https://laartcc.org) to find charts, or learn about local information such as our TEC routes.
+.wrongcallsign .msg $aircraft Hello, it appears you are not using the correct ICAO callsign for your airline. The correct callsign should be $uc($1). When you have a moment, please log back in with the correct callsign.
+.badairlinecs .msg $aircraft Hello, it appears you are using an invalid callsign. When operating as an air carrier, you should file and connect as the 3 letter ICAO code and flight number (e.x. AAL123). When you have a moment, please log back in and file with the correct callsign.
+.badnovembercs .msg $aircraft Hello, it appears you are using an invalid general aviation callsign. Please connect and/or file using 5 letters in the alphabet if operating under an international callsign (e.x. DEHBG) or a valid November-type callsign (e.x. N12345). Formatting instructions for a valid november callsign can be found at https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/forming_nnumber
+.rwylogin .msg $aircraft Hello, it appears you have logged in while on an active runway. You may be preventing other aircraft from using the runway. Please disconnect, move your aircraft to a parking area, and reconnect. Do not slew your aircraft while still connected. Thank you.
+.twylogin .msg $aircraft Hello, it appears you have logged in while on a taxiway. You may be blocking other aircraft from moving. Please disconnect, move your aircraft to a parking area, and reconnect. Do not slew your aircraft while still connected. Thank you.
+.xplane .msg $aircraft Hello, it appears as though your simulation rate is slower than 1x. This is a known issue in X-Plane, which reduces the simulation rate whenever framerate drops below 20 fps. This causes issues for controllers attempting to merge you in with other traffic. To solve the problem, we recommend lowering your graphics settings and/or installing the free autospeed plugin (http://forums.x-plane.org/index.php?/files/file/26517-autospeed/). For now, if you are unable to maintain a normal simulation rate, please disconnect from the network. Thank you.
+.charts .msg $aircraft Charts for your airport can be found at skyvector.com/airport/$1 . We recommend having charts on board to avoid improperly flying procedures you have been assigned by ATC.
+.radiocheck *** ATTENTION *** Please help save time on frequency. Radio checks are usually unnecessary and waste valuable frequency time. Instead, listen to the frequency to ensure you can hear the controller or nearby pilots. Then, call up normally with your request (allow time for a busy controller to get back to you). If you think you have a problem, you may need to restart your pilot client. See https://vpilot.rosscarlson.dev/Documentation or https://docs.xpilot-project.org/docs/ for help.
+.laxappbrief *** ATTENTION *** Please brief the ANJLL or HLYWD arrival and the ILS 24R and ILS 25L approaches. When cleared for an approach from the ANJLL or HLYWD arrivals, the approach STARTS at CRCUS (ANJLL STAR) or SEAVU (HLYWD STAR). When you program the approach correctly, after CRCUS or SEAVU will be SKOLL (24R) or KRAIN (25L). If you see MERCE or HUNDA after CRCUS or SEAVU, you're doing it WRONG. See: https://laartcc.org/uploads/downloads/KLAX_ANJLL_HLYWD_Arrival_Briefing_Card.png and charts located at https://laartcc.org/airport/KLAX.
+.laxdepbrief *** ATTENTION *** Please properly brief your cleared departure procedure. Some LAX SIDs are hybrid departures. These include a vectored segment. At LAX, this means you will fly a specific course on departure and then WAIT for a vector from ATC. For example, on the ORCKA SID, the turn to KLIPR is an instruction by ATC and is NOT to be flown automatically. The discontinuity or vector segment in your FMC is probably there for this reason, so be sure to program it properly and include the correct runway. Check that you have programmed your ASSIGNED RUNWAY. Please carefully review charts at https://laartcc.org/airport/KLAX. Thanks for flying ZLA!
+.laxdepbriefe *** ATTENTION *** Please properly brief your cleared departure procedure. Some LAX SIDs are hybrid departures. These include a vectored segment. At LAX, this means you will fly a specific course on departure and then WAIT for a vector from ATC. This includes the TRTON, LAXX, GARDY (7L), WNNDY (7L). For example, on the TRTON SID, the turn to TRTON is an instruction by ATC and is NOT to be flown automatically. The discontinuity or vector segment in your FMC is probably there for this reason, so be sure to program it properly and include the correct runway. Check that you have programmed your ASSIGNED RUNWAY. Please carefully review charts at https://laartcc.org/airport/KLAX. Thanks for flying ZLA!
+
+.vectorsid .msg $aircraft The departure procedure on which you were cleared contains a vector segment, which specifies a heading to fly until given further instructions by ATC. It appears that instead of following the published procedure, you turned before receiving ATC instructions. In the future, please familiarize yourself with the charted procedure prior to departure. Charts can be found at https://skyvector.com, https://www.airnav.com, or https://laartcc.org. Thank you.
+.sidtransition .msg $aircraft Hello, it appears that you've flown directly from the ending of the common route on your departure to the transition fix. Please note that there are additional fixes between the ending of the common route and the transition. In the future, when programming your FMC, please ensure that you have selected the appropriate transition for your departure.
+.rightorcka .msg $aircraft After the first waypoint, the ORCKA departure procedure contains a vector segment, which specifies a heading to fly (236 from runways 25L/R or 251 from runways 24L/R) until given further instructions by ATC. These will almost always include a left turn to the KLIPR waypoint to resume the departure. It appears that you instead turned right without receiving any ATC instructions, which put you close to the Santa Monica Mountains and directly in the path of Los Angeles arrivals from the north. In the future, please familiarize yourself with the charted procedure prior to departure. You can review our article about this procedure, here: https://laartcc.org/article/left-turn-orcka. Charts can be found at https://skyvector.com, https://www.airnav.com, or https://laartcc.org. Thank you.
+.leftorcka .msg $aircraft After the first waypoint, the ORCKA departure procedure contains a vector segment, which specifies a heading to fly (236 from runways 25L/R or 251 from runways 24L/R) until given further instructions by ATC. These are called "Vector Segments" and are often displayed in the FMC as "VECTOR" or "DISCONTINUITY." You MUST leave them in place. In the future, please familiarize yourself with the charted procedure prior to departure. You can review our article about this procedure, here: https://laartcc.org/article/left-turn-orcka. Charts can be found at https://skyvector.com, https://www.airnav.com, or https://laartcc.org. Thank you.
+.righttrton .msg $aircraft After departure, the TRTON departure procedure contains a vector segment, which specifies a heading to fly (071 from runways 6L/R and 7L/R) until given further instructions by ATC. These will almost always include a right turn to the TRTON waypoint to resume the departure. It appears that you instead turned right without receiving any ATC instructions, possibly by deleting the vector or discontinuity segment, which put you close to the Hawthorn’s final approach and directly in the path of Los Angeles arrivals from the south. In the future, please familiarize yourself with the charted procedure prior to departure. You can review our article about a similar procedure that discusses vector/discontinuity segments here: https://laartcc.org/article/left-turn-orcka. Charts can be found at https://skyvector.com, https://www.airnav.com, or https://laartcc.org. Thank you.
+.roppr .msg $aircraft It appears you have not complied with the altitude restriction at ROPPR (at or below 7,000). The "climb via SID" instruction requires you to comply with all charted altitude restrictions. The restriction here is critical because at this location, arriving aircraft cross overhead at 8,000. In the future, please familiarize yourself with the charted procedure and verify that all altitude restrictions are correctly programmed in the FMS prior to departure. It is also a good idea to set the altitude selector on the autopilot to 7,000 until after ROPPR. Charts can be found at https://skyvector.com, https://www.airnav.com, or https://laartcc.org. Thank you.
+.vectorstar .msg $aircraft The arrival procedure on which you were cleared ends with a vector segment, which specifies a heading to fly until given further instructions by ATC. It appears that instead of following the published procedure, you turned before receiving ATC instructions. In the future, please familiarize yourself with the charted procedure prior to beginning the arrival. Charts can be found at https://skyvector.com, https://www.airnav.com, or https://laartcc.org. Thank you.
+.startransition .msg $aircraft Hello, it appears that you've flown directly to a fix on your arrival procedure that is a part of the common routing. Please note that the arrival you are flying has published transitions. If you were routed via one by ATC or as part of your original filed flight plan, be sure to select the appropriate arrival transition in your FMC.
+.apptransition .msg $aircraft Hello, it appears that you've flown directly to a fix on your approach procedure without first flying the assigned transition. Be sure to select the appropriate arrival transition in your FMC going forward.
+.dcthunda .msg $aircraft It appears as though you have flown direct to HUNDA after passing CRCUS (if you are on the ANJLL arrival) or SEAVU (if you are on the HLYWD or SEAVU arrival). Please note that after being cleared for an approach from either of these arrivals, you should select and fly the appropriate transition onto the approach. Both CRCUS and SEAVU should be listed as approach transitions in the FMC of the aircraft you are flying. A helpful arrival helper card can be found at https://laartcc.org/uploads/downloads/KLAX_ANJLL_HLYWD_Arrival_Briefing_Card.png. Charts can be found at https://skyvector.com, https://www.airnav.com, or https://laartcc.org. Thank you.
+.dctmerce .msg $aircraft It appears as though you have flown direct to MERCE after passing CRCUS (if you are on the ANJLL arrival) or SEAVU (if you are on the HLYWD or SEAVU arrival). Please note that after being cleared for an approach from either of these arrivals, you should select and fly the appropriate transition onto the approach. Both CRCUS and SEAVU should be listed as approach transitions in the FMC of the aircraft you are flying. A helpful arrival helper card can be found at https://laartcc.org/uploads/downloads/KLAX_ANJLL_HLYWD_Arrival_Briefing_Card.png. Charts can be found at https://skyvector.com, https://www.airnav.com, or https://laartcc.org. Thank you.
+.dctbouby .msg $aircraft It appears as though you have flown direct to BOUBY after passing CRCUS (if you are on the ANJLL arrival) or SEAVU (if you are on the HLYWD or SEAVU arrival). Please note that after being cleared for an approach from either of these arrivals, you should select and fly the appropriate transition onto the approach. Both CRCUS and SEAVU should be listed as approach transitions in the FMC of the aircraft you are flying. A helpful arrival helper card can be found at https://laartcc.org/uploads/downloads/KLAX_ANJLL_HLYWD_Arrival_Briefing_Card.png. Charts can be found at https://skyvector.com, https://www.airnav.com, or https://laartcc.org. Thank you.
+.stepping Please be mindful of stepping on other aircraft. When the frequency is busy everyone is delayed when transmissions need to be repeated. Please listen for your callsign and respond in a timely manner. If you hear a transmission for another aircraft, wait until there is sufficient frequency time for you to make a request. If you are on the ground or requesting a clearance you can expect delays. Multiple attempts to request a clearance only delay everyone further. Thank you.
+.berbn .msg $aircraft Hello, it appears you have either gone direct HUXAR or have not selected the BERBN transition on the ILS Y 26L approach. Please note that after being cleared for an approach from BERBN, you must select and fly the appropriate transition onto the approach. BERBN should be listed as the ONLY transition listed in the FMC for the ILS Y 26L approach. The following reference are quick animated tutorials on how to successfully load the transition. | Boeing: https://gyazo.com/f5c8dff0d8968763b77e4e5b5e2f2bb2 | Removing the vector segment (ONLY AFTER CLEARED FOR THE APPROACH): https://gyazo.com/e10eb60911f009dafddb0291a26b98df | Airbus: https://gyazo.com/c82ddc81f1d57857be9b6265e4035be8 
+.super .msg $aircraft Hello, it appears you have connected to the network in an A380 or B748 at an airport that is not capable of supporting it. Unfortunately you will not be able to operate that aircraft on your chosen route. Please either change your type of aircraft and refile your flight plan, or choose a supported airport with a new flight plan. A list of some compatible airports can be found here: https://blog.vatsim.net/know-the-a380/
+.toobig .msg $aircraft Hello, it appears you have connected to the network at a parking spot that is not suitable for your aircraft size. Next time you login with that aircraft, please ensure it's at a gate that fits your entire aircraft within the safety area markings so as to not encroach on other parking spots.
+.badgate Attention $aircraft, the gate you selected is not appropriate for a A380/B747-800 due to the physical size of the aircraft. Next time you login with a A380/B747-800 please utilize the gates 148, 150, 152, 154, 156, or the West Remote gates
+.laxaltbust .msg $aircraft Hello. It appears you have climbed past your assiged initial altitude. Please note that when LAX is in west operations, aircraft on SIDs are assigned "climb via SID except maintain 5,000." This means you follow the crossing restirctions on the SID and stop at 5,000. Climbing higher causes conflicts with other traffic. Please review charts at https://skyvector.com, https://airnav.com, or https://laartc.org
+
+*****WALLOP SHORTCUTS*****
+.disruption .wallop $aircraft is creating a disruption and being disrespectful on frequency.
+.nordo .wallop $aircraft is either AFK or ignoring instructions.
+.ignoring .wallop $aircraft is either AFK or ignoring instructions.
+.ignoringsince .wallop $aircraft is not responding to contact me requests. First attempt at $1 zulu
+.nordosince  .wallop $aircraft is not responding to contact me requests. First attempt at $1 zulu
+.taxiway .wallop $aircraft has connected on an active runway and/or taxiway.
+.runway .wallop $aircraft has connected on an active runway and/or taxiway.
+.airborne .wallop $aircraft connected airborne and is creating a disruption.
+.paused .wallop $aircraft has paused and are creating a traffic disruption
+.nordoto .wallop $aircraft taxied and departed from a controlled field without contact, is airborne and not responding to contact me requests.
+.paused .wallop $aircraft has paused and are creating a traffic disruption.
+.comply .wallop $aircraft is unable to comply with ATC instructions and appears unfamiliar with their aircraft.
+.nocomply .wallop $aircraft is unable to comply with ATC instructions and appears unfamiliar with their aircraft.
+.unfamiliar .wallop $aircraft is not familiar with the airspace or airport procedures.
+.nobasic .wallop $aircraft is unable to comply with basic heading/speed/altitude clearances.
+.badwinds .wallop $aircraft is not using the correct real-world winds and is creating a disruption.
+
+*****EVENT ALERTS*****
+.event *** ATTENTION *** Tonight's event may create delays for aircraft. Thank you for your patience. 
+.eventalert *** ATTENTION *** Tonight's event may create delays for aircraft. Thank you for your patience.
+.fno *** ATTENTION *** Tonight's event may create delays for aircraft. Thank you for your patience.
+
+*****FLIGHT PLAN RELEASE*****
+.fpr .msg fp $aircraft release
+.fprelease .msg fp $aircraft release
+.fprls .msg fp $aircraft release

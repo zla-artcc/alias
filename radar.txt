@@ -1,0 +1,183 @@
+*************************
+*       5. RADAR        *
+*************************
+
+*****RADAR IDENTIFICATION*****
+
+.rc radar contact
+.rccm radar contact, climb and maintain $uc($1)
+.rcsa radar contact, say altitude
+.rcsalt radar contact, say altitude
+.rcvfr radar contact, maintain VFR
+.rcl radar contact lost
+
+.rcp radar contact $dist($1) miles $bear($1) of $uc($1)
+.rcpcm radar contact $dist($1) miles $bear($1) of $uc($1), climb and maintain $2
+.rcpsa  radar contact $dist($1) miles $bear($1) of $uc($1), $arr altimeter $altim($arr), say altitude
+.rcpsalt radar contact $dist($1) miles $bear($1) of $uc($1), $arr altimeter $altim($arr), say altitude
+.rcpsfl radar contact $dist($1) miles $bear($1) of $uc($1), say flight level
+
+.sq squawk $squawk
+.vsq verify squawking $squawk
+.sqalt squawk $squawk, and if your altitude reporting equipment is turned off, squawk altitude
+.sqrst reset transponder, squawk $squawk
+.wsqrst you're not on the correct transponder code, reset transponder, squawk $squawk
+.dsqrst looks like I got another aircraft on a duplicate code; reset transponder, squawk $squawk
+.sqid squawk $squawk and ident
+.norm squawk normal
+.stby squawk standby
+
+*****VISUAL SEPARATION*****
+
+.sight do you have it in sight?
+.vissep maintain visual separation
+.vissep2 traffic has you in sight and will maintain visual separation
+.nofac traffic no factor
+
+*****VECTORING*****
+
+.tn turn $1 heading $2
+.tl turn left heading $1
+.tr turn right heading $1
+.tld turn left direct $uc($1)
+.trd turn right direct $uc($1)
+.fh fly heading $1
+.fph fly present heading
+.frh fly runway heading,
+.360 make a $1 360
+.270 make a $1 270
+.dpt depart $uc($1) heading $2
+.comply comply with restrictions
+.re reaching
+.aftdm after passing $uc($1) descend and maintain $2
+.aftpdct after passing $uc($1) proceed direct $uc($2)
+.aftcdct after passing $uc($1) cleared direct $uc($2)
+
+.dct turn $1 heading $2, when able proceed direct $uc($3)
+.dctdp turn $1 heading $2, when able proceed direct $uc($3), resume the $uc($4) departure
+.dctnav turn $1 heading $2, when able proceed direct $uc($3), resume own navigation
+.cdctdp cleared direct $uc($1), resume the $uc($2) departure
+.cdctcv cleared direct $uc($1), then climb via the $uc($2) departure
+.cdctxcv cleared direct $uc($1), cross $uc($1) at or $2 $3, climb via the $uc($4) departure 
+.cdctnav cleared direct $uc($1), resume own navigation
+.pdct proceed direct $uc($1)
+.cdct cleared direct $uc($1)
+.short if you’d like a little shortcut, cleared direct $uc($1)
+.shortq would you like a shortcut direct $uc($1)?
+
+*****ALTITIDE ASSIGNMENT*****
+
+.sa say altitude
+.sf say flight level
+.saf say altitude or flight level
+
+.cm climb and maintain $uc($1)
+.dm descend and maintain $uc($1)
+.dn descend now to $1,
+.mb maintain block $1 through $2
+.dpd descend at pilot's discretion, maintain $uc($1)
+
+.x@ cross $uc($1) at $2
+.x cross $uc($1) at $2
+.x@a cross $uc($1) at or above $2
+.xa cross $uc($1) at or above $2
+.x@m cross $uc($1) at and maintain $2
+.xm cross $uc($1) at and maintain $2
+
+.cv climb via SID 
+.cvxm climb via SID except maintain $1
+.cvxa climb via SID except cross $uc($1) at or above $2
+.cvxb climb via SID except cross $uc($1) at or below $2
+.dva descend via the $uc($1) arrival. The $uc($2) altimeter $altim($2).
+.dvar descend via the $uc($1) arrival, runway $uc($2) transition. The $uc($3) altimeter $altim($3).
+
+*****SPEED ASSIGNMENT*****
+
+.si say airspeed
+.sm say Mach number
+.is increase speed to $1 $2
+.rs reduce speed to $1 $2
+.xd do not exceed $1 $2
+.ms maintain $1 $2
+.mfs maintain maximum forward speed
+.sps maintain slowest practical speed
+.ns resume normal speed
+.ps resume published speed
+
+*****APPROACHES*****
+
+.alt $uc($1) altimeter $altim($1)
+.vmc $arr reporting VFR conditions, wind $wind($arr), altimeter $altim($arr),
+.imc $arr reporting wind $wind($arr), altimeter $altim($arr),
+.vmco no weather available for $arr, but $uc($1) reporting VFR conditions, wind $wind($1), altimeter $altim($1),
+.imco no weather available for $arr, but $uc($1) reporting wind $wind($1), altimeter $altim($1),
+.apref do you prefer visual or ILS approach?
+.apreq when able say approach request
+.xils expect ILS runway $uc($1) approach
+.exloc expect Localizer runway $uc($1)
+.xins expect $1 $2 $3 approach
+.xvis expect visual approach
+.xvisr expect visual approach runway $uc($1)
+.xvvisr expect vectors for visual approach runway $uc($1)
+.xvins expect vectors for $1 $2 $3 approach
+.vins vector for $1 $2 $3 approach
+.vpins vector for $1 $2 $3 practice approach
+.vvis vector for visual approach to $arr
+.vvisr vector for visual approach runway $uc($1)
+.vf vector to final approach course
+.vd vector for descent
+.vt vector for traffic
+.vac vector across final
+.vac2 this vector will take you slightly across final;
+
+.ra $arr is at $oclock($arr) and $dist($arr) miles, report in sight
+.ra2 $uc($1) is at $oclock($1) and $dist($1) miles,
+.ra3 $arr is at $oclock($arr) and $dist($arr) miles, report $arr in sight
+.roll on rollout $arr will be at $1 and $2 miles, report in sight
+.cvis cleared visual approach to $arr,
+.cvisr cleared visual approach runway $uc($1)
+.flw follow that traffic to the runway,
+.aftc after $uc($1) cleared $2 $3 $4 approach
+
+.iloc intercept the runway $uc($1) localizer
+.irad intercept $uc($1) R-$2
+.iair intercept $uc($1)
+.est report established
+.xloc you have crossed the final approach course, turn $1 heading $2, and return to the localizer
+.canapp cancel approach clearance,
+
+.ptac $dist($1) miles from $uc($1), turn $2 heading $3, maintain $4 until established on the localizer, cleared $5 $6 $7 approach
+.phac $dist($1) miles from $uc($1), fly heading $2, maintain $3 until established on the localizer, cleared $4 $5 $6 approach
+.ptacf $dist($1) miles from $uc($1), turn $2 heading $3, maintain $4 until established on the final approach course, cleared $5 $6 $7 approach
+.phacaz $dist($1) miles from $uc($1), fly heading $2, maintain $3 until established on the final approach course, cleared $4 $5 $6 approach
+.pac $dist($1) miles from $uc($1), cross $uc($1) at or above $2, cleared $3 $4 $5 approach
+.ac cross $uc($1) at or above $2, cleared $3 $4 $5 approach
+.iafc cleared $1 $2 $3 approach
+
+.paptac $dist($1) miles from $uc($1), turn $2 heading $3, maintain $4 until established on the localizer, maintain VFR, $5 $6 $7 practice approach approved, no separation services provided
+.paphac $dist($1) miles from $uc($1), fly heading $2, maintain $3 until established on the localizer, maintain VFR, $4 $5 $6 practice approach approved, no separation services provided
+.paptacf $dist($1) miles from $uc($1), turn $2 heading $3, maintain $4 until established on the final approach course, maintain VFR, $5 $6 $7 practice approach approved, no separation services provided
+.paphacf $dist($1) miles from $uc($1), fly heading $2, maintain $3 until established on the final approach course, maintain VFR, $4 $5 $6 practice approach approved, no separation services provided
+
+*****NON-TOWERED AIRPORTS*****
+
+.rbcrlsd readback correct, released for departure; time now $time, clearance void if not off by $ftime($1); change to advisory frequency approved, report airborne this frequency
+.rbcrlsdwx readback correct; $dep altimeter $altim($dep), winds $wind($dep); released for departure; time now $time, clearance void if not off by $ftime($1); change to advisory frequency approved, report airborne this frequency
+.rbchld readback correct, hold for release, advise number $1 for departure
+.rbchldwx readback correct, $dep altimeter $altim($dep), winds $wind($dep); hold for release, advise number $1 for departure 
+.rlsd released for departure; time now $time, clearance void if not off by $ftime($1); change to advisory frequency approved, report airborne this frequency
+.hlddly hold for release, expect $1 minute departure delay
+
+.notfc no traffic observed between you and the $arr airport, 
+.chad change to advisory frequency approved, so long
+.chadins change to advisory frequency approved, report IFR cancellation or missed approach this frequency
+.chadvis change to advisory frequency approved, report IFR cancellation this frequency
+.chadins2 change to advisory frequency approved, report IFR cancellation this frequency; in the event of a missed approach, contact $radioname($1) $freq($1) in the climbout
+.chadvfr proceed to the airport; squawk 1200, change to advisory frequency approved, so long
+.ifrair IFR cancellation received, squawk 1200, maintain VFR, change to advisory frequency approved, so long
+.ifrgnd IFR cancellation received, thanks for flying
+.1200 squawk 1200, radar service terminated, frequency change approved, so long
+.7700 squawk mayday on 7700
+.sfra squawk 1201, proceed via the Los Angeles Special Flight Rules Area, radar service terminated, frequency change approved; report once clear of Bravo on the other side for further flight following
+.rst radar service terminated
+.fca frequency change approved
