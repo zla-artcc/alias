@@ -4,6 +4,7 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
 
 ## ZLA
 - BUR
+  - [ALTERNATE MINIMUMS](https://aeronav.faa.gov/d-tpp/2610/compare_pdf/SW3ALT_cmp.pdf)
   - [ILS Y OR LOC Y RWY 08](https://aeronav.faa.gov/d-tpp/2610/compare_pdf/00067IYLY8_cmp.pdf)
 - NID
   - Deleted:

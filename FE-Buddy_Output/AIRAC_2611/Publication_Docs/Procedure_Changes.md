@@ -17,9 +17,13 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
     - [JULIAN ONE](https://aeronav.faa.gov/d-tpp/2611/00903JULIAN.PDF)
     - [SWOLF ONE](https://aeronav.faa.gov/d-tpp/2611/00903SWOLF.PDF)
 - BUR
-  - [ILS Y OR LOC Y RWY 08](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00067IYLY8_cmp.pdf)
-  - [VOR RWY 08](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00067V8_cmp.pdf)
-  - [AIRPORT DIAGRAM](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00067AD_cmp.pdf)
+  - Changed:
+    - [ALTERNATE MINIMUMS](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/SW3ALT_cmp.pdf)
+    - [ILS Y OR LOC Y RWY 08](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00067IYLY8_cmp.pdf)
+    - [VOR RWY 08](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00067V8_cmp.pdf)
+    - [AIRPORT DIAGRAM](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00067AD_cmp.pdf)
+  - Deleted:
+    - [HOT SPOT](https://aeronav.faa.gov/d-tpp/2610/SW3HOTSPOT.PDF)
 - ONT
   - [KARLB THREE (RNAV)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00965KARLB_cmp.pdf)
 - RIV
@@ -37,6 +41,9 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [RNAV (GPS) RWY 26R](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/05599R26R_cmp.pdf)
 - FUL
   - [AIRPORT DIAGRAM](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/05136AD_cmp.pdf)
+- HND
+  - [TAKEOFF MINIMUMS](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/SW4TO_cmp.pdf)
+    - Also serves: TNX, 40G
 - LGB
   - [ILS OR LOC RWY 30](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00236IL30_cmp.pdf)
   - [RNAV (RNP) RWY 12](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00236RR12_cmp.pdf)
@@ -86,6 +93,8 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
 - APV
   - [RNAV (GPS) RWY 18](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/05822R18_cmp.pdf)
   - [EXCON ONE (OBSTACLE) (RNAV)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/05822EXCON_cmp.pdf)
+- DLO
+  - [TAKEOFF MINIMUMS](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/SW3TO_cmp.pdf)
 - HMT
   - [RNAV (GPS) RWY 05](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/06678R5_cmp.pdf)
   - [AIRPORT DIAGRAM](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/06678AD_cmp.pdf)
@@ -97,6 +106,8 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
 - SGU
   - [JITKA TWO (OBSTACLE)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/10546JITKA_cmp.pdf)
 - TNX
+  - [TAKEOFF MINIMUMS](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/SW4TO_cmp.pdf)
+    - Also serves: HND, 40G
   - [ILS OR LOC RWY 15](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/03188IL15_cmp.pdf)
   - [ILS OR LOC RWY 33](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/03188IL33_cmp.pdf)
   - [RNAV (GPS) RWY 15](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/03188R15_cmp.pdf)
@@ -114,6 +125,8 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [TONOPAH FOUR (RNAV)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/03188TONOPAH_cmp.pdf)
 - 40G
   - Deleted:
+    - [TAKEOFF MINIMUMS](https://aeronav.faa.gov/d-tpp/2610/SW4TO.PDF)
+      - Also serves: HND, TNX
     - [RNAV (GPS) RWY 01](https://aeronav.faa.gov/d-tpp/2610/09240R1.PDF)
     - [RNAV (GPS) RWY 19](https://aeronav.faa.gov/d-tpp/2610/09240R19.PDF)
 - F70
