@@ -1,0 +1,465 @@
+{
+  "format": "FE-Buddy.UserConfig",
+  "formatVersion": 1,
+  "configVersion": 2,
+  "appVersion": "3.0.0-beta.10",
+  "exportedUtc": "2026-10-13T23:25:57Z",
+  "settings": {
+    "General": {
+      "AddFeBuddyOutputFolder": "Y",
+      "DefaultOutputDirectory": "%DOCUMENTS%\\Flight Sim\\Tools\\alias",
+      "PrettyPrintGeojson": "N"
+    },
+    "Services": {
+      "AiracService": {
+        "AiracCycleId": "2610",
+        "Airports": {
+          "Area": "Roi",
+          "CrcDefaultsFiles": "",
+          "CrcDefaultsScope": "None",
+          "CrcEramPropertyDefaults": {
+            "Airports_Symbol": {
+              "bcg": "",
+              "filters": "",
+              "size": "",
+              "style": ""
+            },
+            "Airports_Text": {
+              "bcg": "",
+              "filters": "",
+              "opaque": "",
+              "size": "",
+              "underline": "",
+              "xOffset": "",
+              "yOffset": ""
+            },
+            "Runways_Line": {
+              "bcg": "",
+              "filters": "",
+              "style": "",
+              "thickness": ""
+            }
+          },
+          "EmitAirportSymbols": "Y",
+          "EmitAirportText": "Y",
+          "EmitRunwayLines": "Y",
+          "FebProperties": "",
+          "IncludeFebCustomProperties": "N",
+          "Roi": {
+            "OverrideCorners": {
+              "NeLat": "",
+              "NeLon": "",
+              "SwLat": "",
+              "SwLon": ""
+            },
+            "OverrideDefaultRoi": "N"
+          }
+        },
+        "Airways": {
+          "AliasRoiScope": "RoiAirways",
+          "Area": "Roi",
+          "BothDesignations": "",
+          "BufferAirwayWaypoints": "Y",
+          "CrcDefaultsFiles": "",
+          "CrcDefaultsScope": "None",
+          "CrcEramPropertyDefaults": {
+            "High_Line": {
+              "bcg": "",
+              "filters": "",
+              "style": "",
+              "thickness": ""
+            },
+            "High_Symbol": {
+              "bcg": "",
+              "filters": "",
+              "size": "",
+              "style": ""
+            },
+            "High_Text": {
+              "bcg": "",
+              "filters": "",
+              "opaque": "",
+              "size": "",
+              "underline": "",
+              "xOffset": "",
+              "yOffset": ""
+            },
+            "Low_Line": {
+              "bcg": "",
+              "filters": "",
+              "style": "",
+              "thickness": ""
+            },
+            "Low_Symbol": {
+              "bcg": "",
+              "filters": "",
+              "size": "",
+              "style": ""
+            },
+            "Low_Text": {
+              "bcg": "",
+              "filters": "",
+              "opaque": "",
+              "size": "",
+              "underline": "",
+              "xOffset": "",
+              "yOffset": ""
+            },
+            "Other_Line": {
+              "bcg": "",
+              "filters": "",
+              "style": "",
+              "thickness": ""
+            },
+            "Other_Symbol": {
+              "bcg": "",
+              "filters": "",
+              "size": "",
+              "style": ""
+            },
+            "Other_Text": {
+              "bcg": "",
+              "filters": "",
+              "opaque": "",
+              "size": "",
+              "underline": "",
+              "xOffset": "",
+              "yOffset": ""
+            }
+          },
+          "EmitLines": "Y",
+          "EmitSymbols": "Y",
+          "EmitText": "Y",
+          "ExcludedDesignations": "",
+          "FebProperties": "",
+          "FixBufferNm": "2.5",
+          "HighDesignations": "J,Q",
+          "IncludeFebCustomProperties": "N",
+          "LowDesignations": "T,V",
+          "NavaidBufferNm": "5",
+          "OutputBy": "HighLow",
+          "Roi": {
+            "OverrideCorners": {
+              "NeLat": "",
+              "NeLon": "",
+              "SwLat": "",
+              "SwLon": ""
+            },
+            "OverrideDefaultRoi": "N"
+          },
+          "SplitAtAntimeridian": "Y"
+        },
+        "Arrivals": {
+          "Amendment": {
+            "Filter": "None",
+            "OnOrAfter": "",
+            "WithinCycles": "1",
+            "WithinDays": "30"
+          },
+          "Area": "Artccs",
+          "ArtccFilter": "ZAB,ZDV,ZLA,ZLC,ZOA",
+          "CrcDefaultsFiles": "",
+          "CrcDefaultsScope": "None",
+          "CrcEramPropertyDefaults": {
+            "Arrivals_Line": {
+              "bcg": "",
+              "filters": "",
+              "style": "",
+              "thickness": ""
+            },
+            "Arrivals_Symbol": {
+              "bcg": "",
+              "filters": "",
+              "size": "",
+              "style": ""
+            },
+            "Arrivals_Text": {
+              "bcg": "",
+              "filters": "",
+              "opaque": "",
+              "size": "",
+              "underline": "",
+              "xOffset": "",
+              "yOffset": ""
+            }
+          },
+          "EmitLines": "Y",
+          "EmitSymbols": "Y",
+          "EmitText": "Y",
+          "FebProperties": "",
+          "IncludeFebCustomProperties": "N",
+          "Roi": {
+            "Mode": "Waypoint",
+            "OverrideCorners": {
+              "NeLat": "",
+              "NeLon": "",
+              "SwLat": "",
+              "SwLon": ""
+            },
+            "OverrideDefaultRoi": "N"
+          }
+        },
+        "ConcatenateAliases": {
+          "CombineAliasFiles": "Y",
+          "Sources": {
+            "1": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/alias.txt"
+            },
+            "10": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/dva.txt"
+            },
+            "11": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/hours.txt"
+            },
+            "12": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/alias-airplane-data/plane_alias.txt"
+            },
+            "13": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/cwt.txt"
+            },
+            "14": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/overrides.txt"
+            },
+            "15": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/history.txt"
+            },
+            "2": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/general.txt"
+            },
+            "3": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/delivery.txt"
+            },
+            "4": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/ground\u002Blocal.txt"
+            },
+            "5": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/radar.txt"
+            },
+            "6": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/approach\u002Benroute.txt"
+            },
+            "7": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/utility.txt"
+            },
+            "8": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/helper.txt"
+            },
+            "9": {
+              "Url": "https://github.com/zla-artcc/alias/raw/refs/heads/next/alias-tec-routes/tec_routes.txt"
+            }
+          }
+        },
+        "CoordinatePrecision": "6",
+        "DefaultRoi": {
+          "Corners": {
+            "NeLat": "39.7324",
+            "NeLon": "-108.4267",
+            "SwLat": "29.5898",
+            "SwLon": "-124.2782"
+          },
+          "FilterByRoi": "Y"
+        },
+        "Departures": {
+          "Amendment": {
+            "Filter": "None",
+            "OnOrAfter": "",
+            "WithinCycles": "1",
+            "WithinDays": "30"
+          },
+          "Area": "Artccs",
+          "ArtccFilter": "ZAB,ZDV,ZLA,ZLC,ZOA",
+          "CrcDefaultsFiles": "",
+          "CrcDefaultsScope": "None",
+          "CrcEramPropertyDefaults": {
+            "Departures_Line": {
+              "bcg": "",
+              "filters": "",
+              "style": "",
+              "thickness": ""
+            },
+            "Departures_Symbol": {
+              "bcg": "",
+              "filters": "",
+              "size": "",
+              "style": ""
+            },
+            "Departures_Text": {
+              "bcg": "",
+              "filters": "",
+              "opaque": "",
+              "size": "",
+              "underline": "",
+              "xOffset": "",
+              "yOffset": ""
+            }
+          },
+          "EmitLines": "Y",
+          "EmitSymbols": "Y",
+          "EmitText": "Y",
+          "FebProperties": "",
+          "IncludeFebCustomProperties": "N",
+          "IncludeObstacleDepartures": "Y",
+          "Roi": {
+            "Mode": "Waypoint",
+            "OverrideCorners": {
+              "NeLat": "",
+              "NeLon": "",
+              "SwLat": "",
+              "SwLon": ""
+            },
+            "OverrideDefaultRoi": "N"
+          }
+        },
+        "DuplicateAliases": {
+          "Choices": "Faa_Chart_Recall.txt|.edwAPDc|1|Keep|\nFaa_Chart_Recall.txt|.edwAPDc|2|Ignore|\nFaa_Chart_Recall.txt|.edwAPDc|3|Ignore|",
+          "Review": "Y"
+        },
+        "Outputs": {
+          "Airports": {
+            "Alias": "Y",
+            "Geojson": "N"
+          },
+          "Airways": {
+            "Alias": "Y",
+            "Geojson": "N"
+          },
+          "Arrivals": {
+            "Alias": "Y",
+            "Geojson": "N"
+          },
+          "ArtccBoundaries": {
+            "Geojson": "N"
+          },
+          "Departures": {
+            "Alias": "Y",
+            "Geojson": "N"
+          },
+          "Fixes": {
+            "Geojson": "N"
+          },
+          "Navaids": {
+            "Alias": "Y",
+            "Geojson": "N"
+          },
+          "Procedures": {
+            "Alias": "Y",
+            "ProcedureChanges": "Y",
+            "ProceduresJson": "N"
+          },
+          "Telephony": {
+            "Alias": "Y"
+          },
+          "WxStations": {
+            "Geojson": "N"
+          }
+        },
+        "Procedures": {
+          "AirportProcedures": "",
+          "Airports": "SFO,OAK,SJC,MRY,PRB,SLC,DEN,ASE,EGE,PHX,SDL,TUS,CMR",
+          "Area": "Artccs",
+          "ChartTypes": "IAP,STR,DP,ODP,DAU,APD,MIN,HOT,LAH",
+          "CrcDefaultsFiles": "",
+          "CrcDefaultsScope": "None",
+          "Facilities": "ZLA",
+          "FebProperties": "",
+          "IncludeFebCustomProperties": "N",
+          "JsonFields": "icaoId,airportName,responsibleArtcc,airspaceClass,chartType,chartUrl,change,compareUrl",
+          "Procedures": "",
+          "Roi": {
+            "OverrideCorners": {
+              "NeLat": "",
+              "NeLon": "",
+              "SwLat": "",
+              "SwLon": ""
+            },
+            "OverrideDefaultRoi": "N"
+          }
+        },
+        "SelectedSubServices": "Airports,Airways,Arrivals,Departures,Navaids,Procedures,Telephony",
+        "Telephony": {
+          "CrcDefaultsFiles": "",
+          "CrcDefaultsScope": "None",
+          "FebProperties": "",
+          "IncludeFebCustomProperties": "N",
+          "IncludeVatsimRadarVirtualAirlines": "Y"
+        },
+        "UserArtccId": "ZLA"
+      },
+      "FileConversions": {
+        "DatToGeojson": {
+          "CrcEramPropertyDefaults": {
+            "VideoMap_Line": {
+              "bcg": "",
+              "filters": "",
+              "style": "",
+              "thickness": ""
+            }
+          },
+          "CroppingDistance": "",
+          "IncludeCrcLineDefaults": "N",
+          "SourceType": "Folder"
+        },
+        "EramToGeojson": {
+          "CrcEramPropertyDefaults": {
+            "GeoMap_Line": {
+              "bcg": "",
+              "filters": "",
+              "style": "",
+              "thickness": ""
+            },
+            "GeoMap_Symbol": {
+              "bcg": "10",
+              "filters": "",
+              "size": "",
+              "style": ""
+            },
+            "GeoMap_Text": {
+              "bcg": "",
+              "filters": "",
+              "opaque": "",
+              "size": "",
+              "underline": "",
+              "xOffset": "",
+              "yOffset": ""
+            }
+          },
+          "DefaultsSource": "Xml",
+          "FebProperties": "",
+          "IncludeCrcLineDefaults": "N",
+          "IncludeCrcSymbolDefaults": "N",
+          "IncludeCrcTextDefaults": "N",
+          "IncludeFebCustomProperties": "N",
+          "OutputLayout": "RawPlus",
+          "SourceFolder": "%DESKTOP%\\ZLA",
+          "SourceType": "Folder"
+        },
+        "SctToGeojson": {
+          "CrcEramPropertyDefaults": {
+            "SectorFile_Line": {
+              "bcg": "",
+              "filters": "",
+              "style": "",
+              "thickness": ""
+            },
+            "SectorFile_Text": {
+              "bcg": "",
+              "filters": "",
+              "opaque": "",
+              "size": "",
+              "underline": "",
+              "xOffset": "",
+              "yOffset": ""
+            }
+          },
+          "IncludeCrcLineDefaults": "N",
+          "IncludeCrcTextDefaults": "N",
+          "SourceType": "Folder"
+        }
+      },
+      "MapService": {
+        "AiracLayers": "ArtccBoundaries,ToweredAirports,Navaids",
+        "Home": "35.34728,-117.39357,5.78"
+      }
+    }
+  }
+}

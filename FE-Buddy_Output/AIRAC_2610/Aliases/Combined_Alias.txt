@@ -61224,6 +61224,9 @@ CRC Transition Team - Matthew Kramer, Max Gorodetzki, Nicholas Christopher, Andr
 ~~~~~~~~~~~~~~T A B L E   O F   C O N T E N T S~~~~~~~~~~~~~
 
 Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
+Lines starting with a [.] period indicate an alias command and the output of that command. For exmaple:
+.kramerwashere .msg 845421_OBS Hey Kramer, how are you?
+When you type ".kramerwashere" and hit enter in the chat window, it will send the ".msg" command as-written. 
 
 0. ZLA_ISR
 FE-Buddy Provided ISR Commands listed above. Refer to the ISR Guide for details on command syntax.
@@ -61261,11 +61264,10 @@ FE-Buddy Provided ISR Commands listed above. Refer to the ISR Guide for details 
 	*INFORMATION LOOKUP
 	*PHRASEOLOGY HELPER
 	*NAVDATA TOGGLING
-8. TEC ROUTES
+8. ZLA CUSTOM ISR
+    *PHRASEOLOGY HELPER
 	*TEC ROUTES BY DESIGNATOR
 	*TEC ROUTES BY AIRPORT PAIR AND AIRCRAFT TYPE
-9. ZLA CUSTOM ISR
-        *PHRASEOLOGY HELPER
 	*DIVERSE VECTOR AREAS
 	*TOWER HOURS OF OPERATION
 	*AIRCRAFT TYPE IDENTIFICATION
@@ -61852,7 +61854,7 @@ FE-Buddy Provided ISR Commands listed above. Refer to the ISR Guide for details 
 BUR:
 .dvthrne Descend via the THRNE arrival, $arr altimeter $altim($arr)
 .dvjanny Descend via the JANNY arrival, $arr altimeter $altim($arr)
-.dvrokkr Descend via the ROKKR arrival, $arr altimeter $altim($arr)
+.dvrokkr Descend via the ROKKR arrival, except maintain 11,000. $arr altimeter $altim($arr)
 .baill cross BAILL at and maintain 11,000, $arr altimeter $altim($arr)
 .boget cross BOGET at and maintain 8,000, $arr altimeter $altim($arr)
 .canyn cross CANYN at and maintain 9,000, $arr altimeter $altim($arr)
@@ -62017,6 +62019,10 @@ ZAB:
 
 .fourstacks .ff V-MO V-SF V-SG40 V-SG30 V-FS
 .freeway .ff V-MS V-DL V-AS V-IL
+
+*************************
+*   8. ZLA CUSTOM ISR   *
+*************************
 
 *****PHRASEOLOGY HELPER*****
 
@@ -80822,7 +80828,7 @@ ISR 2610
 -- Restructured git repository to more easily work with new FE-Buddy features
 -- Added dummy commands to the bottom of this file for computer readability
 -- Added section titles to each individual section document, removed from main alias file
-
+-- Split base alias file into multiple smaller files
 
 .commmmmmmmmannnd needed a fake command to trick FEB
 .coommmmmaaannndd2 needed a second fake command
