@@ -50,7 +50,7 @@
 BUR:
 .dvthrne Descend via the THRNE arrival, $arr altimeter $altim($arr)
 .dvjanny Descend via the JANNY arrival, $arr altimeter $altim($arr)
-.dvrokkr Descend via the ROKKR arrival, $arr altimeter $altim($arr)
+.dvrokkr Descend via the ROKKR arrival, except maintain 11,000. $arr altimeter $altim($arr)
 .baill cross BAILL at and maintain 11,000, $arr altimeter $altim($arr)
 .boget cross BOGET at and maintain 8,000, $arr altimeter $altim($arr)
 .canyn cross CANYN at and maintain 9,000, $arr altimeter $altim($arr)

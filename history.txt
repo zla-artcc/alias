@@ -554,7 +554,7 @@ ISR 2610
 -- Restructured git repository to more easily work with new FE-Buddy features
 -- Added dummy commands to the bottom of this file for computer readability
 -- Added section titles to each individual section document, removed from main alias file
-
+-- Split base alias file into multiple smaller files
 
 .commmmmmmmmannnd needed a fake command to trick FEB
 .coommmmmaaannndd2 needed a second fake command
