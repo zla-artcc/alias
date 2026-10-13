@@ -20,6 +20,9 @@ CRC Transition Team - Matthew Kramer, Max Gorodetzki, Nicholas Christopher, Andr
 ~~~~~~~~~~~~~~T A B L E   O F   C O N T E N T S~~~~~~~~~~~~~
 
 Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
+Lines starting with a [.] period indicate an alias command and the output of that command. For exmaple:
+.kramerwashere .msg 845421_OBS Hey Kramer, how are you?
+When you type ".kramerwashere" and hit enter in the chat window, it will send the ".msg" command as-written. 
 
 0. ZLA_ISR
 FE-Buddy Provided ISR Commands listed above. Refer to the ISR Guide for details on command syntax.
