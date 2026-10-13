@@ -545,3 +545,16 @@ ISR 2610
 -- Roundup patch notes: TEC Routes for Areas 1 and 4 updated with new letters and routes.
 -- Standard ISR updates
 -- EDW now properly overrides the airport ID command
+
+Version 4.0.0-beta.1 - MK
+AIRAC 2610
+ISR 2610
+-- Reformatted alias.hbs to be alias.txt for new FE-Buddy features
+-- Moved ISR sections to fit around computer generated ISR commands at the top of the file
+-- Restructured git repository to more easily work with new FE-Buddy features
+-- Added dummy commands to the bottom of this file for computer readability
+-- Added section titles to each individual section document, removed from main alias file
+
+
+.commmmmmmmmannnd needed a fake command to trick FEB
+.coommmmmaaannndd2 needed a second fake command

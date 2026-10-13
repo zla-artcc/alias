@@ -1,0 +1,10 @@
+FE-Buddy duplicate alias commands - AIRAC 2610
+Generated 2026-10-12 23:36Z
+
+Each command below is used by more than one line of the alias files this run wrote, so CRC can only
+run one of them. Commands are compared ignoring case, the way CRC matches them.
+Solutions are required at ARTCC level. Consult the FE-Buddy developers if unable to resolve at a local level.
+
+Files checked: Airways.txt, Airports.txt, Departures.txt, Arrivals.txt, Navaids.txt, Faa_Chart_Recall.txt, Telephony.txt
+
+Summary: no duplicate alias commands.

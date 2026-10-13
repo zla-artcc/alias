@@ -1,0 +1,57 @@
+*****TOWER HOURS OF OPERATION*****
+
+.bflhrs .echo \n{BFL HOURS} \n1400Z - 0700Z (0600 - 2300PT) {-1DT}
+.burhrs .echo \n{BUR HOURS} \n24 HRS
+.cmahrs .echo \n{CMA HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
+.cnohrs .echo \n{CNO HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
+.crqhrs .echo \n{CRQ HOURS} \n1500Z - 0600Z (0700 - 2200PT) {-1DT}
+.edwhrs .echo \n{EDW HOURS} \nMON - FRI 1400Z - 0600Z (0600 - 2200PT)\nSAT 1400 - 2000Z (0600 - 1200PT)  {-1DT}, CLSD SUN, HOL
+.emthrs .echo \n{EMT HOURS} \n1600Z - 0400Z (0800 - 2000PT) {-1DT}
+.fulhrs .echo \n{FUL HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
+.gcnhrs .echo \n{GCN HOURS} \n1JUN - 30SEP: 1300 - 0300Z (0600 - 2000MT)\n1OCT - 31MAY 1400 - 0200Z (0700 - 1900MT) {PT DRG DST}
+.hhrhrs .echo \n{HHR HOURS} \n1400Z - 0600Z (0600 - 2200PT) {-1DT}
+.hndhrs .echo \n{HND HOURS} \n1400Z - 0400Z (0600 - 2000PT) {-1DT}
+.ifphrs .echo \n{IFP HOURS} \n1500Z - 0100Z (0800 - 1800MT) {PT DRG DST}
+.lashrs .echo \n{LAS HOURS} \n24 HRS
+.laxhrs .echo \n{LAX HOURS} \n24 HRS
+.lgbhrs .echo \n{LGB HOURS} \n1415Z - 0745Z (0615 - 2345PT) {-1DT}
+.lsvhrs .echo \n{LSV HOURS} \n24 HRS
+.mhvhrs .echo \n{MHV HOURS} \nMON - FRI 1500Z - 0100Z (0700 - 1700PT) {-1DT}
+.myfhrs .echo \n{MYF HOURS} \n1400Z - 0500Z (0600 - 2100PT) {-1DT}
+.nfghrs .echo \n{NFG HOURS} \nMON - THU 1600 - 0800Z (0800 - 0000PT)\nFRI 1600 - 0100Z (0800 - 1700PT) \nCLSD SAT, SUN, HOL {-1DT}
+.nidhrs .echo \n{NID HOURS} \n1530–0630Z Mon–Fri; clsd altn Fri. \n2300-0100z Sun. \nOpn 1530–2030Z, clsd 2030Z, opn 2300–0000Z 1st working/non–hol Fri of the month. Sat–Sun opr by PPR/lcl use only) (Rstd afld hrs subject to change) {-1DT}
+.njkhrs .echo \n{NJK HOURS} \n1500–0700Z‡ Mon–Thu; \n1500–0200Z‡ Fri; \n1500–2300Z‡ Sat; clsd Sun and hol {-1DT}
+.nkxhrs .echo \n{NKX HOURS} \nMON - THU 1530–0800Z (0730 - 0000PT)\nFRI 1630–0200Z (0830 - 1800PT)\nSAT CLSD\nSUN 2200 - 0200Z (1400 - 1800PT) {-1DT}
+.nrshrz .echo \n{NRS HOURS} \nMON - THU 1600 - 0630Z (0800 - 2230PT)\nFRI 1600 - 0200Z (0800 - 1800PT) \nCLSD SAT, SUN, HOL {-1DT}
+.nsihrs .echo \n{NSI HOURS} \n1500Z - 0000Z (0700 - 1600PT) CLSD ALTERNATE FRI\nCLSD SAT, SUN, HOL {-1DT}
+.ntdhrs .echo \n{NTD HOURS} \n1500Z - 0700Z (0700 - 2300PT) CLSD HOL {-1DT}
+.nuchrs .echo \n{NUC HOURS} \nMON - THU 1600Z - 0200Z (0800 - 1800PT)\nFRI 1600Z - 0000Z (0800 - 1600PT) \nCLSD SAT, SUN, HOL {-1DT}
+.nxphrs .echo \n{NXP HOURS} \nCLASS D AIRSPACE BY NOTAM ONLY
+.nylhrs .echo \n{NYL HOURS} \n1430 - 0600Z (0730 - 2300MT) {PT DRG DST}
+.nzyhrs .echo \n{NZY HOURS} \n1430Z MON - 0600Z SAT (0630PT MON - 2200PT FRI); 1600Z SAT- 0600Z (0800 SAT - 2200PT); 1600Z SUN - 0600Z (0800 SUN - 2200PT) {-1DT}
+.onthrs .echo \n{ONT HOURS} \n24 HRS
+.oxrhrs .echo \n{OXR HOURS} \n1500 - 0500Z (0700 - 2100PT) {-1DT}
+.pmdhrs .echo \n{PMD HOURS} \n1330 - 0600Z (0530 - 2200PT) {-1DT}
+.pochrs .echo \n{POC HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
+.psphrs .echo \n{PSP HOURS} \n1400Z - 0700Z (0600 - 2300PT) {-1DT}
+.ralhrs .echo \n{RAL HOURS} \n1500Z - 0400Z (0700 - 2000PT) {-1DT}
+.rivhrs .echo \n{RIV HOURS} \n[TOWER]: 24HRS; \n[CLASS C + APP]: MON–FRI 1500 – 0700Z (0700 - 2300PT)\nSAT-SUN 1500 – 0200Z. (0700 - 1800PT ) {-1DT}\nCLSD HOL. OTHER TIMES CLASS D.
+.rnmhrs .echo \n{RNM HOURS} \n1600 - 0400Z (0800 - 2000PT) {-1DT}
+.sanhrs .echo \n{SAN HOURS} \n24 HRS
+.sbahrs .echo \n{SBA HOURS} \n1400Z - 0700Z (0600 - 2300PT) {-1DT}
+.sbdhrs .echo \n{SBD HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
+.sbphrs .echo \n{SBP HOURS} \n1400Z - 0400Z (0600 - 2000PT) {-1DT}
+.sdmhrs .echo \n{SDM HOURS} \n1600Z - 0400Z (0800 - 2000PT) {-1DT}
+.seehrs .echo \n{SEE HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
+.slihrs .echo \n{SBD HOURS} \nTUE - THU 1500Z - 0600Z (0700 - 2200PT)\nFRI - MON 1500Z - 0000Z (0700 - 1600PT) \nCLSD HOL {-1DT}
+.smohrs .echo \n{SMO HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}
+.smxhrs .echo \n{SMX HOURS} \n1400Z - 0400Z (0600 - 2000PT) {-1DT}
+.snahrs .echo \n{SNA HOURS} \n1415Z - 0700Z (0615 - 2300PT) {-1DT}
+.tnxhrs .echo \n{TNX HOURS} \nMON 1300Z - SAT 0305Z (MON 0500 -  FRI 1900PT) \nCLSD SAT, SUN, HOL {-1DT}
+.toahrs .echo \n{TOA HOURS} \n1500Z - 0400Z (0700 - 2000PT) {-1DT}
+.vbghrs .echo \n{VBG HOURS} \n1600Z - 0100Z (0800 - 1700PT) \nCLSD SAT - SUN, HOL {-1DT}
+.vcvhrs .echo \n{VCV HOURS} \n1400Z - 0400Z (0600 - 2000PT) {-1DT}
+.vgthrs .echo \n{VGT HOURS} \nOCT - MAR 1400Z - 0400Z (0600 - 2000PT) \nAPR - SEP 1400Z - 0500Z (0600 - 2100PT) {-1DT}
+.vnyhrs .echo \n{VNY HOURS} \n1400Z - 0645Z (0600 - 2245PT) {-1DT}
+.whphrs .echo \n{WHP HOURS} \n1600Z - 0400Z (0800 - 2000PT) {-1DT}
+.wjfhrs .echo \n{WJF HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}     
