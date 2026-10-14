@@ -2,8 +2,8 @@
   "format": "FE-Buddy.UserConfig",
   "formatVersion": 1,
   "configVersion": 2,
-  "appVersion": "3.0.0-beta.10",
-  "exportedUtc": "2026-10-13T23:25:57Z",
+  "appVersion": "3.0.0-beta.12",
+  "exportedUtc": "2026-10-14T18:33:33Z",
   "settings": {
     "General": {
       "AddFeBuddyOutputFolder": "Y",
@@ -156,7 +156,7 @@
             "WithinCycles": "1",
             "WithinDays": "30"
           },
-          "Area": "Artccs",
+          "Area": "Roi",
           "ArtccFilter": "ZAB,ZDV,ZLA,ZLC,ZOA",
           "CrcDefaultsFiles": "",
           "CrcDefaultsScope": "None",
@@ -266,7 +266,7 @@
             "WithinCycles": "1",
             "WithinDays": "30"
           },
-          "Area": "Artccs",
+          "Area": "Roi",
           "ArtccFilter": "ZAB,ZDV,ZLA,ZLC,ZOA",
           "CrcDefaultsFiles": "",
           "CrcDefaultsScope": "None",
@@ -362,9 +362,13 @@
           "CrcDefaultsScope": "None",
           "Facilities": "ZLA",
           "FebProperties": "",
+          "HelpCommandName": "helprecall",
           "IncludeFebCustomProperties": "N",
+          "IncludeHelpCommand": "Y",
+          "IncludeProceduresWithFixInFacility": "Y",
           "JsonFields": "icaoId,airportName,responsibleArtcc,airspaceClass,chartType,chartUrl,change,compareUrl",
           "Procedures": "",
+          "RenameHelpCommand": "N",
           "Roi": {
             "OverrideCorners": {
               "NeLat": "",

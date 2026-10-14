@@ -12,7 +12,9 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
     - [REDIN FIVE](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00903REDIN_cmp.pdf)
   - Deleted:
     - [LAKEE THREE](https://aeronav.faa.gov/d-tpp/2610/00903LAKEE.PDF)
+      - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2610/00903LAKEE_C.PDF)
     - [SWOLF NINE](https://aeronav.faa.gov/d-tpp/2610/00903SWOLF.PDF)
+      - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2610/00903SWOLF_C.PDF)
   - New:
     - [JULIAN ONE](https://aeronav.faa.gov/d-tpp/2611/00903JULIAN.PDF)
     - [SWOLF ONE](https://aeronav.faa.gov/d-tpp/2611/00903SWOLF.PDF)
@@ -63,10 +65,10 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
     - [ROSIE SIX (OBSTACLE) (RNAV)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00914ROSIE_cmp.pdf)
     - [SALTD NINE](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00914SALTD_cmp.pdf)
   - Deleted:
-    - [RNAV (GPS) RWY 32](https://aeronav.faa.gov/d-tpp/2610/DELETED_JOB.PDF)
-    - [HI-TACAN Z RWY 32](https://aeronav.faa.gov/d-tpp/2610/DELETED_JOB.PDF)
-    - [TACAN Y RWY 32](https://aeronav.faa.gov/d-tpp/2610/DELETED_JOB.PDF)
-    - [COPTER TACAN X RWY 32](https://aeronav.faa.gov/d-tpp/2610/DELETED_JOB.PDF)
+    - RNAV (GPS) RWY 32 (previous chart not available)
+    - HI-TACAN Z RWY 32 (previous chart not available)
+    - TACAN Y RWY 32 (previous chart not available)
+    - COPTER TACAN X RWY 32 (previous chart not available)
 - NZY
   - [LOC/DME-A](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00374LDA_cmp.pdf)
   - [LOC/DME-B](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00374LDB_cmp.pdf)
@@ -151,9 +153,13 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
 ## ZLC
 - SLC
   - [CARTR TWO (RNAV)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00365CARTR_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00365CARTR_C_cmp.pdf)
   - [PITTT THREE (RNAV)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00365PITTT_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00365PITTT_C_cmp.pdf)
   - [SKEES SEVEN (RNAV)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00365SKEES_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00365SKEES_C_cmp.pdf)
   - [YUTES THREE (RNAV)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00365YUTES_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00365YUTES_C_cmp.pdf)
   - [RNAV (RNP) Z RWY 16R](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00365RRZ16R_cmp.pdf)
   - [RNAV (RNP) Z RWY 34L](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00365RRZ34L_cmp.pdf)
 
@@ -162,12 +168,17 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [AIRPORT DIAGRAM](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00375AD_cmp.pdf)
 - OAK
   - [CNDEL SIX (RNAV)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294CNDEL_cmp.pdf)
+    - More pages: [Page 2 (new page)](https://aeronav.faa.gov/d-tpp/2611/00294CNDEL_C.PDF)
   - [HUSSH THREE (RNAV)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294HUSSH_cmp.pdf)
   - [KATFH FOUR (RNAV)](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294KATFH_cmp.pdf)
   - [NIMITZ SEVEN](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294NIMITZ_cmp.pdf)
   - [NUEVO NINE](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294NUEVO_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294NUEVO_C_cmp.pdf)
   - [OAKLAND SEVEN](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294OAKLAND_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294OAKLAND_C_cmp.pdf)
   - [QUAKE THREE](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294QUAKE_cmp.pdf)
   - [SALAD SIX](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294SALAD_cmp.pdf)
   - [SILENT FOUR](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294SILENT_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294SILENT_C_cmp.pdf)
   - [SKYLINE TWO](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294SKYLINE_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2611/compare_pdf/00294SKYLINE_C_cmp.pdf)
