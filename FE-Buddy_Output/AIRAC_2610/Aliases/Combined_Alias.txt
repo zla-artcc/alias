@@ -61206,7 +61206,7 @@
 Los Angeles ARTCC Alias File for CRC
 
 [Version]: 4.0.0-beta.1
-[Last Updated]: 2026-10-06
+[Last Updated]: 2026-10-14
 Changelog has been moved to the end of the file.
 
 ~~~~~~~~~~~C O N T R I B U T I O N  C R E D I T S~~~~~~~~~~~
@@ -61396,7 +61396,6 @@ FE-Buddy Provided ISR Commands listed above. Refer to the ISR Guide for details 
 .paused .wallop $aircraft has paused and are creating a traffic disruption
 .nordoto .wallop $aircraft taxied and departed from a controlled field without contact, is airborne and not responding to contact me requests.
 .paused .wallop $aircraft has paused and are creating a traffic disruption.
-.comply .wallop $aircraft is unable to comply with ATC instructions and appears unfamiliar with their aircraft.
 .nocomply .wallop $aircraft is unable to comply with ATC instructions and appears unfamiliar with their aircraft.
 .unfamiliar .wallop $aircraft is not familiar with the airspace or airport procedures.
 .nobasic .wallop $aircraft is unable to comply with basic heading/speed/altitude clearances.
@@ -61442,7 +61441,7 @@ FE-Buddy Provided ISR Commands listed above. Refer to the ISR Guide for details 
 .cfiled cleared to $arr airport as filed;
 .cstar cleared to $arr airport via direct $uc($1), $uc($2) arrival
 .clgb cleared to $arr via fly runway heading, passing 1,500 turn left heading $1, radar vectors to $uc($2), then as filed;
-.cont cleared to $arr airport via turn $1 direct PDZ, then as filed;
+.ckont cleared to $arr airport via turn $1 direct PDZ, then as filed;
 .chrvx cleared to $arr airport via fly heading $1, radar vectors to $uc($2)
 .cdx cleared to $arr airport; $uc($1) departure,
 .cdtx cleared to $arr airport; $uc($1) departure, $uc($2) transition,
