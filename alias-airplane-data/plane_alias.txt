@@ -1,3 +1,5 @@
+*****AIRCRAFT TYPE IDENTIFICATION*****
+
 .A002 .echo \nMFR: IRKUT\nMDL: A-002\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: Gyrocopter
 .A1 .echo \nMFR: DOUGLAS\nMDL: A-1 Skyraider\nFAA Wake: Small+\nCWT: H\nSRS: III\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
 .A10 .echo \nMFR: FAIRCHILD (1)\nMDL: A-10 Thunderbolt 2\nFAA Wake: Large\nCWT: G\nSRS: III\nADG: II\nTEC: J\nENG NUM: 2\nClass: LandPlane
@@ -1902,7 +1904,7 @@
 .PUMA .echo \nMFR: AEROSPATIALE\nMDL: CH-33 Puma\nFAA Wake: Small+\nCWT: I\nSRS: I\nADG: \nTEC: M\nENG NUM: 2\nClass: Helicopter
 .PUP .echo \nMFR: BEAGLE\nMDL: B-121 Pup\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
 .PURS .echo \nMFR: RANS\nMDL: S-11 Pursuit\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
-[dot]PUSH .echo \nMFR: PRESCOTT\nMDL: Pusher\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
+[dot]PUSH .echo \nMFR: PRESCOTT\nMDL: Pusher\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane ;Conflicts with pushback alias
 .PZ01 .echo \nMFR: LIPNUR\nMDL: PZL-101 Gawron\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
 .PZ02 .echo \nMFR: PZL-OKECIE\nMDL: PZL-102 Kos\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane
 .PZ04 .echo \nMFR: LIPNUR\nMDL: Gelatik\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nTEC: PQ\nENG NUM: 1\nClass: LandPlane

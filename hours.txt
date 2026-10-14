@@ -1,3 +1,5 @@
+*****TOWER HOURS OF OPERATION*****
+
 .bflhrs .echo \n{BFL HOURS} \n1400Z - 0700Z (0600 - 2300PT) {-1DT}
 .burhrs .echo \n{BUR HOURS} \n24 HRS
 .cmahrs .echo \n{CMA HOURS} \n1500Z - 0500Z (0700 - 2100PT) {-1DT}

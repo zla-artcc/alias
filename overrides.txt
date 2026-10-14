@@ -1,0 +1,3 @@
+*****OVERRIDES*****
+;Typically the EDW override would go here, but FE-Buddy handles that natively now. Dummy alias below. Replace that with any other alias commands that need to be overridden. 
+.kramerissocool .msg 845421_OBS Kramer, you're so cool.

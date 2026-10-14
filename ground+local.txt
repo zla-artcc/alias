@@ -1,0 +1,75 @@
+*************************
+*       3. GROUND       *
+*************************
+
+.push push and start approved, advise ready to taxi.
+.pushtail push and start approved, tail $1. Advise ready to taxi.
+.tx runway $uc($1), taxi route at pilot's discretion; wind $wind($dep), altimeter $altim($dep)
+.txv runway $uc($1), taxi via $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9); wind $wind($dep), altimeter $altim($dep)
+.tx@ runway $uc($1) at $uc($2), taxi route at pilot's discretion; wind $wind($dep), altimeter $altim($dep)
+.tx@v runway $uc($1) at $uc($2), taxi via $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9); wind $wind($dep), altimeter $altim($dep)
+.txhs wind $wind($dep), altimeter $altim($dep), runway $uc($1), taxi via $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9)
+.txg taxi to your gate, so long
+.txp taxi to parking, so long
+.txgv taxi to your gate via $uc($1) $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9)
+.txpv taxi to parking via $uc($1) $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9)
+.xgv cross runway $uc($1), taxi to your gate via $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9)
+.xpv cross runway $uc($1), taxi to parking via $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9)
+.exdly exit runway without delay, traffic on short final for the same runway
+.exo welcome to $arr, if able, turn $1, taxi to parking
+.exo# welcome to $arr, if able, turn $1,
+.exable welcome to $arr, exit runway $1 when able,
+.exg welcome to $arr, turn $1 next taxiway, taxi to your gate
+.exp welcome to $arr, turn $1 next taxiway, taxi to parking
+.exxg welcome to $arr, turn $1 next taxiway, cross runway $uc($2), taxi to your gate
+.exxp welcome to $arr, turn $1 next taxiway, cross runway $uc($2), taxi to parking
+.exho welcome to $arr, turn $1 next taxiway, contact $radioname($2) $freq($2), so long
+.exxho welcome to $arr, turn $1 next taxiway, cross runway $uc($2), contact $radioname($3) $freq($3) as you cross, so long
+.exhs welcome to $arr, turn $1 next taxiway, HOLD SHORT of runway $uc($2) for departing traffic, remain this frequency
+.rbchs readback HOLD SHORT instructions
+.xg cross runway $uc($1), taxi to your gate
+.xp cross runway $uc($1), taxi to parking
+.xho cross runway $uc($1), contact $radioname($2) $freq($2) as you cross, so long
+
+*************************
+*       4. LOCAL        *
+*************************
+
+.hs hold short of runway $uc($1)
+.xr cross runway $uc($1)
+.ph runway $uc($1), line up and wait
+.ph@ runway $uc($1) at $uc($2), line up and wait
+.lw runway $uc($1), line up and wait
+.lw@ runway $uc($1) at $uc($2), line up and wait
+.mid traffic crossing midfield
+.pos traffic holding in position
+.cont runway $1, continue - traffic holding in position
+.to wind $wind($dep), runway $uc($1), cleared for takeoff
+.to@ wind $wind($dep), runway $uc($1) at $uc($2), cleared for takeoff
+.land wind $wind($arr), runway $uc($1), cleared to land
+.turb caution wake turbulence
+.rnv RNAV to $uc($1), wind $wind($dep), runway $uc($2), cleared for takeoff
+.shore at the shoreline, turn left heading 210, wind $wind($dep), runway $uc($1), cleared for takeoff
+.tovfr make $1 $2 departure, wind $wind($dep), runway $uc($3), cleared for takeoff
+.cta $1 closed traffic approved, 
+.tfc make $1 closed traffic to runway $uc($2)
+.opt runway $uc($1), cleared for the option
+.down extend your downwind, I'll call your base
+.base turn base leg now
+.ed enter $1 downwind runway $uc($2)
+.eb enter $1 base runway $uc($2)
+.misvis make $1 traffic to runway $uc($2)
+.misins fly the missed approach procedure as published
+.basepd turn base leg at pilot's discretion
+
+.laxvfrdp maintain VFR at or below 2,500 until clear of the BRAVO, make $1 crosswind departure at the shoreline,
+.snavfrdp fly heading $1, maintain VFR at or below 2,400 until advised,
+.svfrdp maintain Special VFR conditions at or below $1 while in the $2, report VFR or clear of  class $2
+
+.mini cleared through Los Angeles Bravo airspace via the Mini Route, maintain VFR at 2,500 feet. Los Angeles Altimeter $altim(KLAX)
+.miniun cleared through Los Angeles Bravo airspace, proceed direct to overfly the midpoint of runway 25L, then the numbers runway 24R, then direct Santa Monica Airport. Maintain VFR at 2,500 feet. Los Angeles Altimeter $altim(KLAX)
+.minius cleared through Los Angeles Bravo airspace, proceed direct to overfly the numbers runway 24R, then the midpoint of runway 25L, then heading 130. Maintain VFR at 2,500 feet. Los Angeles Altimeter $altim(KLAX)
+
+.bound .msg $atccallsign($1) *** $aircraft :: $type($aircraft) :: $dep :: $route :: $2 $3 :: $4 $5 $6 $7 $8 $9
+.b .msg $atccallsign($1) *** $aircraft :: $type($aircraft) :: $dep :: $route :: $2 $3 :: $4 $5 $6 $7 $8 $9
+.dep .MSG $atccallsign($1) *** $aircraft :: $type($aircraft) :: $dep :: $2 $3 :: $4 $5 $6 $7 $8 $9

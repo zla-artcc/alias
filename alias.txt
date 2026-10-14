@@ -1,0 +1,74 @@
+Los Angeles ARTCC Alias File for CRC
+
+[Version]: 4.0.0-beta.1
+[Last Updated]: 2026-10-14
+Changelog has been moved to the end of the file.
+
+~~~~~~~~~~~C O N T R I B U T I O N  C R E D I T S~~~~~~~~~~~
+
+Old TEC Routes - Shawn Goldsworthy, Gerry Hattendorf, Eric Stearns and Alex Stjepanovic(Former M route aliases by Aaron Flodin)
+MVA Aliases - Shawn Goldsworthy
+Chart Aliases - Eric Stearns
+Helicopter Routes - Ryan Tashma
+Link Aliases - Brad Grafelman
+Various Aliases - Steven Caffey
+Updates - Daneel Polakoff, Max Gorodetzki, Jeff Pang, Andrew Kim, Matthew Kramer, Daniel Everman, Chris Carstens
+ZLA_ISR - Made with FE-BUDDY, credits to Kyle Sanders and Nikolas Boling - implemented by Andrew Kim
+New TEC Routes - Program & Implementation by Max Gorodetzki
+CRC Transition Team - Matthew Kramer, Max Gorodetzki, Nicholas Christopher, Andrew Kim, Daneel Polakoff, Brody Baker
+
+~~~~~~~~~~~~~~T A B L E   O F   C O N T E N T S~~~~~~~~~~~~~
+
+Copy and paste any line (minus tabs) into CTRL-F to navigate to that line.
+Lines starting with a [.] period indicate an alias command and the output of that command. For exmaple:
+.kramerwashere .msg 845421_OBS Hey Kramer, how are you?
+When you type ".kramerwashere" and hit enter in the chat window, it will send the ".msg" command as-written. 
+
+0. ZLA_ISR
+FE-Buddy Provided ISR Commands listed above. Refer to the ISR Guide for details on command syntax.
+	-AIRWAY FIXES
+	-CHART RECALL
+	-AIRPORTS
+	-NAVAIDS
+	-SID/STAR FIXES
+	-AIRLINE TELEPHONY
+1. GENERAL
+	*HANDOFFS
+	*AFV INFORMATION
+	*PILOT DEVIATIONS
+	*WALLOP SHORTCUTS
+	*FLIGHT PLAN RELEASE
+2. DELIVERY
+	*CLEARANCES
+	*READBACK
+	*PRE-DEPARTURE CLEARANCES (PDCS)
+	*VFR CLEARANCES
+3. GROUND
+4. LOCAL
+5. RADAR
+	*RADAR IDENTIFICATION
+	*VISUAL SEPARATION
+	*VECTORING
+	*ALTITUDE ASSIGNMENT
+	*SPEED ASSIGNMENT
+	*APPROACHES
+	*NON-TOWERED AIRPORTS
+6. APPROACH/ENROUTE
+7. UTILITY
+	*ERAM AUTOTRACKING
+	*STARS AUTOTRACKING	
+	*INFORMATION LOOKUP
+	*PHRASEOLOGY HELPER
+	*NAVDATA TOGGLING
+8. ZLA CUSTOM ISR
+    *PHRASEOLOGY HELPER
+	*TEC ROUTES BY DESIGNATOR
+	*TEC ROUTES BY AIRPORT PAIR AND AIRCRAFT TYPE
+	*DIVERSE VECTOR AREAS
+	*TOWER HOURS OF OPERATION
+	*AIRCRAFT TYPE IDENTIFICATION
+	*CWT - Consolidated Wake Turbulence
+	*OVERRIDES
+
+
+~~~~~~~~~~~~~~~~~~~~~~~A L I A S E S~~~~~~~~~~~~~~~~~~~~~~~~

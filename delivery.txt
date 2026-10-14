@@ -1,0 +1,130 @@
+*************************
+*      2. DELIVERY      *
+*************************
+
+.cor clearance on request, standby.
+.cor# clearance on request, number $1, standby.
+.pref preferred route to $arr is
+.can - can you accept?
+.preftec preferred route to $arr is $route - can you accept?
+
+*****CLEARANCES*****
+
+.cd cleared to $arr airport; $uc($1) departure, then as filed;
+.cdt cleared to $arr airport; $uc($1) departure, $uc($2) transition, then as filed;
+.crdt cleared to $arr airport; $uc($1) RNAV departure, $uc($2) transition, then as filed;
+.cdtd cleared to $arr airport; $uc($1) departure, $uc($2) transition, direct $arr airport;
+.cdrv cleared to $arr airport; $uc($1) departure, $uc($2), then as filed;
+.cdrvd cleared to $arr airport; $uc($1) departure, $uc($2), direct $arr airport;
+.cdta cleared to $arr airport; $uc($1) departure, $uc($2) transition, $uc($3) arrival;
+.crhrv cleared to $arr airport; via fly runway heading, radar vectors to $uc($1), then as filed;
+.crhrvd cleared to $arr airport; via fly runway heading, radar vectors to $uc($1), direct $arr airport;
+.crv cleared to $arr airport via radar vectors to $uc($1), then as filed;
+.crvd cleared to $arr airport via radar vectors to $uc($1), direct $arr airport;
+.chrv cleared to $arr airport; via fly heading $1, radar vectors to $uc($2), then as filed;
+.chrvd cleared to $arr airport; via fly heading $1, radar vectors to $uc($2), direct $arr airport;
+.crte cleared to $arr airport via $route;
+.ctec cleared to $arr airport via the $uc($1) TEC route;
+.cfiled cleared to $arr airport as filed;
+.cstar cleared to $arr airport via direct $uc($1), $uc($2) arrival
+.clgb cleared to $arr via fly runway heading, passing 1,500 turn left heading $1, radar vectors to $uc($2), then as filed;
+.ckont cleared to $arr airport via turn $1 direct PDZ, then as filed;
+.chrvx cleared to $arr airport via fly heading $1, radar vectors to $uc($2)
+.cdx cleared to $arr airport; $uc($1) departure,
+.cdtx cleared to $arr airport; $uc($1) departure, $uc($2) transition,
+
+.calt maintain 5,000, expect $cruise 5 minutes after departure, departure frequency $freq($1), squawk $squawk.
+.calt2 maintain 2,000, expect $cruise 5 minutes after departure, departure frequency $freq($1), squawk $squawk.
+.calt3 maintain 3,000, expect $cruise 5 minutes after departure, departure frequency $freq($1), squawk $squawk.
+.calt7 maintain 7,000, expect $cruise 10 minutes after departure, departure frequency $freq($1), squawk $squawk.
+.calt8 maintain 8,000, expect $cruise 5 minutes after departure, departure frequency $freq($1), squawk $squawk.
+.calt13 maintain 13,000, expect $cruise 5 minutes after departure, departure frequency $freq($1), squawk $squawk.
+.calt15 maintain 15,000, expect $cruise 5 minutes after departure, departure frequency $freq($1), squawk $squawk.
+.calt19 maintain FL190, expect $cruise 10 minutes after departure, departure frequency $freq($1), squawk $squawk.
+.caltu maintain 5,000, expect $cruise 5 minutes after departure, departure is offline, squawk $squawk.
+.calt3u maintain 3,000, expect $cruise 5 minutes after departure, departure is offline, squawk $squawk.
+.calt7u maintain 7,000, expect $cruise 10 minutes after departure, departure is offline, squawk $squawk.
+.czalt maintain $cruise, departure frequency $freq($1), squawk $squawk.
+.czaltu maintain $cruise, departure is offline, squawk $squawk.
+.caltair maintain $1, expect $cruise in 5 minutes.
+.cds departure frequency $freq($1), squawk $squawk.
+.cdsu departure is offline, squawk $squawk.
+.ccv climb via SID, expect $cruise 5 minutes after departure, .cds $1
+.ccvxm climb via SID, except maintain $1, expect $cruise 5 minutes after departure, .cds $2
+.ccvu climb via SID, expect $cruise 5 minutes after departure, .cdsu
+.ccvxmu climb via SID, except maintain $1, expect $cruise 5 minutes after departure, .cdsu
+
+.codp cleared to $arr, depart via the $dep obstacle departure procedure,
+.codpr cleared to $arr, depart via the $dep runway $1 obstacle departure procedure,
+
+.lasdp fly runway heading, turn $1 heading $2 at LAS 3 DME
+.ontdp turn left direct PDZ
+.lgbdp fly runway heading, passing 1,500 turn left heading $1
+.lgbodp7 passing 800 turn right direct SLI and proceed via SLI R-210 outbound, expect vectors
+.lgbodp12 climb runway heading to intercept and proceed via SLI R-210 outbound, expect vectors
+.lgbodp16 passing 800 turn right heading 180 to intercept and proceed via SLI R-210 outbound, expect vectors
+.lgbodp30 passing 800 turn left heading 200 to intercept and proceed via LAX R-145 outbound, expect vectors
+
+*****READBACK*****
+
+.rbc readback correct, expect runway $uc($1) for departure, advise ready to taxi.
+.sqrbc squawk readback correct, expect runway $uc($1) for departure, advise ready to taxi.
+.rbcho readback correct, expect runway $uc($1) for departure, contact $radioname($2) $freq($2) when ready to taxi.
+.rbca readback correct, $dep ATIS $uc($2) is current, expect runway $uc($1), advise ready to taxi.
+.sqrbca squawk readback correct, $dep ATIS $uc($2) is current, expect runway $uc($1) for departure, advise ready to taxi.
+.rbcaho readback correct, $dep ATIS $uc($2) is current, expect runway $uc($1) for departure, contact $radioname($3) $freq($3) when ready to taxi.
+
+*****PRE-DEPARTURE CLEARANCES (PDCs)*****
+
+.pdcv .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | CLIMB VIA SID | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($1) | CTC GND CTRL ON $freq($2) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+.pdcvx .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | CLIMB VIA SID EXCEPT MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($2) | CTC GND CTRL ON $freq($3) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+.pdcm .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($2) | CTC GND CTRL ON $freq($3) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+.pdcvu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | CLIMB VIA SID | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($1) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+.pdcvxu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | CLIMB VIA SID EXCEPT MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($2) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+.pdcmu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($2) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+.pdcvc .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | CLIMB VIA SID | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($1) | CTC GND CTRL ON $freq($2) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+.pdcvxc .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | CLIMB VIA SID EXCEPT MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($2) | CTC GND CTRL ON $freq($3) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+.pdcmc .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($2) | CTC GND CTRL ON $freq($3) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+.pdcvcu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | CLIMB VIA SID | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($1) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+.pdcvxcu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | CLIMB VIA SID EXCEPT MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($2) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+.pdcmcu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($2) WHEN READY FOR TAXI | END OF MESSAGE | ACARS END
+
+.pushpdcv .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | CLIMB VIA SID | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($1) | CTC GND CTRL ON $freq($2) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+.pushpdcvx .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | CLIMB VIA SID EXCEPT MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($2) | CTC GND CTRL ON $freq($3) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+.pushpdcm .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($2) | CTC GND CTRL ON $freq($3) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+.pushpdcvu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | CLIMB VIA SID | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($1) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+.pushpdcvxu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | CLIMB VIA SID EXCEPT MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($2) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+.pushpdcmu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | $dep $route $arr | MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($2) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+.pushpdcvc .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | CLIMB VIA SID | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($1) | CTC GND CTRL ON $freq($2) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+.pushpdcvxc .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | CLIMB VIA SID EXCEPT MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($2) | CTC GND CTRL ON $freq($3) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+.pushpdcmc .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ $freq($2) | CTC GND CTRL ON $freq($3) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+.pushpdcvcu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | CLIMB VIA SID | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($1) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+.pushpdcvxcu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | CLIMB VIA SID EXCEPT MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($2) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+.pushpdcmcu .msg $aircraft ACARS BEGIN $time | TEXT MSG | FLIGHT $aircraft $dep $arr | $type($aircraft) BEACON $squawk | ***ROUTING CHANGED*** $dep $route $arr | MAINTAIN $1 | EXP $cruise 5 MINUTES AFT DEP | DEP FREQ 122.80 | CTC GND CTRL ON $freq($2) WHEN READY FOR PUSHBACK | END OF MESSAGE | ACARS END
+
+.nopdc .msg $aircraft ACARS BEGIN $time | TEXT MSG | PRE-DEPARTURE CLEARANCE UNAVAILABLE | CTC $uc($radioname($1)) ON FREQ $freq($1) FOR CLEARANCE | END OF MESSAGE | ACARS END
+
+*****VFR CLEARANCES*****
+
+.vfrff .cds $1
+.ownnav resume own navigation
+.vfrnav resume own navigation and appropriate VFR altitudes
+.vfralt resume appropriate VFR altitudes
+.outlaxb cleared out of Los Angeles Bravo airspace,
+.outlasb cleared out of Las Vegas Bravo airspace,
+.outsanb cleared out of San Diego Bravo airspace,
+.tolaxb cleared to enter Los Angeles Bravo airspace,
+.tolasb cleared to enter Las Vegas Bravo airspace,
+.tosanb cleared to enter San Diego Bravo airspace,
+.thrulaxb cleared through Los Angeles Bravo airspace,
+.thrulasb cleared through Las Vegas Bravo airspace,
+.thrusanb cleared through San Diego Bravo airspace,
+.lvlaxb leaving Los Angeles Bravo airspace,
+.lvlasb leaving Las Vegas Bravo airspace,
+.lvsanb leaving San Diego Bravo airspace,
+.lvburc leaving Burbank Charlie airspace,
+.lvontc leaving Ontario Charlie airspace,
+.lvrivc leaving Riverside Charlie airspace,
+.lvsbac leaving Santa Barbara Charlie airspace,
+.lvsnac leaving John Wayne Charlie airspace,
+.lvpsptrsa leaving Palm Springs TRSA,
