@@ -1,7 +1,7 @@
 Los Angeles ARTCC Alias File for CRC
 
 [Version]: 4.0.0-beta.1
-[Last Updated]: 2026-10-06
+[Last Updated]: 2026-10-14
 Changelog has been moved to the end of the file.
 
 ~~~~~~~~~~~C O N T R I B U T I O N  C R E D I T S~~~~~~~~~~~
