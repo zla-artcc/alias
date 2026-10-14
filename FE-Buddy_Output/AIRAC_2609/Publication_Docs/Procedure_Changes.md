@@ -14,14 +14,21 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [ILS Y OR LOC Y RWY 26R](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00662IYLY26R_cmp.pdf)
   - [ILS Z OR LOC Z RWY 26R](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00662IZLZ26R_cmp.pdf)
   - [HOOVER EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00662HOOVER_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00662HOOVER_C.PDF)
   - [MCCARRAN EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00662MCCARRAN_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00662MCCARRAN_C.PDF)
 - LAX
+  - [HOT SPOT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW3HOTSPOT_cmp.pdf)
+    - Also serves: BUR
   - [BASET FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237BASET_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00237BASET_C.PDF)
   - [KIMMO THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237KIMMO_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00237KIMMO_C.PDF)
     - Also serves: SMO
   - [MOORPARK FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237MOORPARK_cmp.pdf)
   - [OCEAN THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237OCEAN_cmp.pdf)
   - [SADDE EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237SADDE_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00237SADDE_C.PDF)
   - [SEAVU TWO](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237SEAVU_cmp.pdf)
   - [VISTA THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237VISTA_cmp.pdf)
   - [ILS OR LOC RWY 24L](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237IL24L_cmp.pdf)
@@ -30,12 +37,15 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [RNAV (RNP) Z RWY 24L](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237RRZ24L_cmp.pdf)
   - [AIRPORT DIAGRAM](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237AD_cmp.pdf)
   - [CHATY FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237CHATY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00237CHATY_C.PDF)
   - [GORMAN SEVEN](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237GORMAN_cmp.pdf)
   - [LAXX ONE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237LAXX_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00237LAXX_C.PDF)
   - [PERCH THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237PERCH_cmp.pdf)
   - [VENTURA EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237VENTURA_cmp.pdf)
 - SAN
   - [BARET FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00373BARET_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00373BARET_C.PDF)
     - Also serves: NZY
   - [SHAMU ONE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00373SHAMU_cmp.pdf)
   - [ILS Y OR LOC Y RWY 09](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00373IYLY9_cmp.pdf)
@@ -45,14 +55,24 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [FALCC ONE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00373FALCC_cmp.pdf)
   - [PEBLE SIX](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00373PEBLE_cmp.pdf)
 - BUR
+  - [TAKEOFF MINIMUMS](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW3TO_cmp.pdf)
+  - [DIVERSE VECTOR AREA](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW3TO_cmp.pdf)
+  - [ALTERNATE MINIMUMS](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW3ALT_cmp.pdf)
+    - Also serves: HHR, RAL, PRB
+  - [LAHSO](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW3LAHSO_cmp.pdf)
+  - [HOT SPOT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW3HOTSPOT_cmp.pdf)
+    - Also serves: LAX
   - [FERNANDO SEVEN](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067FERNANDO_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067FERNANDO_C_cmp.pdf)
     - Also serves: SMO, VNY
   - [JANNY FIVE (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067JANNY_cmp.pdf)
     - Also serves: VNY
   - [LYNXX EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067LYNXX_cmp.pdf)
     - Also serves: VNY
   - [ROKKR THREE (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067ROKKR_cmp.pdf)
-  - [THRNE FOUR (RNAV), CONT.1](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067THRNE_C_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067ROKKR_C_cmp.pdf)
+  - [THRNE FOUR (RNAV)](https://aeronav.faa.gov/d-tpp/2609/00067THRNE.PDF) (unchanged)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067THRNE_C_cmp.pdf)
     - Also serves: VNY
   - [WEESL ONE (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067WEESL_cmp.pdf)
     - Also serves: VNY
@@ -66,14 +86,18 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [ELMOO NINE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067ELMOO_cmp.pdf)
   - [OROSZ TWO (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067OROSZ_cmp.pdf)
   - [SLAPP TWO (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067SLAPP_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067SLAPP_C_cmp.pdf)
   - [VAN NUYS FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067VANNUYS_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067VANNUYS_C_cmp.pdf)
   - [VVERA TWO (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067VVERA_cmp.pdf)
 - ONT
   - [SETER FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965SETER_cmp.pdf)
     - Also serves: CNO, EMT, POC, RAL, SBD, AJO
   - [ZIGGY EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965ZIGGY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00965ZIGGY_C.PDF)
     - Also serves: CNO, EMT, POC, RAL, SBD, AJO
   - [POMONA ONE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965POMONA_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00965POMONA_C.PDF)
 - RIV
   - [ARKOE ONE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00348ARKOE_cmp.pdf)
   - [ILS OR LOC X RWY 32](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00348ILX32_cmp.pdf)
@@ -87,17 +111,23 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [HABUT FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00378HABUT_cmp.pdf)
   - [KWANG SIX](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00378KWANG_cmp.pdf)
   - [SANTA BARBARA FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00378SANTABARBARA_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00378SANTABARBARA_C.PDF)
 - SNA
   - [EMMLN THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236EMMLN_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00236EMMLN_C.PDF)
     - Also serves: FUL, HHR, LGB, SLI
   - [KAYOH EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236KAYOH_cmp.pdf)
     - Also serves: FUL, LGB, SLI, TOA
   - [TANDY SIX](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236TANDY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00236TANDY_C.PDF)
     - Also serves: LGB, SLI, TOA
   - [ANAHEIM TWO](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00377ANAHEIM_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00377ANAHEIM_C.PDF)
   - [CHANNEL THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00377CHANNEL_cmp.pdf)
   - [EL TORO FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00377ELTORO_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00377ELTORO_C.PDF)
   - [IRVINE FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00377IRVINE_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00377IRVINE_C.PDF)
   - [MUSEL EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00377MUSEL_cmp.pdf)
 - BFL
   - [FASTO TWO](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00036FASTO_cmp.pdf)
@@ -117,6 +147,7 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
     - [SETER FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965SETER_cmp.pdf)
       - Also serves: ONT, EMT, POC, RAL, SBD, AJO
     - [ZIGGY EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965ZIGGY_cmp.pdf)
+      - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00965ZIGGY_C.PDF)
       - Also serves: ONT, EMT, POC, RAL, SBD, AJO
   - Deleted:
     - VOR RWY 26R (previous chart not available)
@@ -127,15 +158,21 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [SETER FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965SETER_cmp.pdf)
     - Also serves: ONT, CNO, POC, RAL, SBD, AJO
   - [ZIGGY EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965ZIGGY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00965ZIGGY_C.PDF)
     - Also serves: ONT, CNO, POC, RAL, SBD, AJO
 - FUL
   - [EMMLN THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236EMMLN_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00236EMMLN_C.PDF)
     - Also serves: SNA, HHR, LGB, SLI
   - [KAYOH EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236KAYOH_cmp.pdf)
     - Also serves: SNA, LGB, SLI, TOA
   - [ANAHEIM TWO](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/05136ANAHEIM_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/05136ANAHEIM_C.PDF)
 - HHR
+  - [ALTERNATE MINIMUMS](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW3ALT_cmp.pdf)
+    - Also serves: BUR, RAL, PRB
   - [EMMLN THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236EMMLN_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00236EMMLN_C.PDF)
     - Also serves: SNA, FUL, LGB, SLI
   - [RNAV (GPS) RWY 07](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/05120R7_cmp.pdf)
 - HND
@@ -147,12 +184,15 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [VOR RWY 34](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/06967V34_cmp.pdf)
 - LGB
   - [EMMLN THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236EMMLN_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00236EMMLN_C.PDF)
     - Also serves: SNA, FUL, HHR, SLI
   - [KAYOH EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236KAYOH_cmp.pdf)
     - Also serves: SNA, FUL, SLI, TOA
   - [TANDY SIX](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236TANDY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00236TANDY_C.PDF)
     - Also serves: SNA, SLI, TOA
   - [ANAHEIM TWO](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236ANAHEIM_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00236ANAHEIM_C.PDF)
 - LGF
   - [RNAV (GPS) RWY 06](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/06341R6_cmp.pdf)
   - [RNAV (GPS) RWY 18](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/06341R18_cmp.pdf)
@@ -186,6 +226,7 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [ILS OR LOC RWY 21R](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00511IL21R_cmp.pdf)
 - NZY
   - [BARET FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00373BARET_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00373BARET_C.PDF)
     - Also serves: SAN
 - OXR
   - [ILS OR LOC RWY 25](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00674IL25_cmp.pdf)
@@ -196,6 +237,7 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [SETER FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965SETER_cmp.pdf)
     - Also serves: ONT, CNO, EMT, RAL, SBD, AJO
   - [ZIGGY EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965ZIGGY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00965ZIGGY_C.PDF)
     - Also serves: ONT, CNO, EMT, RAL, SBD, AJO
 - PSP
   - [CLOWD ONE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00545CLOWD_cmp.pdf)
@@ -205,9 +247,12 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [VOR-B](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00545VB_cmp.pdf)
   - [CATHEDRAL ONE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00545CATHEDRAL_cmp.pdf)
 - RAL
+  - [ALTERNATE MINIMUMS](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW3ALT_cmp.pdf)
+    - Also serves: BUR, HHR, PRB
   - [SETER FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965SETER_cmp.pdf)
     - Also serves: ONT, CNO, EMT, POC, SBD, AJO
   - [ZIGGY EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965ZIGGY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00965ZIGGY_C.PDF)
     - Also serves: ONT, CNO, EMT, POC, SBD, AJO
   - [RNAV (GPS) RWY 27](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00769R27_cmp.pdf)
 - RNM
@@ -216,6 +261,7 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [SETER FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965SETER_cmp.pdf)
     - Also serves: ONT, CNO, EMT, POC, RAL, AJO
   - [ZIGGY EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965ZIGGY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00965ZIGGY_C.PDF)
     - Also serves: ONT, CNO, EMT, POC, RAL, AJO
 - SBP
   - [AVILA FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00989AVILA_cmp.pdf)
@@ -226,15 +272,19 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [LOC-D](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/05402LD_cmp.pdf)
 - SLI
   - [EMMLN THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236EMMLN_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00236EMMLN_C.PDF)
     - Also serves: SNA, FUL, HHR, LGB
   - [KAYOH EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236KAYOH_cmp.pdf)
     - Also serves: SNA, FUL, LGB, TOA
   - [TANDY SIX](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236TANDY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00236TANDY_C.PDF)
     - Also serves: SNA, LGB, TOA
 - SMO
   - [FERNANDO SEVEN](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067FERNANDO_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067FERNANDO_C_cmp.pdf)
     - Also serves: BUR, VNY
   - [KIMMO THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00237KIMMO_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00237KIMMO_C.PDF)
     - Also serves: LAX
   - [VOR-A](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/05023VA_cmp.pdf)
   - [TOPANGA THREE (OBSTACLE)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/05023TOPANGA_cmp.pdf)
@@ -247,16 +297,19 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [KAYOH EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236KAYOH_cmp.pdf)
     - Also serves: SNA, FUL, LGB, SLI
   - [TANDY SIX](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00236TANDY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00236TANDY_C.PDF)
     - Also serves: SNA, LGB, SLI
   - [VOR RWY 11L](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/05179V11L_cmp.pdf)
 - VNY
   - [FERNANDO SEVEN](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067FERNANDO_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067FERNANDO_C_cmp.pdf)
     - Also serves: BUR, SMO
   - [JANNY FIVE (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067JANNY_cmp.pdf)
     - Also serves: BUR
   - [LYNXX EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067LYNXX_cmp.pdf)
     - Also serves: BUR
-  - [THRNE FOUR (RNAV), CONT.1](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067THRNE_C_cmp.pdf)
+  - [THRNE FOUR (RNAV)](https://aeronav.faa.gov/d-tpp/2609/00067THRNE.PDF) (unchanged)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067THRNE_C_cmp.pdf)
     - Also serves: BUR
   - [WEESL ONE (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00067WEESL_cmp.pdf)
     - Also serves: BUR
@@ -266,13 +319,16 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [VOR-A](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00552VA_cmp.pdf)
   - [VOR-B](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00552VB_cmp.pdf)
   - [CANOGA THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00552CANOGA_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00552CANOGA_C.PDF)
   - [NEWHALL TWO](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00552NEWHALL_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00552NEWHALL_C.PDF)
 - WHP
   - [VOR-A](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/09132VA_cmp.pdf)
 - AJO
   - [SETER FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965SETER_cmp.pdf)
     - Also serves: ONT, CNO, EMT, POC, RAL, SBD
   - [ZIGGY EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00965ZIGGY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00965ZIGGY_C.PDF)
     - Also serves: ONT, CNO, EMT, POC, RAL, SBD
 - AVX
   - [VOR/DME OR GPS-B](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/06368VDGB_cmp.pdf)
@@ -307,6 +363,7 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
 - OKB
   - [VOR-A](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/05666VA_cmp.pdf)
   - [OCEANSIDE ONE (OBSTACLE)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/05666OCEANSIDE_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/05666OCEANSIDE_C.PDF)
 - PTV
   - [VOR-A](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00569VA_cmp.pdf)
 - SGU
@@ -347,41 +404,93 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
 ## ZAB
 - PHX
   - [ARLIN FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322ARLIN_cmp.pdf)
-    - Also serves: SDL
+    - Also serves: CHD, DVT, FFZ, IWA, SDL, P19
   - [BLYTHE FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322BLYTHE_cmp.pdf)
-    - Also serves: SDL
+    - Also serves: CHD, DVT, FFZ, IWA, SDL, P19
   - [BUNTR THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322BUNTR_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00322BUNTR_C.PDF)
   - [COYOT FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322COYOT_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00322COYOT_C.PDF)
   - [JESSE THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322JESSE_cmp.pdf)
   - [BALDY THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322BALDY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00322BALDY_C.PDF)
   - [BUCKEYE FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322BUCKEYE_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00322BUCKEYE_C.PDF)
   - [CHILY FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322CHILY_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00322CHILY_C.PDF)
   - [ST. JOHNS NINE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322STJOHNS_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00322STJOHNS_C.PDF)
+- CHD
+  - [ARLIN FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322ARLIN_cmp.pdf)
+    - In ZLA: its route has a fix there (BLH, SCOLE)
+    - Also serves: PHX, DVT, FFZ, IWA, SDL, P19
+  - [BLYTHE FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322BLYTHE_cmp.pdf)
+    - In ZLA: its route has a fix there (BLH)
+    - Also serves: PHX, DVT, FFZ, IWA, SDL, P19
+- DVT
+  - [ARLIN FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322ARLIN_cmp.pdf)
+    - In ZLA: its route has a fix there (BLH, SCOLE)
+    - Also serves: PHX, CHD, FFZ, IWA, SDL, P19
+  - [BLYTHE FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322BLYTHE_cmp.pdf)
+    - In ZLA: its route has a fix there (BLH)
+    - Also serves: PHX, CHD, FFZ, IWA, SDL, P19
+- FFZ
+  - [ARLIN FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322ARLIN_cmp.pdf)
+    - In ZLA: its route has a fix there (BLH, SCOLE)
+    - Also serves: PHX, CHD, DVT, IWA, SDL, P19
+  - [BLYTHE FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322BLYTHE_cmp.pdf)
+    - In ZLA: its route has a fix there (BLH)
+    - Also serves: PHX, CHD, DVT, IWA, SDL, P19
+- IWA
+  - [ARLIN FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322ARLIN_cmp.pdf)
+    - In ZLA: its route has a fix there (BLH, SCOLE)
+    - Also serves: PHX, CHD, DVT, FFZ, SDL, P19
+  - [BLYTHE FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322BLYTHE_cmp.pdf)
+    - In ZLA: its route has a fix there (BLH)
+    - Also serves: PHX, CHD, DVT, FFZ, SDL, P19
 - SDL
   - [ARLIN FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322ARLIN_cmp.pdf)
-    - Also serves: PHX
+    - Also serves: PHX, CHD, DVT, FFZ, IWA, P19
   - [BLYTHE FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322BLYTHE_cmp.pdf)
-    - Also serves: PHX
+    - Also serves: PHX, CHD, DVT, FFZ, IWA, P19
   - [JONHH TWO](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/05651JONHH_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/05651JONHH_C.PDF)
   - [SCOTTSDALE SEVEN](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/05651SCOTTSDALE_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/05651SCOTTSDALE_C.PDF)
+- P19
+  - [ARLIN FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322ARLIN_cmp.pdf)
+    - In ZLA: its route has a fix there (BLH, SCOLE)
+    - Also serves: PHX, CHD, DVT, FFZ, IWA, SDL
+  - [BLYTHE FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00322BLYTHE_cmp.pdf)
+    - In ZLA: its route has a fix there (BLH)
+    - Also serves: PHX, CHD, DVT, FFZ, IWA, SDL
 
 ## ZDV
 - DEN
   - [LANDR THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/09077LANDR_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/09077LANDR_C.PDF)
   - [AIRPORT DIAGRAM](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/09077AD_cmp.pdf)
   - [DENVER THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/09077DENVER_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/09077DENVER_C.PDF)
   - [PLAINS TWO](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/09077PLAINS_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/09077PLAINS_C.PDF)
   - [YELLOWSTONE FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/09077YELLOWSTONE_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/09077YELLOWSTONE_C.PDF)
 
 ## ZLC
 - SLC
   - [BEARR FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00365BEARR_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00365BEARR_C.PDF)
   - [BONNEVILLE TWO](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00365BONNEVILLE_cmp.pdf)
   - [JAMMN FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00365JAMMN_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00365JAMMN_C.PDF)
   - [SPANE EIGHT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00365SPANE_cmp.pdf)
   - [FAIRFIELD NINE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00365FAIRFIELD_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00365FAIRFIELD_C.PDF)
   - [SALT LAKE FOUR](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00365SALTLAKE_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00365SALTLAKE_C.PDF)
   - [SEVYR THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00365SEVYR_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00365SEVYR_C.PDF)
 
 ## ZOA
 - SFO
@@ -391,26 +500,39 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [RISTI ONE (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00375RISTI_cmp.pdf)
     - Also serves: SJC
   - [AIRPORT DIAGRAM](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00375AD_cmp.pdf)
+- FAT
+  - [ALTTA NINE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00162ALTTA_cmp.pdf)
+    - In ZLA: its route has a fix there (TTE)
 - MRY
   - [RNAV (GPS) Y RWY 28L](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00271RY28L_cmp.pdf)
   - [MONTEREY FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00271MONTEREY_cmp.pdf)
   - [TORO SEVEN](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00271TORO_cmp.pdf)
 - OAK
   - [PANOCHE SIX](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00294PANOCHE_cmp.pdf)
+    - Also serves: HWD
   - [COAST NINE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00294COAST_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00294COAST_C.PDF)
   - [OAKLAND SIX](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00294OAKLAND_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00294OAKLAND_C.PDF)
   - [SKYLINE ONE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00294SKYLINE_cmp.pdf)
+    - More pages: [Page 2 (unchanged)](https://aeronav.faa.gov/d-tpp/2609/00294SKYLINE_C.PDF)
 - SJC
+  - [TAKEOFF MINIMUMS](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW2TO_cmp.pdf)
+  - [DIVERSE VECTOR AREA](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW2TO_cmp.pdf)
+  - [ALTERNATE MINIMUMS](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW2ALT_cmp.pdf)
+  - [HOT SPOT](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW2HOTSPOT_cmp.pdf)
   - [BRINY TWO](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693BRINY_cmp.pdf)
   - [BRIXX FOUR (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693BRIXX_cmp.pdf)
   - [FRLON TWO (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693FRLON_cmp.pdf)
   - [POINT REYES THREE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00375POINTREYES_cmp.pdf)
     - Also serves: SFO
   - [RAZRR FIVE (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693RAZRR_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693RAZRR_C_cmp.pdf)
   - [RISTI ONE (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00375RISTI_cmp.pdf)
     - Also serves: SFO
   - [ROBIE FIVE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693ROBIE_cmp.pdf)
   - [SILCN SIX (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693SILCN_cmp.pdf)
+    - More pages: [Page 2](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693SILCN_C_cmp.pdf)
   - [ILS OR LOC RWY 12R](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693IL12R_cmp.pdf)
   - [ILS OR LOC RWY 30L](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693IL30L_cmp.pdf)
   - [ILS RWY 30L (SA CAT I - II)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693I30LSAC1_2_cmp.pdf)
@@ -431,5 +553,11 @@ Note: In some cases, the link will return a 404 Error. This is because the FAA d
   - [SPTNS ONE (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693SPTNS_cmp.pdf)
   - [SUNOL ONE](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693SUNOL_cmp.pdf)
   - [TECKY FOUR (RNAV)](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00693TECKY_cmp.pdf)
+- HWD
+  - [PANOCHE SIX](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00294PANOCHE_cmp.pdf)
+    - In ZLA: its route has a fix there (AVE, GMN)
+    - Also serves: OAK
 - PRB
+  - [ALTERNATE MINIMUMS](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/SW3ALT_cmp.pdf)
+    - Also serves: BUR, HHR, RAL
   - [VOR-B](https://aeronav.faa.gov/d-tpp/2609/compare_pdf/00858VB_cmp.pdf)
