@@ -28,7 +28,7 @@
 .cfiled cleared to $arr airport as filed;
 .cstar cleared to $arr airport via direct $uc($1), $uc($2) arrival
 .clgb cleared to $arr via fly runway heading, passing 1,500 turn left heading $1, radar vectors to $uc($2), then as filed;
-.cont cleared to $arr airport via turn $1 direct PDZ, then as filed;
+.ckont cleared to $arr airport via turn $1 direct PDZ, then as filed;
 .chrvx cleared to $arr airport via fly heading $1, radar vectors to $uc($2)
 .cdx cleared to $arr airport; $uc($1) departure,
 .cdtx cleared to $arr airport; $uc($1) departure, $uc($2) transition,

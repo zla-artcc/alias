@@ -116,7 +116,6 @@
 .paused .wallop $aircraft has paused and are creating a traffic disruption
 .nordoto .wallop $aircraft taxied and departed from a controlled field without contact, is airborne and not responding to contact me requests.
 .paused .wallop $aircraft has paused and are creating a traffic disruption.
-.comply .wallop $aircraft is unable to comply with ATC instructions and appears unfamiliar with their aircraft.
 .nocomply .wallop $aircraft is unable to comply with ATC instructions and appears unfamiliar with their aircraft.
 .unfamiliar .wallop $aircraft is not familiar with the airspace or airport procedures.
 .nobasic .wallop $aircraft is unable to comply with basic heading/speed/altitude clearances.
