@@ -3,7 +3,7 @@
   "formatVersion": 1,
   "configVersion": 2,
   "appVersion": "3.0.0-beta.12",
-  "exportedUtc": "2026-10-14T18:33:33Z",
+  "exportedUtc": "2026-10-16T18:40:20Z",
   "settings": {
     "General": {
       "AddFeBuddyOutputFolder": "Y",
@@ -385,7 +385,19 @@
           "CrcDefaultsScope": "None",
           "FebProperties": "",
           "IncludeFebCustomProperties": "N",
-          "IncludeVatsimRadarVirtualAirlines": "Y"
+          "IncludeVatsimRadarVirtualAirlines": "Y",
+          "VirtualAirlines": {
+            "1": {
+              "Designator": "WMK",
+              "Organization": "Westmark",
+              "Telephony": "WESTMARK"
+            },
+            "2": {
+              "Designator": "LOB",
+              "Organization": "Lobster Air",
+              "Telephony": "LOBSTER"
+            }
+          }
         },
         "UserArtccId": "ZLA"
       },
