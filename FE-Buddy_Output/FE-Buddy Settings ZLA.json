@@ -3,7 +3,7 @@
   "formatVersion": 1,
   "configVersion": 2,
   "appVersion": "3.0.0-beta.12",
-  "exportedUtc": "2026-10-16T18:40:20Z",
+  "exportedUtc": "2026-10-16T18:46:49Z",
   "settings": {
     "General": {
       "AddFeBuddyOutputFolder": "Y",
@@ -313,6 +313,61 @@
         "DuplicateAliases": {
           "Choices": "Faa_Chart_Recall.txt|.edwAPDc|1|Keep|\nFaa_Chart_Recall.txt|.edwAPDc|2|Ignore|\nFaa_Chart_Recall.txt|.edwAPDc|3|Ignore|",
           "Review": "Y"
+        },
+        "FileNames": {
+          "Files": {
+            "1": {
+              "Key": "Airports.txt",
+              "Name": "",
+              "Rename": "N"
+            },
+            "10": {
+              "Key": "Telephony.txt",
+              "Name": "",
+              "Rename": "N"
+            },
+            "2": {
+              "Key": "Airways.txt",
+              "Name": "",
+              "Rename": "N"
+            },
+            "3": {
+              "Key": "Arrivals.txt",
+              "Name": "",
+              "Rename": "N"
+            },
+            "4": {
+              "Key": "Combined_Alias.txt",
+              "Name": "ZLA",
+              "Rename": "Y"
+            },
+            "5": {
+              "Key": "Departures.txt",
+              "Name": "",
+              "Rename": "N"
+            },
+            "6": {
+              "Key": "Duplicate_Alias_Commands.txt",
+              "Name": "",
+              "Rename": "N"
+            },
+            "7": {
+              "Key": "Faa_Chart_Recall.txt",
+              "Name": "",
+              "Rename": "N"
+            },
+            "8": {
+              "Key": "Navaids.txt",
+              "Name": "",
+              "Rename": "N"
+            },
+            "9": {
+              "Key": "Procedure_Changes.md",
+              "Name": "",
+              "Rename": "N"
+            }
+          },
+          "RenameFiles": "Y"
         },
         "Outputs": {
           "Airports": {
