@@ -2,12 +2,23 @@
   "format": "FE-Buddy.UserConfig",
   "formatVersion": 1,
   "configVersion": 2,
-  "appVersion": "3.0.0-beta.12",
-  "exportedUtc": "2026-10-16T18:46:49Z",
+  "appVersion": "3.0.0-beta.13",
+  "exportedUtc": "2026-10-19T23:54:43Z",
   "settings": {
     "General": {
       "AddFeBuddyOutputFolder": "Y",
+      "CoordinatePrecision": "6",
       "DefaultOutputDirectory": "%DOCUMENTS%\\Flight Sim\\Tools\\alias",
+      "DefaultRoi": {
+        "Corners": {
+          "NeLat": "39.3693",
+          "NeLon": "-110.3411",
+          "SwLat": "30.3271",
+          "SwLon": "-123.8019"
+        },
+        "FilterByRoi": "Y"
+      },
+      "Facility": "ZLA",
       "PrettyPrintGeojson": "N"
     },
     "Services": {
@@ -368,6 +379,49 @@
             }
           },
           "RenameFiles": "Y"
+        },
+        "General": {
+          "CyclePosition": "Current",
+          "Outputs": {
+            "Airports": {
+              "Alias": "Y",
+              "Geojson": "N"
+            },
+            "Airways": {
+              "Alias": "Y",
+              "Geojson": "N"
+            },
+            "Arrivals": {
+              "Alias": "Y",
+              "Geojson": "N"
+            },
+            "ArtccBoundaries": {
+              "Geojson": "N"
+            },
+            "Departures": {
+              "Alias": "Y",
+              "Geojson": "N"
+            },
+            "Fixes": {
+              "Geojson": "N"
+            },
+            "Navaids": {
+              "Alias": "Y",
+              "Geojson": "N"
+            },
+            "Procedures": {
+              "Alias": "Y",
+              "ProcedureChanges": "Y",
+              "ProceduresJson": "N"
+            },
+            "Telephony": {
+              "Alias": "Y"
+            },
+            "WxStations": {
+              "Geojson": "N"
+            }
+          },
+          "SelectedSubServices": "Airports,Airways,Arrivals,Departures,Navaids,Procedures,Telephony"
         },
         "Outputs": {
           "Airports": {

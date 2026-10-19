@@ -556,5 +556,13 @@ ISR 2610
 -- Added section titles to each individual section document, removed from main alias file
 -- Split base alias file into multiple smaller files
 
+Version 4.0.0-beta.2 - MK
+AIRAC 2610
+ISR 2610
+
+-- Ran AIRAC Service for FEB beta.13
+-- Updated FEB Settings File for beta.13
+-- Updated VA list
+
 .commmmmmmmmannnd needed a fake command to trick FEB
 .coommmmmaaannndd2 needed a second fake command
