@@ -2,8 +2,8 @@
   "format": "FE-Buddy.UserConfig",
   "formatVersion": 1,
   "configVersion": 2,
-  "appVersion": "3.0.0-beta.13",
-  "exportedUtc": "2026-10-19T23:54:43Z",
+  "appVersion": "3.0.0-beta.14",
+  "exportedUtc": "2026-10-20T00:52:38Z",
   "settings": {
     "General": {
       "AddFeBuddyOutputFolder": "Y",
