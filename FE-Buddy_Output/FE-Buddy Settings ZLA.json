@@ -3,7 +3,7 @@
   "formatVersion": 1,
   "configVersion": 2,
   "appVersion": "3.0.0-beta.14",
-  "exportedUtc": "2026-10-20T00:52:38Z",
+  "exportedUtc": "2026-10-25T19:59:13Z",
   "settings": {
     "General": {
       "AddFeBuddyOutputFolder": "Y",
@@ -381,7 +381,7 @@
           "RenameFiles": "Y"
         },
         "General": {
-          "CyclePosition": "Current",
+          "CyclePosition": "Next",
           "Outputs": {
             "Airports": {
               "Alias": "Y",
@@ -555,7 +555,7 @@
           "IncludeCrcTextDefaults": "N",
           "IncludeFebCustomProperties": "N",
           "OutputLayout": "RawPlus",
-          "SourceFolder": "%DESKTOP%\\ZLA",
+          "SourceFolder": "%DOCUMENTS%\\Flight Sim\\ERAM Maps",
           "SourceType": "Folder"
         },
         "SctToGeojson": {
