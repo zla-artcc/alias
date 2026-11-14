@@ -3,7 +3,7 @@
   "formatVersion": 1,
   "configVersion": 2,
   "appVersion": "3.0.0-beta.15",
-  "exportedUtc": "2026-11-04T00:12:28Z",
+  "exportedUtc": "2026-11-06T06:12:19Z",
   "settings": {
     "General": {
       "AddFeBuddyOutputFolder": "Y",
@@ -526,9 +526,10 @@
               "thickness": ""
             }
           },
-          "CroppingDistance": "",
+          "CroppingDistance": "124.65",
           "IncludeCrcLineDefaults": "N",
-          "SourceType": "Folder"
+          "SourceFolder": "%DOCUMENTS%\\Flight Sim\\ZLA\\ZLA\\SCT",
+          "SourceType": "Files"
         },
         "EramToGeojson": {
           "CrcEramPropertyDefaults": {
@@ -561,7 +562,7 @@
           "IncludeCrcTextDefaults": "N",
           "IncludeFebCustomProperties": "N",
           "OutputLayout": "RawPlus",
-          "SourceFolder": "%DOCUMENTS%\\Flight Sim\\ERAM Maps",
+          "SourceFolder": "%DOCUMENTS%\\Flight Sim\\ERAM Maps\\",
           "SourceType": "Folder"
         },
         "SctToGeojson": {
@@ -588,8 +589,8 @@
         }
       },
       "MapService": {
-        "AiracLayers": "ArtccBoundaries,ToweredAirports,Navaids",
-        "Home": "35.34728,-117.39357,5.78"
+        "AiracLayers": "ArtccBoundaries",
+        "Home": "35.43407,-116.69644,6.42"
       }
     }
   }
