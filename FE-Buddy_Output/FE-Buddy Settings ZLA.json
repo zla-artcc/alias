@@ -2,8 +2,8 @@
   "format": "FE-Buddy.UserConfig",
   "formatVersion": 1,
   "configVersion": 2,
-  "appVersion": "3.0.0-beta.14",
-  "exportedUtc": "2026-10-25T19:59:13Z",
+  "appVersion": "3.0.0-beta.15",
+  "exportedUtc": "2026-11-18T21:53:35Z",
   "settings": {
     "General": {
       "AddFeBuddyOutputFolder": "Y",
@@ -382,6 +382,7 @@
         },
         "General": {
           "CyclePosition": "Next",
+          "ExportIndividualAliasFiles": "N",
           "Outputs": {
             "Airports": {
               "Alias": "Y",
@@ -505,6 +506,11 @@
               "Designator": "LOB",
               "Organization": "Lobster Air",
               "Telephony": "LOBSTER"
+            },
+            "3": {
+              "Designator": "XEU",
+              "Organization": "Stalar",
+              "Telephony": "STALAR"
             }
           }
         },
@@ -520,32 +526,33 @@
               "thickness": ""
             }
           },
-          "CroppingDistance": "",
+          "CroppingDistance": "124.65",
           "IncludeCrcLineDefaults": "N",
-          "SourceType": "Folder"
+          "SourceFolder": "%DOCUMENTS%\\Flight Sim\\ZLA\\ZLA\\SCT",
+          "SourceType": "Files"
         },
         "EramToGeojson": {
           "CrcEramPropertyDefaults": {
             "GeoMap_Line": {
-              "bcg": "",
-              "filters": "",
-              "style": "",
-              "thickness": ""
+              "bcg": "40",
+              "filters": "40",
+              "style": "solid",
+              "thickness": "1"
             },
             "GeoMap_Symbol": {
-              "bcg": "10",
-              "filters": "",
-              "size": "",
-              "style": ""
+              "bcg": "40",
+              "filters": "40",
+              "size": "1",
+              "style": "vor"
             },
             "GeoMap_Text": {
-              "bcg": "",
-              "filters": "",
-              "opaque": "",
-              "size": "",
-              "underline": "",
-              "xOffset": "",
-              "yOffset": ""
+              "bcg": "40",
+              "filters": "40",
+              "opaque": "Y",
+              "size": "1",
+              "underline": "N",
+              "xOffset": "0",
+              "yOffset": "0"
             }
           },
           "DefaultsSource": "Xml",
@@ -582,8 +589,8 @@
         }
       },
       "MapService": {
-        "AiracLayers": "ArtccBoundaries,ToweredAirports,Navaids",
-        "Home": "35.34728,-117.39357,5.78"
+        "AiracLayers": "ArtccBoundaries",
+        "Home": "35.43407,-116.69644,6.42"
       }
     }
   }
